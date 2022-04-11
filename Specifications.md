@@ -103,9 +103,6 @@ Because we recognize that food resources can change and develop, we have integra
 <br>
 <br>
 
-<br>
-<br>
-
 <p><em> Figure 3.1: Submission Page</em></p>
 <img src="imgs/submission-form-page.jpg" alt="image of prototyped web app's Submission Page">
 
