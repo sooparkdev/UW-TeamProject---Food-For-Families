@@ -50,22 +50,42 @@ The home page consists of a
 <li> Footer </li>
 </ul>
 
--In the navigation bar, our website/team name is adjusted at the center, with four buttons as well: Home page, Food Near You page, Submission Form page, Favorites page, and Settings which I will explain more in detail below. These buttons are on all the other pages as well so that it is more convenient for the users to switch between tabs. 
--In the body of the Home page, users can either go to the Food Near You, Favorites, or Submission Form page. 
+-In the navigation bar, our website/team name is adjusted at the center, with four buttons as well: Home page, Food Near You page, Submission Form page, Favorites page, and Settings which I will explain more in detail below. These buttons are on all the other pages as well so that it is more convenient for the users to switch between tabs. <br>
+-In the body of the Home page, users can either go to the Food Near You, Favorites, or Submission Form page. <br>
 -In the footer, information about our organization is presented to the users.
+
+<br>
+<br>
+
+<p><em> Figure 1: Homepage</em></p>
 <img src="imgs/home-page.jpg" alt="image of prototyped web app's homepage">
 
-
+<br>
+<br>
 
 ### Food Near You
 The Food Near You page is where the user would simply search the elementary school nearest to them in the search bar. We chose to do this because many families with young children tend to struggle with food insecurity. Thus, if we show results near their elementary school, it could be convenient for the family. The page will then present them with the nearest food pantries near that school. With each location, the name of the organization will show, along with the distance from the user's current location, and an option to favorite. When favorited, the favorite icon will turn yellow. 
 Our stretch goal is to make food pantries available from any location and not just limited to elementary schools. Another stretch goal we have is to integrate a map feature that allows users to visually see where food resources are located geographically. 
 
+<br>
+<br>
+
+<p><em> Figure 2.1: Food Near You Page</em></p>
 <img src="imgs/food-near-you-page.jpg" alt="image of prototyped web app's Food Near You Page">
 
+<br>
+<br>
 
 If the inputted location is not an elementary school in Seattle, an error message will pop up letting the user know. The user will have to change their location to see results.
+
+<br>
+<br>
+
+<p><em> Figure 2.2: Food Near You Page with an Error</em></p>
 <img src="imgs/food-near-you-page-error.jpg" alt="image of prototyped web app's Food Near You Page with an Error">
+
+<br>
+<br>
 
 ### Submission Form
 Because we recognize that food resources can change and develop, we have integrated a submission form to make our solution more community-based. The Submission Form page allows users to recommend a food pantry, notify others that they are hosting a pop-up, etc. The sections consist of: 
@@ -80,21 +100,53 @@ Because we recognize that food resources can change and develop, we have integra
 <li> Location of the food pantry </li>
 <li> Description (recommendation, hosting pop-up, fast service, delivery service, etc.) </li>
 </ul>
+<br>
+<br>
 
+<br>
+<br>
+
+<p><em> Figure 3.1: Submission Page</em></p>
 <img src="imgs/submission-form-page.jpg" alt="image of prototyped web app's Submission Page">
+
+<br>
+<br>
 
 
 If a part of the submission form isn’t filled out, an error message is displayed. Only once that part has been properly filled out will the user be able to submit their form. This is so that other users can reach out to the person or organization if they have any questions or concerns. 
+
+<br>
+<br>
+
+<p><em> Figure 3.2: Submission Page with an Error</em></p>
 <img src="imgs/submission-form-page-error.jpg" alt="image of prototyped web app's Submission Page with an Error">
+
+<br>
+<br>
 
 
 ### Favorites
 The Favorites page will list the users favorite food pantries. There is a dropdown menu that gives the user options to sort it by either distance or most recently favorited.
+<br>
+<br>
+
+<p><em> Figure 3: Favorite Page</em></p>
 <img src="imgs/favorite-page.jpg" alt="image of prototyped web app's Favorite Page">
+
+<br>
+<br>
 
 ### Settings
 On our Settings page, users input their email, phone number, distance preference, food source preference, and language preference. Creating an account and distance preference are optional, but food source preference and language preference are required. 
--Distance preferences can range from 0 to 15 miles. 
--Food source preference has food banks, food pantries, and community fridges as the options. 
+-Distance preferences can range from 0 to 15 miles. <br>
+-Food source preference has food banks, food pantries, and community fridges as the options. <br>
 -Language preference has English as the default language.
+
+<br>
+<br>
+
+<p><em> Figure 3: Settings</em></p>
 <img src="imgs/settings.jpg" alt="image of prototyped web app's Settings Page">
+
+<br>
+<br>
