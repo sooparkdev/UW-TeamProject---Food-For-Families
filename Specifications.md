@@ -50,7 +50,7 @@ The home page consists of a
 <li> Footer </li>
 </ul>
 
--In the navigation bar, our website/team name is adjusted at the center, with four buttons as well: Home page, Food Near You page, Submission Form page, Favorites page, and Settings which I will explain more in detail below. These buttons are on all the other pages as well so that it is more convenient for the users to switch between tabs. <br>
+-In the navigation bar, our website/team name is adjusted at the center, with four buttons as well: Home page, Food Near You page Submission Form page, Favorites page, and Settings which I will explain more in detail below. These buttons are on all the other pages as well so that it is more convenient for the users to switch between tabs. <br>
 -In the body of the Home page, users can either go to the Food Near You, Favorites, or Submission Form page. <br>
 -In the footer, information about our organization is presented to the users.
 
@@ -145,7 +145,7 @@ On our Settings page, users input their email, phone number, distance preference
 <br>
 <br>
 
-<p><em> Figure 3: Settings</em></p>
+<p><em> Figure 3: Settings Page</em></p>
 <img src="imgs/settings.jpg" alt="image of prototyped web app's Settings Page">
 
 <br>
