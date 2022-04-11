@@ -3,7 +3,9 @@ Team Name: Food for Friends
 
 #### Members and Roles
 **Project Manager**: Pranav Shekar
+
 **Developers**: SooBin Park, Christian Calloway
+
 **Designer**: Jaehoon Cho
 
 ## Problem
