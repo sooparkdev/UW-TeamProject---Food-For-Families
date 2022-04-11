@@ -32,6 +32,7 @@ Mukherjee, T. (2020, September 28). Redlining’s Legacy: Food Deserts, Insecuri
 Health. Morning Sign Out Health and Science Made Simple. Retrieved April 10, 2022, from https://sites.uci.edu/morningsignout/2020/09/28/redlinings-legacy-food-deserts-insecurity-and-health/. 
 
 “SDG Indicators.” United Nations Sustainable Development Goals Report 2021, United Nations, 2021, https://unstats.un.org/sdgs/report/2021/goal-02/. 
+
 Seattle Food Committee, 7 Apr. 2022, https://www.seattlefoodcommittee.org/. 
 
 ## Solution Summary
