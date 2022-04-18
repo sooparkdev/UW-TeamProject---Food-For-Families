@@ -1,8 +1,17 @@
+# Food For Friends Requirements
+Christian Calloway, Jaehoon Choi, Soo Park, Pranav Shekar
+
+<ol>
+    <li>Hi</li>
+        <li>
+    </ol>
+    
+
 # [G] General / Non-Functional Requirements - (Core)
 1. All text on the site will have acceptable contrast ratios, as tested by WebAIM’s Contrast Checker 
 2. All HTML on the site will be valid, as tested by W3C Markup Validator 
 3. _**(Stretch)**_ The application can be accessed on a laptop, desktop, mobile device, and tablet
-    - The application should properly scale for the above devices with responsive design and look appropriate with proper layouts
+    1. The application should properly scale for the above devices with responsive design and look appropriate with proper layouts
 5. _**(Stretch)**_ Should be able to load all user displays within 1 second (long loading times will lead the user to leave the site before we can even show them anything) 
 
 # [N] Navigation Bar Requirements - (Core)
@@ -14,26 +23,26 @@
 
 # [H] Home Page Requirements - (Core)
 1. The body of the Home page is composed of child link elements that link to Food Near You page, Favorites, or Submission Form page." 
-   - ‘Food Near You’ should link to the Food Near You page 
-   - ‘Form Submission’ should link to the Form Submission page
+   1. ‘Food Near You’ should link to the Food Near You page 
+   2. ‘Form Submission’ should link to the Form Submission page
 2. Should contain stock images of food to provide a friendly user experience and indicate what our service does
 3. Should contain a footer section at the bottom of the DOM that shows a simple text displaying information about our Food for Friends organization
 
 # [F] Food Near You Page Requirements
 ## [L] List - (Core)
 1. User is able to see all the food sources in cards without inputting a search
-  - Each card specifies the ‘name’, ‘type’, ‘contact information’ (email and/or phone), ‘operating hours’, and ‘address’ of each food source
-  - Cards are color-coded according to the type of food source
+    1. Each card specifies the ‘name’, ‘type’, ‘contact information’ (email and/or phone), ‘operating hours’, and ‘address’ of each food source
+    2. Cards are color-coded according to the type of food source
 2. User is able to dynamically filter the information they’re seeing:
-  - Contain a dropdown search box that takes in a name of an elementary school in Seattle as a user input
-    - Dropdown appears with a full list of elementary schools when the search box is clicked
-    - Dropdown list dynamically changes based on what the user inputs in the text field (in other words, only show elementary schools with matching letters)
-    - If the user types in something not in the dropdown/preset list, nothing will show in the dropbox. The user will then be able to tell that the elementary school isn't in the system. 
-  - Contain 4  checkboxes for filtering the type of food sources
-    - The 4 checkboxes are Food Banks, Food Pantries, Food Fridges, and Pop-up Events
-    - The checkboxes are all checked (which corresponds to “show”) by default
-    - The food sources displayed on the list dynamically changes according to checkmarks on the checkboxes 
-  - Contain an input box that takes in a decimal number (including integers) in a unit of miles that sets the max distance the food source can be from an elementary school
+    1. Contain a dropdown search box that takes in a name of an elementary school in Seattle as a user input
+        1. Dropdown appears with a full list of elementary schools when the search box is clicked
+        2. Dropdown list dynamically changes based on what the user inputs in the text field (in other words, only show elementary schools with matching letters)
+        3. If the user types in something not in the dropdown/preset list, nothing will show in the dropbox. The user will then be able to tell that the elementary school isn't in the system. 
+    2. Contain 4  checkboxes for filtering the type of food sources
+        1. The 4 checkboxes are Food Banks, Food Pantries, Food Fridges, and Pop-up Events
+        2. The checkboxes are all checked (which corresponds to “show”) by default
+        3. The food sources displayed on the list dynamically changes according to checkmarks on the checkboxes 
+    3. Contain an input box that takes in a decimal number (including integers) in a unit of miles that sets the max distance the food source can be from an elementary school
     - Highlight the border of the input box in red and note to the user that the input is invalid if there are characters (such as a comma or dollar sign) in the input box
     - Round to two decimal places in the system if a number goes beyond hundredths
     - Trim any extra spaces before, after, or in between the input value
