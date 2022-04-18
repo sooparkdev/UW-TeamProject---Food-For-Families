@@ -57,7 +57,7 @@ _Integrates the ability to view data as a list and also filter the data as outli
     4. Markers and the pop-up boxes are color-coded according to the type of food source
     5. Buttons for zooming in and zooming out
 
-# [S] Submission Form Page Requirements
+# [S] Submission Form Page Requirements - (Core)
 1. The system should present a message at the top of the form that explains the purpose of the Submission Form page for users
 2. The system should have an input box for the form submitter’s name
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘John Doe’
