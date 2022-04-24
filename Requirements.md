@@ -23,7 +23,7 @@ Christian Calloway, Jaehoon Choi, Soo Park, Pranav Shekar
 
 
 # [F] Food Near You Page Requirements
-## [M] Map - (Stretch)
+## [M] Map - (Core)
 _Integrates the ability to view data as a list and also filter the data as outlined above to be viewed as an interactive map_
 1. User is able to filter the food sources on the map by submitting a form:
     1. Contain a dropdown search box that takes in a name of an elementary school in Seattle as a user input
