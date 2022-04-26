@@ -1,7 +1,5 @@
 const Form = () => {
 
-
-
     return ( 
         <div className="form">
            <h1>form</h1>

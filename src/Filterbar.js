@@ -52,14 +52,14 @@ const Filterbar = () => {
                 <input id="distanceInputBox" type="text" placeholder="type in distance in miles.." maxLength="7"/>
             </div>
             <div id="food-source-type">
-                <input type="checkbox" id="food-bank-checkbox"/>
-                <label for="food-bank-checkbox"> Food Bank </label>
-                <input type="checkbox" id="food-pantry-checkbox" />
-                <label for="food-pantry-checkbox"> Food Pantry </label>
-                <input type="checkbox" id="community-fridge-checkbox"/>
-                <label for="community-fridge-checkbox"> Community Fridge</label>
-                <input type="checkbox" id="pop-up-checkbox"/>
-                <label for="pop-up-checkbox"> Pop-up</label>
+               
+                <label htmlFor="food-bank-checkbox">  <input type="checkbox" id="food-bank-checkbox"/> Food Bank </label>
+                
+                <label htmlFor="food-pantry-checkbox"> <input type="checkbox" id="food-pantry-checkbox" /> Food Pantry </label>
+                
+                <label htmlFor="community-fridge-checkbox"> <input type="checkbox" id="community-fridge-checkbox"/> Community Fridge</label>
+               
+                <label htmlFor="pop-up-checkbox">  <input type="checkbox" id="pop-up-checkbox"/> Pop-up</label>
             </div>
             <div id="searchBtn">
                 {!isPending && <button> Search </button> }
