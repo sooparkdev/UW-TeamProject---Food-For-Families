@@ -7,7 +7,7 @@ const Filterbar = () => {
     const [filteredSchools, setFilteredSchools] = useState([]);
 
     let handleSubmit = (e) => {
-        e.preventDefault(); {/* prevents refreshing the page on submit */}
+        e.preventDefault(); 
         
         setIsPending(true);
     }
@@ -18,8 +18,6 @@ const Filterbar = () => {
             return schoolName.toLowerCase().includes(userInputtedSchool.toLowerCase());
         })
         setFilteredSchools(matchingSchools);
-        {/* Once the filter is ran, we still get a full array back even if the text input is empty. 
-            So we need to have this filter at the if-else to verify once more */}
         if (userInputtedSchool === "") {
             setFilteredSchools([]);
         } else {

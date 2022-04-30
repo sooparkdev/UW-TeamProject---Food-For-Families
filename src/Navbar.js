@@ -5,7 +5,7 @@ const Navbar = () => {
     const [clicked, setClicked] = useState(true);
 
     const handleMenuClick = () => {
-        setClicked(!clicked); {/*Set opposite to whatever clicked was*/}
+        setClicked(!clicked); 
     }
 
     return (

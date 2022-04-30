@@ -10,6 +10,7 @@ const Home = () => {
             </div>
             <div className="about-us"> 
                 <h1> About us ? </h1>
+
             </div>
         </div>
     );
