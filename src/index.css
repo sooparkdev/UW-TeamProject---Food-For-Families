@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* Base Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(67, 69, 65);
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Navigation Bar */ 
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 1.5%;
+}
+
+.navbar a {
+  margin-left: 0px;
+  text-decoration: none;
+  padding: 6px;
+  padding-left: 0;
+}
+
+.navbar .links {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.navbar .links a {
+  /* margin-left: 16px; */
+  text-decoration: none;
+  padding: 13px;
+}
+
+.links a:hover {
+  border-bottom: 2px solid rgb(142, 161, 150);
+  color: rgb(185, 170, 139);
+  transition: all 0.2s ease-out;
+} 
+
+.store {
+  font-size: 30px;
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .store {
+    display: none;
+  }
+
+  .navbar {
+    position: relative;
+  }
+  
+  .navbar .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    top: 99%;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5 ease;
+    position: absolute;
+  }
+
+  .navbar .links.active {
+    background-color: rgb(241, 236, 229);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5 ease;
+    z-index: 1;
+  }
+
+  .links > a {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    padding: 40px;
+    margin-left: 0px;
+  }
+
+  .links > a:hover {
+    border: none;
+    border-radius: 0;
+    background-color: rgb(247, 243, 238);
+    color: rgb(94, 123, 106);
+  }
+
+  #websiteName {
+    transform: translate(7%, 0);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-40%, 60%);
+    cursor: pointer;
+  }
+}
+
+
+/* Home Page */
+.showcasePan {
+  background-color: rgb(142, 161, 150);
+  max-width: 93%;
+  height: 35rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcasePan h1, .showcasePan p {
+  color: white;
+}
+
+.showcasePan > div {
+  margin: 20px;
+}
+
+.showcasePan .text {
+  text-align: left;
+}
+
+.about-us {
+  max-width: 93%;
+  height: 15rem;
+  background-color: rgb(241, 236, 229);
+  margin: 30px auto;
+}
+
+.about-us h1, .about-us p {
+  color: rgb(67, 69, 65);
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .showcasePan, .about-us {
+    max-width: 100%;
+  }
+
+  .showcasePan {
+    flex-direction: column;
+  }
+  .about-us {
+    margin: 0 auto;
+  }
+}
+
+
+/* Food Near You Page General */
+.food-near-you {
+  background-color: rgb(142, 161, 150);
+  height: 50rem;
+}
+
+form {
+  text-align: left;
+  margin: 0px 20px;
+  background-color: rgb(142, 161, 150);
+  padding: 20px;
+}
+
+.filterbar {
+  margin-left: 10%;
+}
+
+#school, #distance, #food-source-type, #searchBtn {
+  padding: 0px;
+}
+
+#schoolSearchBox:focus, #distanceInputBox:focus {
+  outline: none;
+}
+
+
+/* Food Near You Page - Filterbar - School */
+.searchInput {
+  display: flex;
+  max-width: 50%;
+  margin: 30px 0px;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+#schoolSearchBox {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.material-symbols-outlined {
+  background-color: white;
+  margin-right: 10px;
+}
+
+.searchResult {
+  width: 50%;
+  height: 200px;
+  margin: 0;
+  text-align: left;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.searchResult p {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.searchResult p:hover {
+  background-color: rgb(241, 236, 229);
+}
+
+.searchResult::-webkit-scrollbar {
+  width: 6px;
+}
+
+.searchResult::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(239, 239, 240, 0.701);
+}
+
+@media only screen and (max-width: 800px) {
+  .searchInput {
+    max-width: 65%;
+  }
+
+  .searchResult {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .searchInput {
+    max-width: 100%;
+  }
+
+  .searchResult {
+    width: 100%;
+  }
+}
+
+  
+/* Food Near You Page - Filterbar - Distance */
+
+#distanceInputBox {
+  width: 40%; /* NOTE: why does it give the actual 50% when it's 'width' instead of 'max-width */
+  margin: 30px 0px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 800px) {
+  #distanceInputBox {
+    width: 45%; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #distanceInputBox {
+    width: 100%; 
+  }
+}
+
+/* Food Near You Page - Filterbar - Food Source Type */
+#food-source-type {
+  margin-bottom: 30px;
+}
+
+#food-source-type label {
+  margin-right: 25px;
+  font-weight: 500;
+}
+
+#food-source-type input {
+  width: 1.5em;
+  height: 1.5em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(0.3em);
+}
+
+
+@media only screen and (max-width: 700px) {
+  #food-source-type label {
+    display: block;
+    margin: 13px 0;
+  }
+  
+}
+
+/* Food Near You Page - Filterbar - Button */
+#searchBtn button {
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  background-color: white;
+}
+
+#searchBtn button:hover {
+  background-color:  rgb(241, 236, 229);
+}
+
+/* Food Near You Page - Map */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+/* 404 Page */
+.not-found {
+  margin: 20px;
+}
+
+.not-found h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  margin-bottom: 10px;
+}
+
+.not-found .link {
+  vertical-align: middle;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+/* Form Page */
+.form {
+  background-color: rgb(142, 161, 150);
+  height: 50rem;
+}
+
+.form h1, .form p {
+  color: white;
+}
+
