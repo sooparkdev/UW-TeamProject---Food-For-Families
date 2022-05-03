@@ -11,8 +11,7 @@ const Map = () => {
     // const seattle_coords = {lat: 47.6062, lng: 122.3321}
 
     return ( 
-        <div className="map">
-        </div>
+      <div className="map"></div>
     );
 }
  
