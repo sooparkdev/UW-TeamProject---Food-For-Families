@@ -9,5 +9,5 @@ const FoodNearYou = () => {
         </div>
      );
 }
- 
+
 export default FoodNearYou;
