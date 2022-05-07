@@ -1,10 +1,11 @@
-import Filterbar from "./Filterbar";
-import Map from "./Map";
+// Import Components
+import FilterBar from '../components/FilterBar';
+import Map from "../components/Map";
 
 const FoodNearYou = () => {
     return ( 
         <div className="food-near-you">
-            <Filterbar />
+            <FilterBar />
             <Map />
         </div>
      );

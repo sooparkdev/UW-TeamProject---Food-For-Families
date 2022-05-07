@@ -117,7 +117,7 @@
 /* Home Page */
 .showcasePan {
   /* background-color: rgb(142, 161, 150); */
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../imgs/Seattle.jpeg);
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../../imgs/Seattle.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
