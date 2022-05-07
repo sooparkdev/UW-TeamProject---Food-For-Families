@@ -1,10 +1,21 @@
+// Import Stylesheet
 import './App.css';
+
+// Import Libraries
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import mongoose from 'mongoose';
+
+// Import Components
 import Navbar from './Navbar';
 import Home from './Home';
 import FoodNearYou from './FoodNearYou'; 
 import Form from './Form';
 import NotFound from './NotFound';
+
+// Import Database
+import db from './db.js'
+
+// -----------------
 
 function App() {
   return (
