@@ -22,13 +22,30 @@ async function dbConnect() {
     console.log("Successfully connected to the database!")
 
     // Create any schemas here!
-    const exampleSchema = new mongoose.Schema({
-        exampleField: String,
-        exampleField2: String,
+    const foodResourceSchema = new mongoose.Schema({
+        type: { type: [String] },
+        description: { type: String },
+        address: { type: String }, 
+        latitude: { type: Number },
+        longitude: { type: Number },
+        phone_number: { type: String },
+        website_url: { type: String },
+        operating_hours: {
+            food_bank_hours: { type: Object },
+            meal_hours: { type: Object },
+            community_fridge_hours: { type: Object }
+        }
     })
-
-    db.Example = mongoose.model("Example", exampleSchema)
+    db.FoodResource = mongoose.model("FoodResource", foodResourceSchema)
     
+    const elementarySchoolSchema = new mongoose.Schema({
+        name: { type: String },
+        latitude: { type: Number },
+        longitude: { type: Number }
+    })
+    db.ElementarySchool = mongoose.model("ElementarySchool", elementarySchoolSchema)
+
+
     console.log("Successfully created database schemas and models!")
 }
 
