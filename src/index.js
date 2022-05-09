@@ -1,9 +1,15 @@
+// Import Libraries
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+// Import Styles
+import './styles/index.css';
+
+// Import App
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />

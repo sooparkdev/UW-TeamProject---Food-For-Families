@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const NavBar = () => {
     const [clicked, setClicked] = useState(true);
 
     const handleMenuClick = () => {
@@ -25,4 +25,4 @@ const Navbar = () => {
     );
 }
  
-export default Navbar;
+export default NavBar;
