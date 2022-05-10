@@ -2,7 +2,6 @@
 import './styles/App.css';
 
 // Import Libraries
-import express from 'express';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Import Components
@@ -13,21 +12,6 @@ import Home from './pages/Home';
 import FoodNearYou from './pages/FoodNearYou'; 
 import Form from './pages/Form';
 import NotFound from './pages/NotFound';
-
-// Import Database
-import db from './db.js'
-
-// Set App Server-side
-const app = express()
-
-// -----------------
-// Middleware
-// -----------------
-
-app.use(function(req, res, next) {
-  req.db = db;
-  next();
-})
 
 // -----------------
 // React App
