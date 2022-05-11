@@ -6,7 +6,7 @@
 	"longitude": "122.3804563",
 	"phone_number": "206-789-7800",
 	"website": "http://www.ballardfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"14:00\", close: \"18:00\"}, Wednesday: {open: \"12:00\", close: \"16:00\"}, Thursday: {open: \"14:00\", close: \"18:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"14:00\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Thursday\": {\"open\": \"14:00\", \"close\": \"18:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food bank continues on a weekly basis, and community meal is providing togo meals to anyone who needs it.",
@@ -15,8 +15,8 @@
 	"longitude": "122.3411453",
 	"phone_number": "206-524-9000",
 	"website": "http://www.churchbcc.org/greenlake/serve/localoutreach",
-	"food_bank_hours": "{Monday: {open: \"18:00\", close: \"19:00\"}}",
-	"meal_hours": "{Monday: {open: \"18:00\", close: \"19:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"18:00\", \"close\": \"19:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"18:00\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Meals: Togo boxes",
@@ -26,7 +26,7 @@
 	"phone_number": "206-547-3020",
 	"website": "http://www.blessedsacrament.org/outreach",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"12:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"12:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags of perishable and nonperishable items. Pick up out front for social distancing",
@@ -35,7 +35,7 @@
 	"longitude": "122.3258975",
 	"phone_number": "206-547-2885",
 	"website": "http://www.byrdbarrplace.org/programsservices/foodbank/",
-	"food_bank_hours": "{Tuesday: {open: \"11:00\", close: \"16:00\"}, Wednesday: {open: \"12:00\", close: \"16:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Please call ahead for pick up or delivery of a meal",
@@ -44,8 +44,8 @@
 	"longitude": "122.248845",
 	"phone_number": "253-929-1150",
 	"website": "http://www.pacificwa.gov/",
-	"food_bank_hours": "{Monday: {open: \"11:00\", close: \"13:00\"}}",
-	"meal_hours": "{Tuesday: {open: \"11:00\", close: \"13:00\"}, Wednesday: {open: \"11:00\", close: \"13:00\"}, Thursday: {open: \"11:00\", close: \"13:00\"}, Friday: {open: \"11:00\", close: \"13:00\"}} "
+	"food_bank_hours": "{\"Monday\": {\"open\": \"11:00\", \"close\": \"13:00\"}}",
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"13:00\"}} "
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "In order to prepare enough food and arrange for deliveries, please call ahead if possible!",
@@ -55,7 +55,7 @@
 	"phone_number": "253-931-3016",
 	"website": "http://www.auburnwa.gov/city_hall/parks_arts_recreation/senior_activity_center",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}} "
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}} "
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Lunch is available for pick up during hours. CCS requests participants order meals one week in advance of service need if possible, but no pressure!",
@@ -65,7 +65,7 @@
 	"phone_number": "206-878-1642",
 	"website": "http://www.desmoineswa.gov/cms/one.aspx?pageId=17490998",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}} "
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}} "
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Meals handed out on a first come, first served basis. Please enter the parking lot from the entrance on 24th Avenue S. and pick up your meal in front of the Senior Program doors.",
@@ -75,7 +75,7 @@
 	"phone_number": "206-973-4686",
 	"website": "http://www.seatacwa.gov/services/seniorprogram",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"11:45\", close: \"12:30\"}, Wednesday: {open: \"11:45\", close: \"12:30\"}, Thursday: {open: \"11:45\", close: \"12:30\"}, Friday: {open: \"11:45\", close: \"12:30\"}} "
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"11:45\", \"close\": \"12:30\"}} "
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Hot togo meals",
@@ -85,7 +85,7 @@
 	"phone_number": "425-392-2381",
 	"website": "http://www.issaquahwa.gov/1744/Seniors",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}} "
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}} "
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Adults 60 and older can enjoy a delicious hot lunch for a suggested donation of $4.50 at the North Bellevue Community Center. Those under 60 pay a suggested donation of $6.50. Lunches are sponsored and prepared by Catholic Community Services staff and volunteers.",
@@ -95,7 +95,7 @@
 	"phone_number": "425-452-7681",
 	"website": "http://www.bellevuewa.gov/citygovernment/departments/parks/communitycenters/northbellevuecommunitycenter",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}} "
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}} "
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "The site is running an express, outdoor, walkup distribution model at the rear of the building",
@@ -104,7 +104,7 @@
 	"longitude": "122.3389393",
 	"phone_number": "206-694-6722",
 	"website": "http://www.familyworksseattle.org/foodbanks/",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"14:00\"}, Thursday: {open: \"15:00\", close: \"18:00\"}, Friday: {open: \"11:00\", close: \"13:00\"}} "
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"15:00\", \"close\": \"18:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"13:00\"}} "
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "FamilyWorks Food Bank is located in the Salvation Army Greenwood location",
@@ -113,7 +113,7 @@
 	"longitude": "122.3557886",
 	"phone_number": "206-694-6722",
 	"website": "http://www.familyworksseattle.org/foodbanks/",
-	"food_bank_hours": "{Tuesday: {open: \"15:30\", close: \"18:00\"}, Wednesday: {open: \"11:00\", close: \"14:00\"}}\n"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"15:30\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"14:00\"}}\n"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -122,7 +122,7 @@
 	"longitude": "122.1414751",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/needhelp/food#collapseTen",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"16:00\"}, Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up: drive thru only",
@@ -131,7 +131,7 @@
 	"longitude": "121.9874376",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Wednesday: {open: \"14:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"14:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -140,7 +140,7 @@
 	"longitude": "121.8939291",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Wednesday: {open: \"11:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"11:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -149,7 +149,7 @@
 	"longitude": "122.2403086",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Thursday: {open: \"13:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"13:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -158,7 +158,7 @@
 	"longitude": "122.2484442",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Tuesday: {open: \"13:00\", close: \"14:30\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"13:00\", \"close\": \"14:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -167,7 +167,7 @@
 	"longitude": "122.1818137",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/needhelp/food#collapseTen",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"16:00\"}, Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Mobile Market",
@@ -176,7 +176,7 @@
 	"longitude": "122.1487891",
 	"phone_number": "425-869-6000",
 	"website": "http://hopelink.org/mobilemarket",
-	"food_bank_hours": "{Wednesday: {open: \"16:30\", close: \"17:30\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"16:30\", \"close\": \"17:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -185,7 +185,7 @@
 	"longitude": "122.13423",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/needhelp/food#collapseTen",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"16:00\"}, Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -194,7 +194,7 @@
 	"longitude": "122.3461885",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/needhelp/food#collapseTen",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"16:00\"}, Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -203,7 +203,7 @@
 	"longitude": "121.912673",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/needhelp/food#collapseTen",
-	"food_bank_hours": "{Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}}\n"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}\n"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -212,7 +212,7 @@
 	"longitude": "122.149842",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Wednesday: {open: \"13:30\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"13:30\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -221,7 +221,7 @@
 	"longitude": "122.1918002",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Thursday: {open: \"10:30\", close: \"23:00\"}}"
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"10:30\", \"close\": \"23:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -230,17 +230,17 @@
 	"longitude": "122.0819456",
 	"phone_number": "425-869-6000",
 	"website": "http://www.hopelink.org/location/mobilemarket",
-	"food_bank_hours": "{Tuesday: {open: \"10:30\", close: \"11:30\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:30\", \"close\": \"11:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
-	"description": "Home delivery is available through website link. We also have a hygiene center is still open from 8am to 2pm on weekdays. If you are unable to leave your home & need food, please email info@icsseattleorg",
+	"description": "Home delivery is available through website link. We also have a hygiene center is still \"open\" from 8am to 2pm on weekdays. If you are unable to leave your home & need food, please email info@icsseattleorg",
 	"address": "1215 Thomas, Seattle, WA 98109",
 	"latitude": "47.6206572",
 	"longitude": "122.3321098",
 	"phone_number": "206-622-1930",
 	"website": "http://www.icsseattle.org/covid19info/",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}}",
-	"meal_hours": "{Sunday: {open: \"12:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}",
+	"meal_hours": "{\"Sunday\": {\"open\": \"12:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -249,7 +249,7 @@
 	"longitude": "122.3118419",
 	"phone_number": "206-461-3240",
 	"website": "http://www.jfsseattle.org/gethelp/polackfoodbank/",
-	"food_bank_hours": "{Wednesday: {open: \"10:00\", close: \"12:00\"}, Thursday: {open: \"14:00\", close: \"16:00\"}, Friday: {open: \"10:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"10:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"14:00\", \"close\": \"16:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Walkup distribution of prepacked food bags. No cook option available.",
@@ -258,7 +258,7 @@
 	"longitude": "122.2918447",
 	"phone_number": "206-367-3477",
 	"website": "http://www.northhelpline.org/gethelp/foodbank/",
-	"food_bank_hours": "{Wednesday: {open: \"09:00\", close: \"14:00\"}, Thursday: {open: \"16:00\", close: \"19:00\"}, Saturday: {open: \"09:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"09:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"16:00\", \"close\": \"19:00\"}, \"Saturday\": {\"open\": \"09:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Walkup distribution of prepacked food bags. No cook option available.",
@@ -267,7 +267,7 @@
 	"longitude": "122.3472592",
 	"phone_number": "206-367-3477",
 	"website": "http://www.northhelpline.org/gethelp/bitterlake/",
-	"food_bank_hours": "{Saturday: {open: \"09:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Saturday\": {\"open\": \"09:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Ready made bags at the back entrance",
@@ -276,7 +276,7 @@
 	"longitude": "122.3337333",
 	"phone_number": "206-448-9277",
 	"website": "http://www.pugetsoundlaboragency.org/foodbank.html",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}, Wednesday: {open: \"10:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Ask us about Home Delivery when you see us!",
@@ -285,7 +285,7 @@
 	"longitude": "122.2889468",
 	"phone_number": "206-723-4105",
 	"website": "http://www.rvfb.org/",
-	"food_bank_hours": "{Tuesday: {open: \"09:30\", close: \"14:00\"}, Wednesday: {open: \"09:30\", close: \"14:00\"}, Thursday: {open: \"09:30\", close: \"14:00\"}, Friday: {open: \"09:30\", close: \"14:00\"}, Saturday: {open: \"09:30\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Saturday\": {\"open\": \"09:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Meals to go ",
@@ -293,9 +293,9 @@
 	"latitude": "47.6592588",
 	"longitude": "122.3124319",
 	"phone_number": "206-522-4366",
-	"website": "http://www.rootsinfo.org/fridayfeastvolunteer",
+	"website": "http://www.rootsinfo.org/\"Friday\"feastvolunteer",
 	"food_bank_hours": "",
-	"meal_hours": "{Friday: {open: \"17:30\", close: \"19:00\"}}"
+	"meal_hours": "{\"Friday\": {\"open\": \"17:30\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Meals: High protein sandwiches, yogurt, fruit, bread, pastries, and hot soups",
@@ -304,8 +304,8 @@
 	"longitude": "122.3537259",
 	"phone_number": "206-216-4102",
 	"website": "http://www.sacredheartseattle.org/qafb",
-	"food_bank_hours": "{Thursday: {open: \"14:00\", close: \"16:00\"}}",
-	"meal_hours": "{Monday: {open: \"08:30\", close: \"11:30\"}, Tuesday: {open: \"08:30\", close: \"11:30\"}, Wednesday: {open: \"08:30\", close: \"11:30\"}, Thursday: {open: \"08:30\", close: \"11:30\"}, Friday: {open: \"08:30\", close: \"11:30\"}}"
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"14:00\", \"close\": \"16:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"08:30\", \"close\": \"11:30\"}, \"Tuesday\": {\"open\": \"08:30\", \"close\": \"11:30\"}, \"Wednesday\": {\"open\": \"08:30\", \"close\": \"11:30\"}, \"Thursday\": {\"open\": \"08:30\", \"close\": \"11:30\"}, \"Friday\": {\"open\": \"08:30\", \"close\": \"11:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Emergency food assistance for anyone living in the following zip codes: 98040, 98055, 98056, 98057, 98058, 98059, 98178",
@@ -314,8 +314,8 @@
 	"longitude": "122.2140148",
 	"phone_number": "425-255-5974",
 	"website": "http://webmanager.salvationarmy.org/renton_corps/foodbank?random=492",
-	"food_bank_hours": "{Monday: {open: \"09:00\", close: \"15:30\"}, Tuesday: {open: \"09:00\", close: \"15:30\"}, Wednesday: {open: \"09:00\", close: \"15:30\"}, Thursday: {open: \"09:00\", close: \"15:30\"}}",
-	"meal_hours": "{Monday: {open: \"09:00\", close: \"15:30\"}, Tuesday: {open: \"09:00\", close: \"15:30\"}, Wednesday: {open: \"09:00\", close: \"15:30\"}, Thursday: {open: \"09:00\", close: \"15:30\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Tuesday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"15:30\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Tuesday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"15:30\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"15:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food Bank: Bring something to transport food home in. Registration is required once per year to receive food. Please provide the following verification documents: Proof of income, verification of family size, proof of address and Photo ID.",
@@ -324,8 +324,8 @@
 	"longitude": "122.3547065",
 	"phone_number": "206-767-3150",
 	"website": "http://www.tsawhitecenter.org/help.html",
-	"food_bank_hours": "{Monday: {open: \"13:00\", close: \"14:00\"}, Tuesday: {open: \"13:00\", close: \"14:00\"}, Wednesday: {open: \"13:00\", close: \"14:00\"}, Thursday: {open: \"13:00\", close: \"14:00\"}, Friday: {open: \"13:00\", close: \"14:00\"}}",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"14:00\"}, Tuesday: {open: \"13:00\", close: \"14:00\"}, Wednesday: {open: \"13:00\", close: \"14:00\"}, Thursday: {open: \"13:00\", close: \"14:00\"}, Friday: {open: \"13:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"14:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Meals to go ",
@@ -335,7 +335,7 @@
 	"phone_number": "206-522-4366",
 	"website": "http://www.teenfeed.org/programs/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"19:00\", close: \"20:00\"}, Monday: {open: \"19:00\", close: \"20:00\"}, Tuesday: {open: \"19:00\", close: \"20:00\"}, Wednesday: {open: \"19:00\", close: \"20:00\"}, Thursday: {open: \"19:00\", close: \"20:00\"}, Friday: {open: \"19:00\", close: \"20:00\"}, Saturday: {open: \"18:30\", close: \"19:30\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Monday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Tuesday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Thursday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Friday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Saturday\": {\"open\": \"18:30\", \"close\": \"19:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Please honor the 6 foot spaced chalk lines on the sidewalk for social distancing",
@@ -344,7 +344,7 @@
 	"longitude": "122.3065791",
 	"phone_number": "206-324-7100",
 	"website": "http://www.thefbsm.org/services",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}, Wednesday: {open: \"10:00\", close: \"13:00\"}, Friday: {open: \"10:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags of perishable and nonperishable items during Food Bank hours.\nPlease bring photo ID on each visit.",
@@ -353,7 +353,7 @@
 	"longitude": "122.3178395",
 	"phone_number": "206-523-7060",
 	"website": "http://www.udistrictfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"09:00\", close: \"14:45\"}, Tuesday: {open: \"11:00\", close: \"19:45\"}, Thursday: {open: \"11:00\", close: \"19:45\"}, Friday: {open: \"11:00\", close: \"15:45\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"14:45\"}, \"Tuesday\": {\"open\": \"11:00\", \"close\": \"19:45\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"19:45\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"15:45\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Distributing boxes or bags that are packed based on guests' needs",
@@ -362,7 +362,7 @@
 	"longitude": "122.262898",
 	"phone_number": "206-523-7060",
 	"website": "http://www.udistrictfoodbank.org/services/magnusonparkcommunityfoodpantry/",
-	"food_bank_hours": "{Wednesday: {open: \"11:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"11:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Call first to ensure resources: 206.932.9023",
@@ -371,7 +371,7 @@
 	"longitude": "122.3758291",
 	"phone_number": "206-932-9023",
 	"website": "http://www.westseattlefoodbank.org/",
-	"food_bank_hours": "{Tuesday: {open: \"10:00\", close: \"14:00\"}, Wednesday: {open: \"12:00\", close: \"19:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}, Friday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Appointment required! Bring ID  and proof of address.",
@@ -380,7 +380,7 @@
 	"longitude": "122.3452308",
 	"phone_number": "206-762-2848",
 	"website": "http://www.whitecenterfoodbank.org/servicehours",
-	"food_bank_hours": "{Monday: {open: \"12:00\", close: \"15:30\"}, Wednesday: {open: \"10:00\", close: \"13:30\"}, Thursday: {open: \"10:00\", close: \"13:30\"}, Friday: {open: \"10:00\", close: \"13:30\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"15:30\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:30\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Delivery of 24lb grocery boxes, apples and lunch boxes to persons living in King County who were formerly incarcerated. Sign up using online form found on website.",
@@ -398,7 +398,7 @@
 	"phone_number": "425-277-7582",
 	"website": "http://www.reachrenton.org/reachmealcoalition.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"17:30\", close: \"19:00\"}, Monday: {open: \"08:00\", close: \"10:00\"}, Tuesday: {open: \"08:00\", close: \"10:00\"}, Wednesday: {open: \"08:00\", close: \"10:00\"}, Thursday: {open: \"08:00\", close: \"10:00\"}, Friday: {open: \"17:30\", close: \"19:00\"}, Saturday: {open: \"17:30\", close: \"19:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"17:30\", \"close\": \"19:00\"}, \"Monday\": {\"open\": \"08:00\", \"close\": \"10:00\"}, \"Tuesday\": {\"open\": \"08:00\", \"close\": \"10:00\"}, \"Wednesday\": {\"open\": \"08:00\", \"close\": \"10:00\"}, \"Thursday\": {\"open\": \"08:00\", \"close\": \"10:00\"}, \"Friday\": {\"open\": \"17:30\", \"close\": \"19:00\"}, \"Saturday\": {\"open\": \"17:30\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Required Documents. Photo I.D., Utility or phone bill with current address",
@@ -408,7 +408,7 @@
 	"phone_number": "425-255-5974",
 	"website": "",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"17:30\", close: \"18:30\"}, Tuesday: {open: \"17:30\", close: \"18:30\"}, Wednesday: {open: \"17:30\", close: \"18:30\"}, Thursday: {open: \"17:30\", close: \"18:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"17:30\", \"close\": \"18:30\"}, \"Tuesday\": {\"open\": \"17:30\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"17:30\", \"close\": \"18:30\"}, \"Thursday\": {\"open\": \"17:30\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Also have free hot showers, laundry service, hygiene supplies, some camping supplies & clothing as well as support applying for food benefits and cell phones.",
@@ -418,18 +418,18 @@
 	"phone_number": "425-773-2874",
 	"website": "http://www.svshelterservices.org/resourcecenter.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"13:00\", close: \"16:00\"}, Monday: {open: \"13:00\", close: \"16:00\"}, Tuesday: {open: \"13:00\", close: \"16:00\"}, Wednesday: {open: \"13:00\", close: \"16:00\"}, Thursday: {open: \"13:00\", close: \"16:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"13:00\", \"close\": \"16:00\"}, \"Monday\": {\"open\": \"13:00\", \"close\": \"16:00\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"16:00\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"16:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"16:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Free Community Meals available for anyone. Pick up perishable food items, as they remain, available beginning at 4 PM on Wednesdays.\n\nLittle Free Pantry, outside of the church, is available to all",
+	"description": "Free Community Meals available for anyone. Pick up perishable food items, as they remain, available beginning at 4 PM on \"Wednesday\"s.\n\nLittle Free Pantry, outside of the church, is available to all",
 	"address": "4851 Tolt Ave, Carnation, WA 98014",
 	"latitude": "47.6505667",
 	"longitude": "121.9128635",
 	"phone_number": "425-333-4254",
 	"website": "http://toltucc.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"16:00\", close: \"18:00\"}}",
-	"community_fridge_hours": "{Wednesday: {open: \"05:00\", close: \"23:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"16:00\", \"close\": \"18:00\"}}",
+	"community_fridge_hours": "{\"Wednesday\": {\"open\": \"05:00\", \"close\": \"23:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Limited Meals on Wheels Delivery for Tukwila Residents only. Call 206-4485-767 to sign up.",
@@ -439,7 +439,7 @@
 	"phone_number": "206-768-2822",
 	"website": "http://www.tukwilawa.gov/departments/parksandrecreation/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"19:00\", close: \"20:00\"}, Monday: {open: \"19:00\", close: \"20:00\"}, Tuesday: {open: \"19:00\", close: \"20:00\"}, Wednesday: {open: \"19:00\", close: \"20:00\"}, Thursday: {open: \"19:00\", close: \"20:00\"}, Friday: {open: \"19:00\", close: \"20:00\"}, Saturday: {open: \"18:30\", close: \"19:30\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Monday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Tuesday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Thursday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Friday\": {\"open\": \"19:00\", \"close\": \"20:00\"}, \"Saturday\": {\"open\": \"18:30\", \"close\": \"19:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Contact agency for any eligibility requirements",
@@ -449,7 +449,7 @@
 	"phone_number": "206-972-2524",
 	"website": "http://www.communitylunch.org/about1",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Contact agency for any eligibility requirements",
@@ -459,7 +459,7 @@
 	"phone_number": "206-972-2524",
 	"website": "http://www.communitylunch.org/about1",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"13:00\"}, Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability, if possible",
@@ -469,7 +469,7 @@
 	"phone_number": "206-722-9372",
 	"website": "http://www.filcommsea.org/index.php/programs/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"13:00\"}, Tuesday: {open: \"11:30\", close: \"13:00\"}, Thursday: {open: \"11:30\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability, if possible",
@@ -479,7 +479,7 @@
 	"phone_number": "425-432-1272",
 	"website": "http://www.maplevalleycc.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Distributing sack lunches.",
@@ -489,7 +489,7 @@
 	"phone_number": "253-852-3883",
 	"website": "http://www.kentsda.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"16:30\", close: \"17:00\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"16:30\", \"close\": \"17:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability",
@@ -499,7 +499,7 @@
 	"phone_number": "253-536-3020",
 	"website": "http://www.kwacares.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}, Wednesday: {open: \"10:00\", close: \"13:00\"}, Friday: {open: \"10:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Disbributing  food vouchers to redeem at Ken's ethnic grocery stores. Please call 253- 2273143 or email info@livingwellkent.org to make an appointment.",
@@ -508,7 +508,7 @@
 	"longitude": "122.2015809",
 	"phone_number": "425-466-7018",
 	"website": "http://www.livingwellkent.org",
-	"food_bank_hours": "{Monday: {open: \"12:00\", close: \"14:00\"}, Wednesday: {open: \"12:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Call ahead to preregister for a week's worth of lunches. ",
@@ -518,7 +518,7 @@
 	"phone_number": "425-888-3434",
 	"website": "http://www.mtsiseniorcenter.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please contact us to place order and confirm pickup time so we can be prepared to meet you outside.",
@@ -528,7 +528,7 @@
 	"phone_number": "206-708-6871",
 	"website": "http://www.musangseattle.com/communitykitchen",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"16:00\"}, Tuesday: {open: \"12:00\", close: \"16:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"16:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"16:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Box lunch program",
@@ -538,7 +538,7 @@
 	"phone_number": "425-282-6220",
 	"website": "http://thenbcf.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"13:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"13:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Free Vegetarian Food Truck",
@@ -548,7 +548,7 @@
 	"phone_number": "206-527-4278",
 	"website": "http://www.uheightscenter.org/coronavirus",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"18:00\", close: \"20:00\"}, Wednesday: {open: \"18:00\", close: \"20:00\"}, Friday: {open: \"18:00\", close: \"20:00\"}, Saturday: {open: \"18:00\", close: \"20:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"18:00\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"18:00\", \"close\": \"20:00\"}, \"Friday\": {\"open\": \"18:00\", \"close\": \"20:00\"}, \"Saturday\": {\"open\": \"18:00\", \"close\": \"20:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Prepackaged grocery bags for pick up",
@@ -557,18 +557,18 @@
 	"longitude": "122.120025",
 	"phone_number": "425-883-7553",
 	"website": "http://www.facebook.com/redmondchurch/",
-	"food_bank_hours": "{Wednesday: {open: \"17:00\", close: \"18:00\"}}",
-	"meal_hours": "{Wednesday: {open: \"17:00\", close: \"19:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"17:00\", \"close\": \"18:00\"}}",
+	"meal_hours": "{\"Wednesday\": {\"open\": \"17:00\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "The senior center's dropin lunch program now features sack lunches. They will be available for drive through pickup Monday through Friday at noon",
+	"description": "The senior center's dropin lunch program now features sack lunches. They will be available for drive through pickup \"Monday\" through \"Friday\" at noon",
 	"address": "211 Burnett Ave N, Renton, WA 98057",
 	"latitude": "47.4861262",
 	"longitude": "122.2077373",
 	"phone_number": "425-430-6633",
 	"website": "http://www.rentonwa.gov/cms/one.aspx?pageId=8715840",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"12:00\"}, Tuesday: {open: \"11:30\", close: \"12:00\"}, Wednesday: {open: \"11:30\", close: \"12:00\"}, Thursday: {open: \"11:30\", close: \"12:00\"}, Friday: {open: \"11:30\", close: \"12:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Wednesday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please send an email to packersina@gmail.com for more information!",
@@ -578,7 +578,7 @@
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}, Tuesday: {open: \"10:00\", close: \"13:00\"}, Wednesday: {open: \"10:00\", close: \"13:00\"}, Friday: {open: \"10:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability, if possible",
@@ -588,7 +588,7 @@
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"12:00\"}, Tuesday: {open: \"11:30\", close: \"12:00\"}, Wednesday: {open: \"11:30\", close: \"12:00\"}, Thursday: {open: \"11:30\", close: \"12:00\"}, Friday: {open: \"11:30\", close: \"12:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Wednesday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"12:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Seniors 60+; or Spouse of senior, or any disabled adult.  Under 60? Please pay $10",
@@ -598,7 +598,7 @@
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"11:30\", close: \"12:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:30\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability and ask for Jamie Clark. Seniors 60+; or Spouse of senior, or any disabled adult.  Under 60? Please pay $10",
@@ -608,7 +608,7 @@
 	"phone_number": "206-722-0317",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:45\", close: \"12:30\"}, Tuesday: {open: \"11:45\", close: \"12:30\"}, Wednesday: {open: \"11:45\", close: \"12:30\"}, Thursday: {open: \"11:45\", close: \"12:30\"}, Friday: {open: \"11:45\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"11:45\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability. Limited delivery available",
@@ -618,7 +618,7 @@
 	"phone_number": "206-726-4926",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"13:00\"}, Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Only providing meals to their residents at this time.",
@@ -628,7 +628,7 @@
 	"phone_number": "206-322-4550",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:00\", close: \"12:00\"}, Tuesday: {open: \"11:00\", close: \"12:00\"}, Wednesday: {open: \"11:00\", close: \"12:00\"}, Thursday: {open: \"11:00\", close: \"12:00\"}, Friday: {open: \"11:00\", close: \"12:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Tuesday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Meals on Wheels available, and call the day before to order the next days meal",
@@ -638,17 +638,17 @@
 	"phone_number": "425-333-4152",
 	"website": "http://www.snovalleysenior.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"13:00\"}, Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Lunch takeoutpick up meals are to be picked up at the center front door on a first come first served basis, and delivery is available in the area on Tuesday and Thursdays",
+	"description": "Lunch takeoutpick up meals are to be picked up at the center front door on a first come first served basis, and delivery is available in the area on \"Tuesday\" and \"Thursday\"s",
 	"address": "5429 32nd NW, Seattle, WA 98017",
 	"latitude": "47.6684176",
 	"longitude": "122.3987072",
 	"phone_number": "206-297-0403",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"13:00\"}, Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"12:00\", close: \"13:00\"}, Thursday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Seniors 60+; or Spouse of senior, or any disabled adult.  Under 60? Please pay $10",
@@ -658,17 +658,17 @@
 	"phone_number": "206-297-0875",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"11:00\", close: \"18:00\"}, Wednesday: {open: \"12:00\", close: \"12:45\"}, Friday: {open: \"12:00\", close: \"12:45\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:45\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:45\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Monday and Wednesday meals provided by Bounce Back.",
+	"description": "\"Monday\" and \"Wednesday\" meals provided by Bounce Back.",
 	"address": "12531 28th Ave NE, Seattle, WA 98125",
 	"latitude": "47.7203524",
 	"longitude": "122.2981048",
 	"phone_number": "206-707-1865",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"13:30\"}, Wednesday: {open: \"12:00\", close: \"13:30\"}, Friday: {open: \"12:00\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "To go or hot meals are available for pick up or delivery (delivery is limited)",
@@ -678,7 +678,7 @@
 	"phone_number": "206-365-1536",
 	"website": "http://www.shorelinelfpseniorcenter.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:45\", close: \"12:15\"}, Tuesday: {open: \"11:45\", close: \"12:15\"}, Wednesday: {open: \"11:45\", close: \"12:15\"}, Thursday: {open: \"11:45\", close: \"12:15\"}, Friday: {open: \"11:45\", close: \"12:15\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Tuesday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Wednesday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Friday\": {\"open\": \"11:45\", \"close\": \"12:15\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Summer Food Program: Walk up for meals",
@@ -688,7 +688,7 @@
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"09:00\", close: \"15:00\"}, Tuesday: {open: \"09:00\", close: \"15:00\"}, Wednesday: {open: \"09:00\", close: \"15:00\"}, Thursday: {open: \"11:45\", close: \"13:30\"}, Friday: {open: \"12:00\", close: \"15:00\"}, Saturday: {open: \"11:45\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Tuesday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"15:00\"}, \"Saturday\": {\"open\": \"11:45\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Just walk up to get food",
@@ -698,7 +698,7 @@
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"09:00\", close: \"15:00\"}, Tuesday: {open: \"12:00\", close: \"13:00\"}, Wednesday: {open: \"09:00\", close: \"15:00\"}, Thursday: {open: \"11:45\", close: \"13:30\"}, Friday: {open: \"09:00\", close: \"11:00\"}, Saturday: {open: \"11:45\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"09:00\", \"close\": \"11:00\"}, \"Saturday\": {\"open\": \"11:45\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Dinner service is from 16:00  4:30 pm. Togo meals are served or eat indoors with limited seating capacity.",
@@ -708,7 +708,7 @@
 	"phone_number": "206-622-3559",
 	"website": "http://www.stjamescathedral.org/outreach/kitchen.aspx",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"16:00\", close: \"16:30\"}, Tuesday: {open: \"16:00\", close: \"16:30\"}}, Wednesday: {open: \"16:00\", close: \"16:30\"}}, Thursday: {open: \"16:00\", close: \"16:30\"}}, Friday: {open: \"16:00\", close: \"16:30\"}}, Sunday: {open: \"07:00\", close: \"08:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"16:00\", \"close\": \"16:30\"}, \"Tuesday\": {\"open\": \"16:00\", \"close\": \"16:30\"}}, \"Wednesday\": {\"open\": \"16:00\", \"close\": \"16:30\"}}, \"Thursday\": {\"open\": \"16:00\", \"close\": \"16:30\"}}, \"Friday\": {\"open\": \"16:00\", \"close\": \"16:30\"}}, \"Sunday\": {\"open\": \"07:00\", \"close\": \"08:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please wear masks.",
@@ -718,7 +718,7 @@
 	"phone_number": "206-784-3119",
 	"website": "http://www.stlukesseattle.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"09:00\", close: \"12:00\"}, Tuesday: {open: \"09:00\", close: \"12:00\"}, Wednesday: {open: \"09:00\", close: \"12:00\"}, Thursday: {open: \"09:00\", close: \"12:00\"}, Friday: {open: \"09:00\", close: \"12:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Tuesday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Friday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grabandgo meals are provided for those that are in need on Vashon.",
@@ -728,7 +728,7 @@
 	"phone_number": "206-643-5169",
 	"website": "http://www.stlukesseattle.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"17:30\", close: \"20:00\"}, Monday: {open: \"17:30\", close: \"20:00\"}, Tuesday: {open: \"17:30\", close: \"20:00\"}, Wednesday: {open: \"17:30\", close: \"20:00\"}, Thursday: {open: \"17:30\", close: \"20:00\"}, Friday: {open: \"17:30\", close: \"20:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Monday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Tuesday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Thursday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Friday\": {\"open\": \"17:30\", \"close\": \"20:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Serving inhousing dining. Please wear a mask as you enter the building. Social distancing is a must. No showers available.",
@@ -738,7 +738,7 @@
 	"phone_number": "253-852-1044",
 	"website": "http://www.facebook.com/JesusatTrinity/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"17:00\", close: \"17:30\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"17:00\", \"close\": \"17:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability",
@@ -748,7 +748,7 @@
 	"phone_number": "425-430-8229",
 	"website": "http://uccwa.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Thursday: {open: \"10:00\", close: \"14:30\"}}"
+	"meal_hours": "{\"Thursday\": {\"open\": \"10:00\", \"close\": \"14:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "This information is for the work Iraqi Community Center is doing: Please contact them for home delivery needs",
@@ -758,7 +758,7 @@
 	"phone_number": "253-243-7744",
 	"website": "http://uccwa.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"17:30\", close: \"20:00\"}, Monday: {open: \"17:30\", close: \"20:00\"}, Tuesday: {open: \"17:30\", close: \"20:00\"}, Wednesday: {open: \"17:30\", close: \"20:00\"}, Thursday: {open: \"17:30\", close: \"20:00\"}, Friday: {open: \"17:30\", close: \"20:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Monday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Tuesday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Thursday\": {\"open\": \"17:30\", \"close\": \"20:00\"}, \"Friday\": {\"open\": \"17:30\", \"close\": \"20:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Delivers grocery bags to clients",
@@ -768,7 +768,7 @@
 	"phone_number": "425-430-8229",
 	"website": "http://uccwa.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"10:30\", close: \"14:00\"}, Thursday: {open: \"10:30\", close: \"14:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"10:30\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"10:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Services are for participants of the program but will not turn away someone that needs assistance.",
@@ -778,7 +778,7 @@
 	"phone_number": "206-285-4425",
 	"website": "http://www.unitedindians.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"10:00\", close: \"15:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"10:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Ask us about Home Delivery when you see us!",
@@ -788,7 +788,7 @@
 	"phone_number": "253-856-5000",
 	"website": "http://www.kentwa.gov/Home/Components/FacilityDirectory/FacilityDirectory/250/318",
 	"food_bank_hours": "",
-	"meal_hours": "{Thursday: {open: \"10:00\", close: \"18:00\"}}"
+	"meal_hours": "{\"Thursday\": {\"open\": \"10:00\", \"close\": \"18:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -798,7 +798,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"10:30\", close: \"14:00\"}, Friday: {open: \"10:30\", close: \"14:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"10:30\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"10:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -808,7 +808,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"10:30\", close: \"14:00\"}, Friday: {open: \"10:30\", close: \"14:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"10:30\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"10:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -818,7 +818,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"11:30\", close: \"13:00\"}, Friday: {open: \"11:30\", close: \"13:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -828,7 +828,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"13:00\"}, Tuesday: {open: \"11:30\", close: \"13:00\"}, Wednesday: {open: \"11:30\", close: \"13:00\"}, Thursday: {open: \"11:30\", close: \"13:00\"}, Friday: {open: \"11:30\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -838,7 +838,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -848,7 +848,7 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Emergency Food and Meal Delivery: \nCall Jo Pullen: 206-774-2420",
@@ -858,17 +858,17 @@
 	"phone_number": "206-695-7510",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/seniorlunchprograms/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"13:00\"}, Friday: {open: \"12:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Temporarily closed dropin services and instead are offering meals, hygiene, clothing, and supplies through our front door and are allowing people to enter through the back door one at a time to use the restroom.",
+	"description": "Temporarily \"close\"d dropin services and instead are offering meals, hygiene, clothing, and supplies through our front door and are allowing people to enter through the back door one at a time to use the restroom.",
 	"address": "8914 Aurora Ave N, Seattle, WA 98103",
 	"latitude": "47.6938816",
 	"longitude": "122.3442384",
 	"phone_number": "206-299-2278",
 	"website": "http://www.auroracommons.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"10:00: close: \"13:00\"}, Tuesday: {open: \"10:00\": close: \"13:00\"}, Wednesday: {open: \"10:00\": close: \"13:00\"}, Thursday: {open: \"10:00\": close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"10:00: \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"10:00\": \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"10:00\": \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"10:00\": \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Hot meals, fresh fruit and drinks everyday in to go containers",
@@ -878,27 +878,27 @@
 	"phone_number": "206-682-3579",
 	"website": "http://www.breadoflifemission.org/ourprograms",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:15\", close: \"19:45\"}, Tuesday: {open: \"12:15\", close: \"19:45\"}, Wednesday: {open: \"12:15\", close: \"19:45\"}, Thursday: {open: \"12:15\", close: \"19:45\"}, Friday: {open: \"12:15\", close: \"19:45\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:15\", \"close\": \"19:45\"}, \"Tuesday\": {\"open\": \"12:15\", \"close\": \"19:45\"}, \"Wednesday\": {\"open\": \"12:15\", \"close\": \"19:45\"}, \"Thursday\": {\"open\": \"12:15\", \"close\": \"19:45\"}, \"Friday\": {\"open\": \"12:15\", \"close\": \"19:45\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Open 7 days a week.",
+	"description": "\"open\" 7 days a week.",
 	"address": "2329 Rainier Ave S, Seattle, WA 98144",
 	"latitude": "47.5822614",
 	"longitude": "122.3015923",
 	"phone_number": "206-623-7219",
 	"website": "http://www.ccsww.org/gethelp/shelterhomelessservices/lazaruscenter/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"08:00\", close: \"14:00\"}, Monday: {open: \"08:00\", close: \"14:00\"}, Tuesday: {open: \"08:00\", close: \"14:00\"}, Wednesday: {open: \"08:00\", close: \"14:00\"}, Thursday: {open: \"08:00\", close: \"14:00\"}, Friday: {open: \"08:00\", close: \"14:00\"}, Saturday: {open: \"08:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Monday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Tuesday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Saturday\": {\"open\": \"08:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Grab'n'Go meals for kids and teens. Food does not need to be eaten on site and can be picked up by parents. 2 days of meals given on both Monday and Wednesday; weekend meals given on Friday. Meals distributed by door at lower level of Des Moines United Methodist Church",
+	"description": "Grab'n'Go meals for kids and teens. Food does not need to be eaten on site and can be picked up by parents. 2 days of meals given on both \"Monday\" and \"Wednesday\"; weekend meals given on \"Friday\". Meals distributed by door at lower level of Des Moines United Methodist Church",
 	"address": "22225 9th Ave S, Des Moines, WA  98198",
 	"latitude": "47.4022373",
 	"longitude": "122.3246258",
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"8:30\", close: \"12:15\"}, Wednesday: {open: \"8:30\", close: \"12:15\"}, Friday: {open: \"8:30\", close: \"12:15\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"8:30\", \"close\": \"12:15\"}, \"Wednesday\": {\"open\": \"8:30\", \"close\": \"12:15\"}, \"Friday\": {\"open\": \"8:30\", \"close\": \"12:15\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -908,7 +908,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:30\", close: \"12:50\"}, Tuesday: {open: \"12:30\", close: \"12:50\"}, Wednesday: {open: \"12:30\", close: \"12:50\"}, Thursday: {open: \"12:30\", close: \"12:50\"}, Friday: {open: \"12:30\", close: \"12:50\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:30\", \"close\": \"12:50\"}, \"Tuesday\": {\"open\": \"12:30\", \"close\": \"12:50\"}, \"Wednesday\": {\"open\": \"12:30\", \"close\": \"12:50\"}, \"Thursday\": {\"open\": \"12:30\", \"close\": \"12:50\"}, \"Friday\": {\"open\": \"12:30\", \"close\": \"12:50\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -918,7 +918,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:20\", close: \"12:40\"}, Tuesday: {open: \"12:20\", close: \"12:40\"}, Wednesday: {open: \"12:20\", close: \"12:40\"}, Thursday: {open: \"12:20\", close: \"12:40\"}, Friday: {open: \"12:20\", close: \"12:40\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:20\", \"close\": \"12:40\"}, \"Tuesday\": {\"open\": \"12:20\", \"close\": \"12:40\"}, \"Wednesday\": {\"open\": \"12:20\", \"close\": \"12:40\"}, \"Thursday\": {\"open\": \"12:20\", \"close\": \"12:40\"}, \"Friday\": {\"open\": \"12:20\", \"close\": \"12:40\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -928,7 +928,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:15\"}, Tuesday: {open: \"12:00\", close: \"12:15\"}, Wednesday: {open: \"12:00\", close: \"12:15\"}, Thursday: {open: \"12:00\", close: \"12:15\"}, Friday: {open: \"12:00\", close: \"12:15\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:15\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:15\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:15\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:15\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:15\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -938,7 +938,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:10\"}, Tuesday: {open: \"12:00\", close: \"12:10\"}, Wednesday: {open: \"12:00\", close: \"12:10\"}, Thursday: {open: \"12:00\", close: \"12:10\"}, Friday: {open: \"12:00\", close: \"12:10\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:10\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:10\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:10\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:10\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:10\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -948,7 +948,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"15:00\"}, Tuesday: {open: \"12:00\", close: \"15:00\"},  Wednesday: {open: \"12:00\", close: \"15:00\"}, Thursday: {open: \"12:00\", close: \"15:00\"}, Friday: {open: \"12:00\", close: \"15:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"15:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"15:00\"},  \"Wednesday\": {\"open\": \"12:00\", \"close\": \"15:00\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"15:00\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -958,7 +958,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"09:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"09:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -968,7 +968,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"11:50\"}, Tuesday: {open: \"11:30\", close: \"11:50\"}, Wednesday: {open: \"11:30\", close: \"11:50\"}, Thursday: {open: \"11:30\", close: \"11:50\"}, Friday: {open: \"11:30\", close: \"11:50\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"11:50\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"11:50\"}, \"Wednesday\": {\"open\": \"11:30\", \"close\": \"11:50\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"11:50\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"11:50\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Grab'n'Go meals for kids and teens at 8 sites. Food does not need to be eaten on site and can be picked up by parents.",
@@ -978,7 +978,7 @@
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/mealsforkids.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"14:30\"}, Tuesday: {open: \"13:00\", close: \"14:30\"}, Wednesday: {open: \"13:00\", close: \"14:30\"}, Thursday: {open: \"13:00\", close: \"14:30\"}, Friday: {open: \"13:00\", close: \"14:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"14:30\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"14:30\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"14:30\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"14:30\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"14:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "During this COVID 19 crisis, food is only being provided in lunch bags which is distributed outside.",
@@ -988,7 +988,7 @@
 	"phone_number": "253-661-0505",
 	"website": "http://www.fwccn.org/services.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"17:30\", close: \"18:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"17:30\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Early arrival (1530 minutes) is recommended \nDistributing cold/shelfstable nocook meals\nDistributing prepacked boxes or bags outside.",
@@ -998,7 +998,7 @@
 	"phone_number": "253-661-0505",
 	"website": "http://www.fwccn.org/services.html",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"13:30\", close: \"14:30\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"13:30\", \"close\": \"14:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Preparing hot breakfast sandwiches and bag lunches,  ask guests to line up 6 feet apart",
@@ -1008,17 +1008,17 @@
 	"phone_number": "206-322-7411",
 	"website": "http://www.firstcovenantseattle.org/outreach",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"09:00\", close: \"09:30\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"09:00\", \"close\": \"09:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Reopened November 15, providing ToGo Meals only, from Denny Way entrance to church.",
+	"description": "Re\"open\"ed November 15, providing ToGo Meals only, from Denny Way entrance to church.",
 	"address": "180 Denny Way, Seattle, WA 98109",
 	"latitude": "47.6188068",
 	"longitude": "122.3531962",
 	"phone_number": "206-622-7278",
 	"website": "http://www.firstchurchseattle.org/sharedbreakfast/?fbclid=IwAR2EAykPB90700TuZeuY3aX18yx3tXkg9lbCW8qVghb3RgTCJJnwkB7wQ",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"07:30\", close: \"09:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"07:30\", \"close\": \"09:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Free vegetarian meal",
@@ -1028,7 +1028,7 @@
 	"phone_number": "206-397-6815",
 	"website": "http://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"16:30\", close: \"19:30\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"16:30\", \"close\": \"19:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Free vegetarian meal",
@@ -1038,7 +1038,7 @@
 	"phone_number": "206-397-6815",
 	"website": "http://www.seattlefoodnotbombs.org/?fbclid=IwAR3T68e9asOm5ksmU_CuHK8ppZZir1QFQBRn_HbSvUCNvhDb7sGxeFXhr_g",
 	"food_bank_hours": "",
-	"meal_hours": "{Saturday: {open: \"16:30\", close: \"18:30\"}}"
+	"meal_hours": "{\"Saturday\": {\"open\": \"16:30\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Free grab and go meal for people economically impacted by Covid19.",
@@ -1048,7 +1048,7 @@
 	"phone_number": "206-523-6654",
 	"website": "http://www.frelardtamales.com/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:00\", close: \"20:00\"}, Tuesday: {open: \"11:00\", close: \"20:00\"}, Wednesday: {open: \"11:00\", close: \"12:00\"}, Thursday: {open: \"11:00\", close: \"12:00\"}, Friday: {open: \"11:00\", close: \"12:00\"}, Saturday: {open: \"10:00\", close: \"17:00\"}, Sunday: {open: \"10:00\", close: \"17:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:00\", \"close\": \"20:00\"}, \"Tuesday\": {\"open\": \"11:00\", \"close\": \"20:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"12:00\"}, \"Saturday\": {\"open\": \"10:00\", \"close\": \"17:00\"}, \"Sunday\": {\"open\": \"10:00\", \"close\": \"17:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Boxed dinner",
@@ -1058,77 +1058,77 @@
 	"phone_number": "253-859-0444",
 	"website": "http://www.holyspiritkent.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"18:30\", close: \"19:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"18:30\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "11050 8th Ave NE, Seattle, WA 98125",
 	"latitude": "47.710233",
 	"longitude": "122.3201755",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "1333 North 125th St, Seattle, WA 98133",
 	"latitude": "47.718835",
 	"longitude": "122.340947",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:00\", close: \"12:30\"}, Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "12526 33rd Ave NE, Seattle, WA 98125",
 	"latitude": "47.720291",
 	"longitude": "122.291805",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"13:30\"}, Tuesday: {open: \"13:00\", close: \"13:30\"}, Wednesday: {open: \"13:00\", close: \"13:30\"}, Thursday: {open: \"13:00\", close: \"13:30\"}, Friday: {open: \"13:00\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "14374 30th Ave NE, Seattle, WA 98125",
 	"latitude": "47.733508",
 	"longitude": "122.29595",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"13:30\"}, Tuesday: {open: \"13:00\", close: \"13:30\"}, Wednesday: {open: \"13:00\", close: \"13:30\"}, Thursday: {open: \"13:00\", close: \"13:30\"}, Friday: {open: \"13:00\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "15300 8th Ave NE, Shoreline, WA 98155",
 	"latitude": "47.7402967",
 	"longitude": "122.319751",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"12:30\"}, Tuesday: {open: \"11:00\", close: \"12:30\"}, Wednesday: {open: \"11:00\", close: \"12:30\"}, Thursday: {open: \"11:00\", close: \"12:30\"}, Friday: {open: \"11:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "345 NE 175th St, Shoreline, WA 98155",
 	"latitude": "47.7555883",
 	"longitude": "122.3248143",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"14:00\"}, Tuesday: {open: \"13:00\", close: \"14:00\"}, Wednesday: {open: \"13:00\", close: \"14:00\"}, Thursday: {open: \"13:00\", close: \"14:00\"}, Friday: {open: \"13:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents.",
+	"description": "Summer program ends 8/27\nSite provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents.",
 	"address": "816 NE 190th St, Shoreline, WA 98155",
 	"latitude": "47.767272",
 	"longitude": "122.3208429",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"12:30\"}, Tuesday: {open: \"11:30\", close: \"12:30\"}, Wednesday: {open: \"11:30\", close: \"12:30\"}, Thursday: {open: \"11:30\", close: \"12:30\"}, Friday: {open: \"11:30\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:30\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Site provides free take home meals for kids and teens 18 and younger. Free meals also available for parents.",
@@ -1138,7 +1138,7 @@
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Thursday: {open: \"15:30\", close: \"18:30\"}}"
+	"meal_hours": "{\"Thursday\": {\"open\": \"15:30\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "",
@@ -1148,7 +1148,7 @@
 	"phone_number": "206-922-2015",
 	"website": "http://www.oslserves.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"08:00\", close: \"18:30\"}, Tuesday: {open: \"08:00\", close: \"18:30\"}, Wednesday: {open: \"08:00\", close: \"18:30\"}, Thursday: {open: \"08:00\", close: \"18:30\"}, Friday: {open: \"08:00\", close: \"18:30\"}, Saturday: {open: \"10:00\", close: \"18:30\"}, Sunday: {open: \"10:00\", close: \"18:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"08:00\", \"close\": \"18:30\"}, \"Tuesday\": {\"open\": \"08:00\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"08:00\", \"close\": \"18:30\"}, \"Thursday\": {\"open\": \"08:00\", \"close\": \"18:30\"}, \"Friday\": {\"open\": \"08:00\", \"close\": \"18:30\"}, \"Saturday\": {\"open\": \"10:00\", \"close\": \"18:30\"}, \"Sunday\": {\"open\": \"10:00\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Contact agency for any eligibility requirements",
@@ -1158,26 +1158,26 @@
 	"phone_number": "206-374-8731",
 	"website": "http://www.recoverycafe.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:30\", close: \"14:30\"}, Tuesday: {open: \"12:30\", close: \"14:30\"}, Wednesday: {open: \"12:30\", close: \"14:30\"}, Thursday: {open: \"12:30\", close: \"14:30\"}, Friday: {open: \"12:30\", close: \"14:30\"}, Saturday: {open: \"12:30\", close: \"14:30\"}, Sunday: {open: \"10:30\", close: \"12:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Tuesday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Wednesday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Thursday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Friday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Saturday\": {\"open\": \"12:30\", \"close\": \"14:30\"}, \"Sunday\": {\"open\": \"10:30\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Contact agency for any eligibility requirements.\nFriday Feast is hosted by Chapel on The Ave Fridays 5:307:00PM. ToGo meals served from the alley entrance behind the church. From the corner of 42nd and University Way, head east toward UW Campus. Take a right into the alley near Orange King and the Chapel garage will be on your right near a large gate.",
+	"description": "Contact agency for any eligibility requirements.\n\"Friday\" Feast is hosted by Chapel on The Ave \"Friday\"s 5:307:00PM. ToGo meals served from the alley entrance behind the church. From the corner of 42nd and University Way, head east toward UW Campus. Take a right into the alley near Orange King and the Chapel garage will be on your right near a large gate.",
 	"address": "1415 NE 43rd St, Seattle, WA 98105",
 	"latitude": "47.6592588",
 	"longitude": "122.3124319",
 	"phone_number": "206-632-1635",
 	"website": "http://www.rootsinfo.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Friday: {open: \"17:30\", close: \"19:00\"}}"
+	"meal_hours": "{\"Friday\": {\"open\": \"17:30\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Our paywhatyoucan farm stand supports our goal of ensuring that everyone in the community has fair, equal, and dignified access to local, fresh, seasonal, organic, and sustainablygrown food. We offer those in need up to $20 of produce at nocost per visit. Donations are encouraged for produce, but no one is turned away for inability to pay. We accept cash, credit, EBT, Fresh Bucks and offer SNAP Market Match. Open for 2021 season June 17September 30.",
+	"description": "Our paywhatyoucan farm stand supports our goal of ensuring that everyone in the community has fair, equal, and dignified access to local, fresh, seasonal, organic, and sustainablygrown food. We offer those in need up to $20 of produce at nocost per visit. Donations are encouraged for produce, but no one is turned away for inability to pay. We accept cash, credit, EBT, Fresh Bucks and offer SNAP Market Match. \"open\" for 2021 season June 17September 30.",
 	"address": "5513 S Cloverdale St, Seattle, WA 98118",
 	"latitude": "47.5261434",
 	"longitude": "122.2624573",
 	"phone_number": "",
 	"website": "http://tilthalliance.square.site/",
-	"food_bank_hours": "{Thursday: {open: \"14:00\", close: \"19:00\"}}"
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"14:00\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Emergency Food and Meal Delivery: Call Jo Pullen (206)7742420",
@@ -1186,8 +1186,8 @@
 	"longitude": "122.320193",
 	"phone_number": "206-774-2420",
 	"website": "http://www.acrs.org/services/agingservicesforolderadults/acrsfoodbank/",
-	"food_bank_hours": "{Wednesday: {open: \"11:30\", close: \"13:00\"}, Friday: {open: \"11:30\", close: \"13:00\"}}",
-	"meal_hours": "{Wednesday: {open: \"11:30\", close: \"13:00\"}, Friday: {open: \"11:30\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}",
+	"meal_hours": "{\"Wednesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "",
@@ -1197,7 +1197,7 @@
 	"phone_number": "206-829-9525",
 	"website": "http://www.atriumkitchenpikeplace.com/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"11:30\", close: \"13:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Distributing prepacked boxes or bags",
@@ -1206,8 +1206,8 @@
 	"longitude": "122.2841789",
 	"phone_number": "253-838-3604",
 	"website": "http://www.federalwayseniorcenter.org/",
-	"food_bank_hours": "{Monday: {open: \"09:00\", close: \"12:00\"}, Thursday: {open: \"09:00\", close: \"12:00\"}}",
-	"meal_hours": "{Monday: {open: \"09:00\", close: \"12:00\"}, Thursday: {open: \"09:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food Bank: The front doors are locked to minimize foot traffic: please knock or call when you arrive\n\nMeals: Take out only, please call to order a meal the day before 3608861011.",
@@ -1216,8 +1216,8 @@
 	"longitude": "122.0054494",
 	"phone_number": "360-886-1011",
 	"website": "http://www.blackdiamondcommcenter.org/",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"15:00\"}, Wednesday: {open: \"10:00\", close: \"15:00\"}}",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"12:30\"}, Thursday: {open: \"12:00\", close: \"12:30\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"15:00\"}}",
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Foodbank box for Kirkland residents ONLY. Call 425-2074777",
@@ -1227,17 +1227,17 @@
 	"phone_number": "425-587-3360",
 	"website": "http://www.kirklandwa.gov/depart/parks/About_Parks_and_Community_Services/Senior_Services.htm",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"12:30\"}, Wednesday: {open: \"12:00\", close: \"12:30\"}, Friday: {open: \"12:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
-	"description": "Only delivering meals on Tuesdays Each delivery contains 7 frozen meals Please call ahead.\n\nInstead of our usual ‘grocery store style’ shopping experience, we have set up a ‘drivethrough’ (or walk through) operation. Customers can drive or walk through the alley and we will hand them a prepacked allotment of food.",
+	"description": "Only delivering meals on \"Tuesday\"s Each delivery contains 7 frozen meals Please call ahead.\n\nInstead of our usual ‘grocery store style’ shopping experience, we have set up a ‘drivethrough’ (or walk through) operation. Customers can drive or walk through the alley and we will hand them a prepacked allotment of food.",
 	"address": "1350 Cole St, Enumclaw, WA 98022",
 	"latitude": "47.2020157",
 	"longitude": "121.991691",
 	"phone_number": "360-825-6188",
 	"website": "http://www.plateauoutreach.org/",
-	"food_bank_hours": "{Wednesday: {open: \"09:00\", close: \"12:00\"}}",
-	"meal_hours": "{Tuesday: {open: \"11:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}",
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "",
@@ -1246,7 +1246,7 @@
 	"longitude": "122.2498724",
 	"phone_number": "425-939-1377",
 	"website": "http://cpnorthshore.com/foodbank/",
-	"food_bank_hours": "{Monday: {open: \"18:00\", close: \"19:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"18:00\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "For those who need help in the cities of Des Moines, most of SeaTac, and the West Hill of Kent, Washington.\n\nFamilies can visit once a month and receive a mix of canned, fresh, and frozen food.",
@@ -1255,7 +1255,7 @@
 	"longitude": "122.3224371",
 	"phone_number": "206-878-2660",
 	"website": "http://www.myfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"08:30\", close: \"11:45\"}, Wednesday: {open: \"08:30\", close: \"11:45\"}, Friday: {open: \"08:30\", close: \"11:45\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"08:30\", \"close\": \"11:45\"}, \"Wednesday\": {\"open\": \"08:30\", \"close\": \"11:45\"}, \"Friday\": {\"open\": \"08:30\", \"close\": \"11:45\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food Bank: Note specific Senior Times and visit one time a week\n\nMeals: Please call ahead limited bag lunches available",
@@ -1264,8 +1264,8 @@
 	"longitude": "122.3113797",
 	"phone_number": "206-957-4605",
 	"website": "https://www.elcentrodelaraza.org/gethelp/humanemergencyservices/foodbank/",
-	"food_bank_hours": "{Wednesday: {open: \"15:30\", close: \"18:30\"}, Thursday: {open: \"10:00\", close: \"16:00\"}, Friday: {open: \"10:00\", close: \"16:00\"}}\n\n",
-	"meal_hours": "{Monday: {open: \"11:00\", close: \"12:30\"}, Tuesday: {open: \"11:00\", close: \"12:30\"}, Wednesday: {open: \"11:00\", close: \"12:30\"}, Thursday: {open: \"11:00\", close: \"12:30\"}, Friday: {open: \"11:00\", close: \"12:30\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"15:30\", \"close\": \"18:30\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"16:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"16:00\"}}\n\n",
+	"meal_hours": "{\"Monday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"12:30\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Lunch and packed food items are delivered to homes of seniors and their families or are made available through curbside pickup at the Filipino Community Center.\n\nSenior Lunch Program participants must call ONE DAY AHEAD in order to reserve a lunch and/or food bank bag to pick up. This change does not apply to those who have their lunches delivered. \n\nIf you know any seniors needing food in this time of crisis, please call 2062808406.",
@@ -1274,8 +1274,8 @@
 	"longitude": "122.2871358",
 	"phone_number": "206-722-9372",
 	"website": "http://filcommsea.org/index.php/programs/seniorlunchprogram/",
-	"food_bank_hours": "{Monday: {open: \"11:30\", close: \"13:00\"}, Tuesday: {open: \"11:30\", close: \"13:00\"}, Thursday: {open: \"11:30\", close: \"13:00\"}}",
-	"meal_hours": "{Monday: {open: \"11:30\", close: \"13:00\"}, Tuesday: {open: \"11:30\", close: \"13:00\"}, Thursday: {open: \"11:30\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"11:30\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Delivery drivers will no longer enter client homes and are staying a safe distance from clients",
@@ -1288,14 +1288,14 @@
 	"meal_hours": "Home Delivery only"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
-	"description": "Wednesday Food Bank (910am), Sunday Community Grab and Go Meal (23pm)",
+	"description": "\"Wednesday\" Food Bank (910am), \"Sunday\" Community Grab and Go Meal (23pm)",
 	"address": "410 H St  NE Auburn, WA 98002",
 	"latitude": "47.3116212",
 	"longitude": "122.2190892",
 	"phone_number": "253-833-5280",
 	"website": "http://mlcauburn.org/events/month/",
-	"food_bank_hours": "{Wednesday: {open: \"09:00\", close: \"10:00\"}, Sunday: {open: \"14:00\", close: \"15:00\"}}",
-	"meal_hours": "{Wednesday: {open: \"09:00\", close: \"10:00\"}, Sunday: {open: \"14:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"09:00\", \"close\": \"10:00\"}, \"Sunday\": {\"open\": \"14:00\", \"close\": \"15:00\"}}",
+	"meal_hours": "{\"Wednesday\": {\"open\": \"09:00\", \"close\": \"10:00\"}, \"Sunday\": {\"open\": \"14:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "If you are in need of food but feel uncomfortable waiting in line, we are now offering curbside pickup services. Please drive up to the front of our building and call 2063800277. Let our staff member know which car is yours, and we will then deliver a bag of prepacked groceries to your car.",
@@ -1304,7 +1304,7 @@
 	"longitude": "122.3295651",
 	"phone_number": "206-380-0277",
 	"website": "http://www.northwestharvest.org/sodocommunitymarket?gclid=CjwKCAjwguzzBRBiEiwAgU0FT2oeYOjgOqTnfdpq8cCoSRynhQyJnFA4Xuzmhtt749Xzpz19jAZRoCaTUQAvD_BwE",
-	"food_bank_hours": "{Monday: {open: \"13:30\", close: \"19:30\"}, Wednesday: {open: \"08:00\", close: \"14:00\"}, Friday: {open: \"08:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"13:30\", \"close\": \"19:30\"}, \"Wednesday\": {\"open\": \"08:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"08:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Drivethru grocery pick up. In addition to providing free groceries on a weekly basis, families get diapers and baby formula, household furniture, etc. may also be available.",
@@ -1313,7 +1313,7 @@
 	"longitude": "122.2763197",
 	"phone_number": "253-886-5700",
 	"website": "http://overcomercc.org",
-	"food_bank_hours": "{Friday: {open: \"15:00\", close: \"17:00\"}}"
+	"food_bank_hours": "{\"Friday\": {\"open\": \"15:00\", \"close\": \"17:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "No eligibility requirements,\nTo go prepared meals",
@@ -1323,7 +1323,7 @@
 	"phone_number": "206-783-2244",
 	"website": "http://www.phinneycenter.org/hotmeal/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"16:00\", close: \"18:00\"}, Wednesday: {open: \"11:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"16:00\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "No eligibility requirements,\nTo go prepared meals",
@@ -1333,7 +1333,7 @@
 	"phone_number": "206-297-0875",
 	"website": "http://www.phinneycenter.org/hotmeal/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"16:00\", close: \"18:00\"}, Tuesday: {open: \"16:00\", close: \"18:00\"}, Wednesday: {open: \"11:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"16:00\", \"close\": \"18:00\"}, \"Tuesday\": {\"open\": \"16:00\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "",
@@ -1342,7 +1342,7 @@
 	"longitude": "122.3547797",
 	"phone_number": "206-783-2350",
 	"website": "http://prlc.org/phinneyridgelutheranchurchfoodbank",
-	"food_bank_hours": "{Tuesday: {open: \"13:15\", close: \"15:00\"}, Wednesday: {open: \"18:15\", close: \"20:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"13:15\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"18:15\", \"close\": \"20:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food Banks: Prepackaged grocery bags pick up out front for social distancing.\n\nMeals: Please call ahead for availability\n\nDinner is handed out with lunch.",
@@ -1351,8 +1351,8 @@
 	"longitude": "122.3405616",
 	"phone_number": "206-728-2773",
 	"website": "http://www.pmscfb.org/",
-	"food_bank_hours": "{Tuesday: {open: \"09:30\", close: \"15:00\"}, Wednesday: {open: \"15:00\", close: \"19:00\"}, Thursday: {open: \"09:30\", close: \"15:00\"}}\n\n",
-	"meal_hours": "{Sunday: {open: \"08:15\", close: \"13:00\"}, Monday: {open: \"08:15\", close: \"13:00\"}, Tuesday: {open: \"08:15\", close: \"13:00\"}, Wednesday: {open: \"08:15\", close: \"13:00\"}, Thursday: {open: \"08:15\", close: \"13:00\"}, Friday: {open: \"08:15\", close: \"13:00\"}, Saturday: {open: \"08:15\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"09:30\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"09:30\", \"close\": \"15:00\"}}\n\n",
+	"meal_hours": "{\"Sunday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Monday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Wednesday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"08:15\", \"close\": \"13:00\"}, \"Saturday\": {\"open\": \"08:15\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Plant Based Food Box Program at Good Shepherd Episcopal Church. All families must pre register every week.  Home Delivery or pick up available. Please look on website for further instructions and changes to pickup times",
@@ -1361,7 +1361,7 @@
 	"longitude": "122.3303291",
 	"phone_number": "971-245-2907‬",
 	"website": "http://www.plantbasedfoodshare.org",
-	"food_bank_hours": "{Sunday: {open: \"12:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Sunday\": {\"open\": \"12:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Plant Based Food Box Program  A weeks of fresh food for families to prepare together . All families must pre register every week. Delivery or pick up available. Please look on website for further instructions and changes to pickup times.",
@@ -1370,7 +1370,7 @@
 	"longitude": "122.2809353",
 	"phone_number": "971-245-2907‬",
 	"website": "http://www.plantbasedfoodshare.org",
-	"food_bank_hours": "{Monday: {open: \"12:00\", close: \"13:30\"}, Sunday: {open: \"02:00\", close: \"13:30\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"12:00\", \"close\": \"13:30\"}, \"Sunday\": {\"open\": \"02:00\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Food delivery and togo food bag for persons without access to a kitchen and in need of preprepared foods. Must sign up on the waitlist for food delivery: docs.google.com/forms/d/e/1FAIpQLSc2Z4G8Frfb6W6jfcDxIgeqR4YX6zLnnnJj8jEhchU1sFGcA/viewform",
@@ -1379,7 +1379,7 @@
 	"longitude": "122.2888973",
 	"phone_number": "206-723-4105",
 	"website": "http://www.rvfb.org/whatwedo/",
-	"food_bank_hours": "{Wednesday: {open: \"10:00\", close: \"13:00\"}, Saturday: {open: \"09:30\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Saturday\": {\"open\": \"09:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Food Bank: Bring local ID\nMeals: Please call ahead for availability",
@@ -1388,8 +1388,8 @@
 	"longitude": "122.3144483",
 	"phone_number": "206-329-8700",
 	"website": "http://www.seattleindian.org/services/foodsecurityprograms/",
-	"food_bank_hours": "{Tuesday: {open: \"13:00\", close: \"15:00\"}, Thursday: {open: \"13:00\", close: \"15:00\"}}",
-	"meal_hours": "{Monday: {open: \"08:30\", close: \"13:15\"}, Tuesday: {open: \"08:30\", close: \"13:15\"}, Wednesday: {open: \"08:30\", close: \"13:15\"}, Thursday: {open: \"08:30\", close: \"13:15\"}, Friday: {open: \"08:30\", close: \"13:15\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"13:00\", \"close\": \"15:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"15:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"08:30\", \"close\": \"13:15\"}, \"Tuesday\": {\"open\": \"08:30\", \"close\": \"13:15\"}, \"Wednesday\": {\"open\": \"08:30\", \"close\": \"13:15\"}, \"Thursday\": {\"open\": \"08:30\", \"close\": \"13:15\"}, \"Friday\": {\"open\": \"08:30\", \"close\": \"13:15\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Prepackaged grocery bags of perishable and nonperishable items can be picked up out front. Clothing and hygiene items available upon request.",
@@ -1398,7 +1398,7 @@
 	"longitude": "122.3291318",
 	"phone_number": "206-686-5260",
 	"website": "http://www.svdpseattle.org/gethelp/foodbank/",
-	"food_bank_hours": "{Tuesday: {open: \"11:00\", close: \"14:00\"}, Thursday: {open: \"11:00\", close: \"14:00\"}, Friday: {open: \"11:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Please call ahead for availability and please visit the website for virtual activities www.spseniors.org\n\nFor Food Bank Home Delivery by Providence Regina House call (206)7639204.",
@@ -1407,7 +1407,7 @@
 	"longitude": "122.320528",
 	"phone_number": "206-727-6248",
 	"website": "http://www.soundgenerations.org/ourprograms/foodsecurity/communitydining/",
-	"food_bank_hours": "{Thursday: {open: \"12:30\", close: \"14:00\"}, Saturday: {open: \"09:00\", close: \"12:00\"}}",
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"12:30\", \"close\": \"14:00\"}, \"Saturday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}",
 	"meal_hours": "Call for meal information"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
@@ -1417,8 +1417,8 @@
 	"longitude": "122.3864553",
 	"phone_number": "206-727-6248",
 	"website": "http://scws.org/services/foodanddining/",
-	"food_bank_hours": "{Tuesday: {open: \"09:00\", close: \"10:00\"}}",
-	"meal_hours": "{Monday: {open: \"11:45\", close: \"12:30\"}, Tuesday: {open: \"11:45\", close: \"12:30\"}, Wednesday: {open: \"11:45\", close: \"12:30\"}, Thursday: {open: \"11:45\", close: \"12:30\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"09:00\", \"close\": \"10:00\"}}",
+	"meal_hours": "{\"Monday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Tuesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Wednesday\": {\"open\": \"11:45\", \"close\": \"12:30\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\", \"meal\"]",
 	"description": "Please call ahead for availability",
@@ -1427,8 +1427,8 @@
 	"longitude": "122.2026247",
 	"phone_number": "425-487-2441",
 	"website": "http://www.northshoreseniorcenter.org/programsservices/",
-	"food_bank_hours": "{Tuesday: {open: \"09:00\", close: \"12:00\"}, Thursday: {open: \"15:00\", close: \"18:00\"}, Saturday: {open: \"09:00\", close: \"12:00\"}}\n",
-	"meal_hours": "{Monday: {open: \"11:45\", close: \"12:15\"}, Tuesday: {open: \"11:45\", close: \"12:15\"}, Wednesday: {open: \"11:45\", close: \"12:15\"}, Thursday: {open: \"11:45\", close: \"12:15\"}, Friday: {open: \"11:45\", close: \"12:15\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"09:00\", \"close\": \"12:00\"}, \"Thursday\": {\"open\": \"15:00\", \"close\": \"18:00\"}, \"Saturday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}\n",
+	"meal_hours": "{\"Monday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Tuesday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Wednesday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Thursday\": {\"open\": \"11:45\", \"close\": \"12:15\"}, \"Friday\": {\"open\": \"11:45\", \"close\": \"12:15\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Togo only; guests may not arrive before 7am, and may not stay onsite after receiving a meal",
@@ -1438,17 +1438,17 @@
 	"phone_number": "206-6223-559",
 	"website": "http://www.stjamescathedral.org/outreach/kitchen.aspx",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"07:00\", close: \"08:00\"}, Monday: {open: \"16:15\", close: \"18:30\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"07:00\", \"close\": \"08:00\"}, \"Monday\": {\"open\": \"16:15\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "FREE delivery of up to seven frozen meals each Wednesday during the Covid19 Stay Home, Stay Safe mandate. Halal meals available. For seniors 60 and older\nResidents have about 15 meal choices and can get 7 meals per person per week\nStaff will call residents on Monday's to get their orders\nIf we think residents can qualify for the regular Meals on Wheels program, we try to get them signed up for that program.",
+	"description": "FREE delivery of up to seven frozen meals each \"Wednesday\" during the Covid19 Stay Home, Stay Safe mandate. Halal meals available. For seniors 60 and older\nResidents have about 15 meal choices and can get 7 meals per person per week\nStaff will call residents on \"Monday\"'s to get their orders\nIf we think residents can qualify for the regular Meals on Wheels program, we try to get them signed up for that program.",
 	"address": "12424 42nd Avenue South, Tukwila, WA 98168",
 	"latitude": "47.491773",
 	"longitude": "122.279205",
 	"phone_number": "206-767-2321",
 	"website": "http://www.tukwilablog.com/2020/04/10/tukwilaparksrecofferingfreedeliveriesofmealstoseniors/",
 	"food_bank_hours": "",
-	"meal_hours": "{Wednesday: {open: \"10:30\", close: \"12:00\"}}"
+	"meal_hours": "{\"Wednesday\": {\"open\": \"10:30\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "The Urban Fresh Food Collective also hosts a weekly free market (El Mercadito)",
@@ -1457,7 +1457,7 @@
 	"longitude": "122.3154219",
 	"phone_number": "",
 	"website": "http://www.urbanfreshfoodcollective.org/elmercadito",
-	"food_bank_hours": "{Thursday: {open: \"10:30\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Thursday\": {\"open\": \"10:30\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Phone number listed accepts texts in English and Spanish",
@@ -1467,10 +1467,10 @@
 	"phone_number": "206-809-9691",
 	"website": "http://www.urbanfreshfoodcollective.org/covid19",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"15:00\", close: \"16:30\"}, Wednesday: {open: \"15:00\", close: \"16:30\"}, Thursday: {open: \"15:00\", close: \"16:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"15:00\", \"close\": \"16:30\"}, \"Wednesday\": {\"open\": \"15:00\", \"close\": \"16:30\"}, \"Thursday\": {\"open\": \"15:00\", \"close\": \"16:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Y branches are closed but housing, shelter, and counseling services continuing w/ social distancing practices",
+	"description": "Y branches are \"close\"d but housing, shelter, and counseling services continuing w/ social distancing practices",
 	"address": "5003 12th Ave NE, Seattle, WA 98105",
 	"latitude": "47.6653128",
 	"longitude": "122.3155223",
@@ -1487,7 +1487,7 @@
 	"phone_number": "206-622-5555",
 	"website": "http://www.youthcare.org/homelessyouthservices/engagementservices/youthcaresorioncenter/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"13:00\", close: \"18:30\"}, Tuesday: {open: \"13:00\", close: \"18:30\"}, Wednesday: {open: \"13:00\", close: \"18:30\"}, Thursday: {open: \"13:00\", close: \"18:30\"}, Friday: {open: \"13:00\", close: \"18:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"18:30\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"18:30\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"18:30\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"18:30\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Only offers day services and is too small to support an overnight shelter UDYC has partnered with ROOTS Young Adult Shelter, University Congregational Church, and Teen Feed in the University District so that young people can have consistent meals and additional activity space during the day and shelter at night",
@@ -1497,26 +1497,26 @@
 	"phone_number": "206-622-5555",
 	"website": "http://www.youthcare.org/gethelp/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"10:00\", close: \"14:00\"}, Tuesday: {open: \"12:00\", close: \"15:00\"}, Wednesday: {open: \"10:00\", close: \"14:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}, Sunday: {open: \"10:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Tuesday\": {\"open\": \"12:00\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Sunday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Email nhilton@ywcaworksorg to sign up for home delivery that occurs Wednesdays",
+	"description": "Email nhilton@ywcaworksorg to sign up for home delivery that occurs \"Wednesday\"s",
 	"address": "2820 E Cherry Street, Seattle, WA 98122",
 	"latitude": "47.608328",
 	"longitude": "122.2958409",
 	"phone_number": "206-375-1496",
 	"website": "http://www.ywcaworks.org/programs/centralareafoodbank",
-	"food_bank_hours": "{Wednesday: {open: \"12:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"12:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Site provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on Mondays. Free meals also available for parents. Call: (206)5386567 for more information.",
+	"description": "Site provides free take home meals for kids and teens 18 and younger. A weeks' supply of breakfasts available on \"Monday\"s. Free meals also available for parents. Call: (206)5386567 for more information.",
 	"address": "12531 28th Ave NE, Seattle, WA 98125",
 	"latitude": "47.7203524",
 	"longitude": "122.2981048",
 	"phone_number": "206-538-6567",
 	"website": "http://www.hungerintervention.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"12:30\", close: \"13:30\"}, Wednesday: {open: \"12:30\", close: \"13:30\"}, Friday: {open: \"12:30\", close: \"13:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"12:30\", \"close\": \"13:30\"}, \"Wednesday\": {\"open\": \"12:30\", \"close\": \"13:30\"}, \"Friday\": {\"open\": \"12:30\", \"close\": \"13:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Distributing prepacked boxes or bags",
@@ -1525,7 +1525,7 @@
 	"longitude": "122.236771",
 	"phone_number": "253-351-0450",
 	"website": "http://networks.whyhunger.org/organization/view/28396",
-	"food_bank_hours": "{Tuesday: {open: \"10:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Serves residents of residents of Auburn School District; proof of address and ID required.\n\nCurbside/car drop off for existing clients; if new client, application will need to be filled out quickly inside.",
@@ -1534,16 +1534,16 @@
 	"longitude": "122.218286",
 	"phone_number": "253-833-8925",
 	"website": "http://www.theauburnfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"09:00\", close: \"13:00\"}, Tuesday: {open: \"09:00\", close: \"13:00\"}, Thursday: {open: \"09:00\", close: \"13:00\"}, Friday: {open: \"09:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"09:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"09:00\", \"close\": \"13:00\"}, \"Friday\": {\"open\": \"09:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Food bank services will remain open",
+	"description": "Food bank services will remain \"open\"",
 	"address": "10510 Stone Ave N, Seattle, WA 98133",
 	"latitude": "47.7052676",
 	"longitude": "122.3416573",
 	"phone_number": "206-552-9586",
 	"website": "http://www.epiclifechurch.org/incarnationalministry",
-	"food_bank_hours": "{Monday: {open: \"09:30\", close: \"12:45\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:30\", \"close\": \"12:45\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "",
@@ -1552,16 +1552,16 @@
 	"longitude": "121.8906809",
 	"phone_number": "425-269-8098",
 	"website": "http://www.fallcityfoodpantry.org/",
-	"food_bank_hours": "{Wednesday: {open: \"12:00\", close: \"19:30\"}, Friday: {open: \"10:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"12:00\", \"close\": \"19:30\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Food bank available to Federal Way School District residents regardless of income.\n\nFood will be distributed in preprepared boxes at a marked distribution point during regular food bank hours.\n\nThe Clothing Bank will be closed.",
+	"description": "Food bank available to Federal Way School District residents regardless of income.\n\nFood will be distributed in preprepared boxes at a marked distribution point during regular food bank hours.\n\nThe Clothing Bank will be \"close\"d.",
 	"address": "1200 S 336th St, Federal Way, WA 98003",
 	"latitude": "47.3013527",
 	"longitude": "122.320142",
 	"phone_number": "253-838-6810",
 	"website": "http://mschelps.org/gethelp/food/",
-	"food_bank_hours": "{Monday: {open: \"09:30\", close: \"14:00\"}, Wednesday: {open: \"09:30\", close: \"14:00\"}, Friday: {open: \"09:30\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"09:30\", \"close\": \"14:00\"}, \"Friday\": {\"open\": \"09:30\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Food and clothing bank",
@@ -1570,7 +1570,7 @@
 	"longitude": "122.2238173",
 	"phone_number": "206-227-5977",
 	"website": "http://www.helpnorthwest.com/1401.html",
-	"food_bank_hours": "{Monday: {open: \"13:00\", close: \"17:00\"}, Tuesday: {open: \"13:00\", close: \"17:00\"}, Wednesday: {open: \"13:00\", close: \"17:00\"}, Thursday: {open: \"13:00\", close: \"17:00\"}, Friday: {open: \"13:00\", close: \"17:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"17:00\"}, \"Tuesday\": {\"open\": \"13:00\", \"close\": \"17:00\"}, \"Wednesday\": {\"open\": \"13:00\", \"close\": \"17:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"17:00\"}, \"Friday\": {\"open\": \"13:00\", \"close\": \"17:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "We are asking our clients to wash hands when they enter the building and not to touch any thing while in the building. The food will be put in a bag or box in your cart all while asking you still which foods you would want. As you exit the building the cart will be given to you to go to your car. Please bring the cart back up to the door so that we may clean it before our next client.",
@@ -1579,7 +1579,7 @@
 	"longitude": "122.3275755",
 	"phone_number": "206-433-9900",
 	"website": "http://www.highlineareafoodbank.org/",
-	"food_bank_hours": "{Tuesday: {open: \"12:00\", close: \"02:30\"}, Thursday: {open: \"10:00\", close: \"12:30\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"02:30\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"12:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Need to set an appointment for services via website: www.holyinn.org/85",
@@ -1588,7 +1588,7 @@
 	"longitude": "121.9818384",
 	"phone_number": "425-788-1400",
 	"website": "http://www.holyinn.org/85",
-	"food_bank_hours": "{Tuesday: {open: \"15:00\", close: \"18:30\"}, Wednesday: {open: \"10:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"15:00\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Emergency food",
@@ -1597,16 +1597,16 @@
 	"longitude": "122.2393177",
 	"phone_number": "206-722-3984",
 	"website": "http://www.facebook.com/HolyTECSeattle/",
-	"food_bank_hours": "{Saturday: {open: \"13:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Saturday\": {\"open\": \"13:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Serving zips: 98027, 98029, 98059 and 98075; ID helpful; proof of address needed\n\nPrepacked food boxes and produce bags distributed every other week with two weeks worth of food. Drive or walk up service only outside the building (179 1st Ave SE).\n\nMasks required for visits\n\nOpen: August 11, 13, 25, 27\nSeptember 8,10,22,24\n\nGroceries to Go will still be delivered every week.",
+	"description": "Serving zips: 98027, 98029, 98059 and 98075; ID helpful; proof of address needed\n\nPrepacked food boxes and produce bags distributed every other week with two weeks worth of food. Drive or walk up service only outside the building (179 1st Ave SE).\n\nMasks required for visits\n\n\"open\": August 11, 13, 25, 27\nSeptember 8,10,22,24\n\nGroceries to Go will still be delivered every week.",
 	"address": "179 1st Ave SE, Issaquah, WA 98027",
 	"latitude": "47.528687",
 	"longitude": "122.0349549",
 	"phone_number": "425-392-4123",
 	"website": "http://issaquahfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"13:00\", close: \"19:00\"}, Thursday: {open: \"13:00\", close: \"19:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"13:00\", \"close\": \"19:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"19:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Requires: photo ID/food bank card or photo ID and piece of mail from Kent service area.\n\nWalkup customers: prepackaged boxes distributed at east door.\n\nDriveup customers: prepackaged boxes distributes at posted sign, please remain in your vehicle.\n\n1 person per household will be allowed entrance into the building/office for checkin, no exceptions. All other household members, family or friends, must remain outside waiting, no matter age or reason you brought them. *During this time please leave children at home with childcare or bring a responsible person who can care for them outside while you are checking in.",
@@ -1615,7 +1615,7 @@
 	"longitude": "122.2386782",
 	"phone_number": "",
 	"website": "http://www.kentfoodbank.org/foodbank.php",
-	"food_bank_hours": "{Wednesday: {open: \"10:00\", close: \"13:00\"}, Thursday: {open: \"10:00\", close: \"11:00\"}, Friday: {open: \"10:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"11:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Service area only, proof of address: Maple Valley, Black Diamond, Hobart, Tahoma SD.",
@@ -1624,7 +1624,7 @@
 	"longitude": "122.0395922",
 	"phone_number": "425-432-8633",
 	"website": "http://maplevalleyfoodbank.org/",
-	"food_bank_hours": "{Tuesday: {open: \"10:30\", close: \"18:00\"}, Wednesday: {open: \"10:30\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:30\", \"close\": \"18:00\"}, \"Wednesday\": {\"open\": \"10:30\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Please call ahead for availability",
@@ -1634,7 +1634,7 @@
 	"phone_number": "253-835-6925",
 	"website": "http://www.itallhappenshere.org/category/news/fwccoperationnotices/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"11:00\", close: \"13:00\"}, Thursday: {open: \"11:00\", close: \"13:00\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"11:00\", \"close\": \"13:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Groceries to feed a family of 4",
@@ -1643,7 +1643,7 @@
 	"longitude": "122.2218815",
 	"phone_number": "253-852-5144",
 	"website": "http://hillsidechurch.squarespace.com/local1",
-	"food_bank_hours": "{Saturday: {open: \"09:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Saturday\": {\"open\": \"09:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Togo ready-to-eat food available nightly.",
@@ -1653,7 +1653,7 @@
 	"phone_number": "206-323-4359",
 	"website": "http://www.seattlenightwatch.org/whatwedo/foodandshelter/",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"21:00\", close: \"21:30\"}, Tuesday: {open: \"21:00\", close: \"21:30\"}, Wednesday: {open: \"21:00\", close: \"21:30\"}, Thursday: {open: \"21:00\", close: \"21:30\"}, Friday: {open: \"21:00\", close: \"21:30\"}, Saturday: {open: \"21:00\", close: \"21:30\"}, Sunday: {open: \"21:00\", close: \"21:30\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Tuesday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Wednesday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Thursday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Friday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Saturday\": {\"open\": \"21:00\", \"close\": \"21:30\"}, \"Sunday\": {\"open\": \"21:00\", \"close\": \"21:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "",
@@ -1662,7 +1662,7 @@
 	"longitude": "122.3524692",
 	"phone_number": "206-432-7210",
 	"website": "http://www.paradiseofpraise.org/",
-	"food_bank_hours": "{Tuesday: {open: \"10:00\", close: \"12:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:00\", \"close\": \"12:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Extended hours during COVID",
@@ -1672,17 +1672,17 @@
 	"phone_number": "425-222-5573",
 	"website": "http://ragingrivercommunitychurch.org/ministry/foodbank/",
 	"food_bank_hours": "",
-	"meal_hours": "{Thursday: {open: \"13:00\", close: \"16:00\"}}"
+	"meal_hours": "{\"Thursday\": {\"open\": \"13:00\", \"close\": \"16:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
-	"description": "Instead of our usual hot meal setup, we continue to provide togo meals. We set up Sunday afternoon from 34 as usual (on 65th and 8th Ave NE, under the I5 overpass). \nContact ravennapopupkitchen@gmail.com for more information.",
+	"description": "Instead of our usual hot meal setup, we continue to provide togo meals. We set up \"Sunday\" afternoon from 34 as usual (on 65th and 8th Ave NE, under the I5 overpass). \nContact ravennapopupkitchen@gmail.com for more information.",
 	"address": "65th and 8th Ave NE, under the I5 overpass",
 	"latitude": "47.675803",
 	"longitude": "122.320245",
 	"phone_number": "None",
 	"website": "http://www.facebook.com/pages/category/Community/RavennaPopUpKitchen498542463880219/",
 	"food_bank_hours": "",
-	"meal_hours": "{Sunday: {open: \"15:00\", close: \"16:00\"}}"
+	"meal_hours": "{\"Sunday\": {\"open\": \"15:00\", \"close\": \"16:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Eligibility: You can visit one time per week, you will need to provide proof of address and your ID on your first visit, each time you come please bring your ID.\n\nNew Process: Visitors stay outdoors, volunteers stay indoors, a volunteer shows you which items are available, you decide which items to accept, fresh fruits and vegetables are prebagged, a volunteer places your selection in paper bags, the new process gets you in and out in about two minutes.",
@@ -1691,7 +1691,7 @@
 	"longitude": "122.1394748",
 	"phone_number": "425-736-8132",
 	"website": "https://www.facebook.com/RenewalFoodBank/",
-	"food_bank_hours": "{Monday: {open: \"24:00\", close: \"15:00\"}, Tuesday: {open: \"16:00\", close: \"18:30\"}, Wednesday: {open: \"10:00\", close: \"13:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"24:00\", \"close\": \"15:00\"}, \"Tuesday\": {\"open\": \"16:00\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"10:00\", \"close\": \"13:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Only prebagged available",
@@ -1700,16 +1700,16 @@
 	"longitude": "122.328461",
 	"phone_number": "206-442-8377",
 	"website": "http://www.seattlefoodcommittee.org/foodbankdirectory/seattlefoodbanks/salvationarmyfoodbank.html",
-	"food_bank_hours": "{Tuesday: {open: \"09:00\", close: \"15:00\"}, Wednesday: {open: \"09:00\", close: \"15:00\"}, Thursday: {open: \"13:00\", close: \"15:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Wednesday\": {\"open\": \"09:00\", \"close\": \"15:00\"}, \"Thursday\": {\"open\": \"13:00\", \"close\": \"15:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
-	"description": "Food bank open but the Mobile Food Bank Van has been cancelled.",
+	"description": "Food bank \"open\" but the Mobile Food Bank Van has been cancelled.",
 	"address": "122 E 3rd St, North Bend, WA 98045",
 	"latitude": "47.4962806",
 	"longitude": "121.783458",
 	"phone_number": "425-888-7832",
 	"website": "http://www.snoqualmievalleyfoodbank.org/",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"13:00\"}, Tuesday: {open: \"15:00\", close: \"18:30\"}, Wednesday: {open: \"09:30\", close: \"16:30\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"13:00\"}, \"Tuesday\": {\"open\": \"15:00\", \"close\": \"18:30\"}, \"Wednesday\": {\"open\": \"09:30\", \"close\": \"16:30\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "",
@@ -1718,7 +1718,7 @@
 	"longitude": "122.1662234",
 	"phone_number": "253-631-1940",
 	"website": "http://www.ststephenslife.com/foodbank",
-	"food_bank_hours": "{Monday: {open: \"10:00\", close: \"11:45\"}, Wednesday: {open: \"16:00\", close: \"17:45\"}, Friday: {open: \"10:00\", close: \"11:45\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"11:45\"}, \"Wednesday\": {\"open\": \"16:00\", \"close\": \"17:45\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"11:45\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Distributing prepacked boxes or bags",
@@ -1727,7 +1727,7 @@
 	"longitude": "122.1027806",
 	"phone_number": "253-631-3038",
 	"website": "http://www.covingtonstorehouse.org/post/covid19information",
-	"food_bank_hours": "{Monday: {open: \"16:00\", close: \"18:00\"}, Friday: {open: \"10:00\", close: \"12:00\"}, Saturday: {open: \"09:00\", close: \"24:00\"}}"
+	"food_bank_hours": "{\"Monday\": {\"open\": \"16:00\", \"close\": \"18:00\"}, \"Friday\": {\"open\": \"10:00\", \"close\": \"12:00\"}, \"Saturday\": {\"open\": \"09:00\", \"close\": \"24:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "For the duration of the COVID 19 Emergency all normal registration procedures are temporarily suspended until further notice.",
@@ -1736,7 +1736,7 @@
 	"longitude": "122.2924379",
 	"phone_number": "206-431-8293",
 	"website": "http://tukwilapantry.org/",
-	"food_bank_hours": "{Tuesday: {open: \"10:00\", close: \"14:00\"}, Thursday: {open: \"10:00\", close: \"14:00\"}, Saturday: {open: \"10:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Saturday\": {\"open\": \"10:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"food bank\"]",
 	"description": "Delivery to in town locations  Tues from 12:00  16:00\n\nDelivery to all other island homes Thurs from 10:00  16:00",
@@ -1745,7 +1745,7 @@
 	"longitude": "122.4633388",
 	"phone_number": "206-463-6332",
 	"website": "http://www.vashonfoodbank.org/",
-	"food_bank_hours": "{Wednesday: {open: \"10:00\", close: \"14:00\"}, Thursday: {open: \"11:00\", close: \"17:00\"}, Friday: {open: \"11:00\", close: \"14:00\"}}"
+	"food_bank_hours": "{\"Wednesday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Thursday\": {\"open\": \"11:00\", \"close\": \"17:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Isolated seniors may sign up by calling the Center or emailing: lunch@vashoncenter.org \n\nMeal on Wheels available to qualifying older adults; provides frozen meals to seniors who have difficulty shopping.",
@@ -1755,7 +1755,7 @@
 	"phone_number": "206-463-5173",
 	"website": "http://www.vashoncenter.org/lunchdelivery",
 	"food_bank_hours": "",
-	"meal_hours": "{Monday: {open: \"10:00\", close: \"14:00\"}, Wednesday: {open: \"11:00\", close: \"17:00\"}, Friday: {open: \"11:00\", close: \"14:00\"}}"
+	"meal_hours": "{\"Monday\": {\"open\": \"10:00\", \"close\": \"14:00\"}, \"Wednesday\": {\"open\": \"11:00\", \"close\": \"17:00\"}, \"Friday\": {\"open\": \"11:00\", \"close\": \"14:00\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "Distributing cold/shelfstable nocook meals only for guests during Covid19",
@@ -1774,7 +1774,7 @@
 	"longitude": "122.1518646",
 	"phone_number": "425-483-5252",
 	"website": "http://www.woodinvillestorehouse.org",
-	"food_bank_hours": "{Tuesday: {open: \"14:30\", close: \"15:20\"}, Saturday: {open: \"09:30\", close: \"10:20\"}}"
+	"food_bank_hours": "{\"Tuesday\": {\"open\": \"14:30\", \"close\": \"15:20\"}, \"Saturday\": {\"open\": \"09:30\", \"close\": \"10:20\"}}"
 }, {
 	"food_resource_type": "[\"meal\"]",
 	"description": "",
@@ -1784,5 +1784,5 @@
 	"phone_number": "206-243-5024",
 	"website": "http://www.cbsr.org/",
 	"food_bank_hours": "",
-	"meal_hours": "{Tuesday: {open: \"12:00\", close: \"12:30\"}}"
+	"meal_hours": "{\"Tuesday\": {\"open\": \"12:00\", \"close\": \"12:30\"}}"
 }]
