@@ -14,20 +14,91 @@ var router = express.Router();
 // GET
 router.get('/', async (req, res) => {
     try {
-        let allFoodResources = await req.db.FoodResource.find()
+        let foodBank = req.query.foodbank;
+        let meal = req.query.meal;
+        let communityFridge = req.query.communityfridge;
+        let maxDistance = req.query.maxdistance;
+        let school = req.query.school;
 
+        let foodType = [];
+        // console.log("food bank " + foodBank);
+        // console.log("meal " + meal);
+        // console.log("community fridge " + communityFridge);
+
+        // if TRUE add it to the array 
+        if(foodBank === 'true') {
+            foodType.push("food bank");
+        }
+        if(meal === 'true') {
+            foodType.push("meal");
+        }
+        if(communityFridge === 'true') {
+            foodType.push("community fridge");
+        }
+
+        // console.log("*****Food Type*****: " + foodType);
+        let filteredFoodTypes = await req.db.FoodResource.find( { type: { $in: foodType} } ).lean()
+        // console.log(filteredFoodTypes);
+        let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools/getOneSchool?school=${school}`); // do the school fetching here
+        let schoolJson = await schoolResponse.json();
+        let selectedSchool = schoolJson.school[0];
+        // console.log(selectedSchool);
+
+        console.log("ha")
+        filteredFoodTypes.forEach(function (foodResource) {
+            foodResource["distance"] = calculateDistance(selectedSchool.latitude, selectedSchool.longitude, foodResource.latitude, foodResource.longitude) 
+        });
+        // console.log("**************FOOD RESOURCE");
+        // console.log(filteredFoodTypes);
+
+        let matchingFoodResources = filteredFoodTypes.filter((foodResource) => {
+            return foodResource[distance] <= maxDistance;
+        })
+     
         res.type("json")
-        res.status(200).send({
+        res.body = filteredFoodTypes;
+        res.status(200).send ({
             "status": "success",
-            "foodResources": allFoodResources
+            "foodResources": matchingFoodResources
         })
     } catch (err) {
-        res.send({
+        res.status(500).send({
             "status": "error",
             "error": err
         })
     }
 })
+
+// function calculateDistance(schoolLat, schoolLng, foodResourceLat, foodResourceLng) {
+//     var R = 3958.8; // Radius of the Earth in miles
+//     var rlat1 = schoolLat * (Math.PI / 180); // Convert degrees to radians
+//     var rlat2 = foodResourceLat * (Math.PI / 180); // Convert degrees to radians
+//     var diffLat = rlat2 - rlat1; // Radian difference (latitudes)
+//     var diffLng = ((-1 * foodResourceLng) - (-1 *schoolLng)) * (Math.PI/180); // Radian difference (longitudes)
+
+//     var d = 2 * R * Math.asin(Math.sqrt(Math.sin(diffLat/2)*Math.sin(diffLat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(diffLng/2)*Math.sin(diffLng/2)));
+//     return d;   
+// }
+
+function calculateDistance(schoolLat, schoolLng, foodResourceLat, foodResourceLng) {
+    // console.log("school LAT : " + schoolLat)
+    // console.log("school LNG : " + schoolLat)
+    // console.log("food resource LAT : " + foodResourceLat)
+    // console.log("food resource LNG : " + foodResourceLng)
+    var R = 3956; // Radius of the Earth in miles
+    var rlat1 = schoolLat * (Math.PI / 180); // Convert degrees to radians
+    var rlat2 = foodResourceLat * (Math.PI / 180); // Convert degrees to radians
+    var rlng1 = (-1 * schoolLng) * (Math.PI / 180);
+    console.log(rlng1);
+    var rlng2 = (-1 * foodResourceLng) * (Math.PI / 180);
+    var diffLat = rlat2 - rlat1; // Radian difference (latitudes)
+    var diffLng = rlng2 - rlng1 // Radian difference (longitudes)
+
+    let ans1 = Math.pow(Math.sin(diffLat / 2), 2) + Math.cos(rlat1) * Math.cos(rlat2) * Math.pow(Math.sin(diffLng / 2), 2);
+    let d = 2 * Math.asin(Math.sqrt(ans1)) * R;
+    // console.log(d);
+    return d;   
+}
 
 // POST
 router.post('/import', async (req, res) => {

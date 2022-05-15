@@ -180,6 +180,7 @@
 .food-near-you {
   background-color: rgb(112, 128, 144);
   height: 50rem;
+  overflow: auto;
 }
 
 form {
