@@ -389,9 +389,13 @@ form {
 .form {
   background-color: rgb(112, 128, 144);
   height: 50rem;
+  text-align: center;
+  padding: 20px;
 }
 
 .form h1, .form p {
   color: white;
 }
+
+
 
