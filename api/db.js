@@ -78,7 +78,6 @@ async function dbConnect() {
             additional_info: String
         }
     })
-
     db.FormSubmission = mongoose.model("formsubmissions", formSubmissionSchema)
 
 
