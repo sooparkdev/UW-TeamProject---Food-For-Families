@@ -5,6 +5,9 @@ const require = createRequire(import.meta.url)
 // Import Libraries
 import express from 'express'
 
+// Import Services
+import parseData from '../services/parseData.js'
+
 // Import the Food Resources JSON data
 const foodResources = require('../../../../data/foodResources.json')
 
@@ -100,15 +103,6 @@ router.post('/import', async (req, res) => {
         })
     }
 })
-
-function parseData(data) {
-    try {
-        let JSONData = JSON.parse(data)
-        return JSONData
-    } catch (err) {
-        return {}
-    }
-}
 
 function setHours(foodResource) {
     let ret = []
