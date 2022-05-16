@@ -1,6 +1,9 @@
 // Import Libraries
 import express from 'express'
 
+// Import Services
+import logColored from '../services/logColored.js'
+
 // Set the router
 var router = express.Router();
 
@@ -25,6 +28,57 @@ router.get('/', async (req, res) => {
 // POST
 router.post('/', async (req, res) => {
     try {
+        checkTest(req.query.test, res)
+
+        let body = req.body
+
+        if (body === null || Object.keys(body).length === 0) {
+            res.status(400).send({
+                "status": "error",
+                "error": "No request body"
+            })
+            return
+        }
+
+        if (!hasAllProperties(body)) {
+            res.status(400).send({
+                "status": "error",
+                "error": "Invalid or incomplete request body"
+            })
+            return
+        }
+
+        const newFormSubmission = new req.db.FormSubmission({
+            "name": body.name,
+            "phone_number": body.phone_number,
+            "email": body.email,
+            "form_submission_info": {
+                "name": body.resource_name,
+                "phone_number": body.resource_phone,
+                "website": body.resource_website,
+                "email": body.resource_email,
+                "food_resource_type": body.resource_type,
+                "address": body.resource_address,
+                "additional_info": body.resource_additional_info
+            }
+        })
+
+        await newFormSubmission.save()
+
+        res.status(201).send({
+            "status": "success"
+        })
+    } catch (err) {
+        res.status(500).send({
+            "status": "error",
+            "error": err
+        })
+    }
+})
+
+async function checkTest(testing, res) {
+    if (testing) {
+        // Sample Submission
         const sampleSubmission = new req.db.FormSubmission({
             "name": "John Doe",
             "phone_number": "206-777-3333",
@@ -40,21 +94,20 @@ router.post('/', async (req, res) => {
             }
         })
 
-        await sampleSubmission.save().catch(err => res.status(400).send({
-            "status": "error",
-            "error": "Error with saving data to database.",
-            "errorDetails": err
-        }))
-
-        res.status(200).send({
+        await sampleSubmission.save()
+        res.status(201).send({
             "status": "success"
         })
-    } catch (err) {
-        res.send({
-            "status": "error",
-            "error": err
-        })
+        return
     }
-})
+}
+
+function hasAllProperties(body) {
+    if(Object.keys(body).length == 10) {
+        return true
+    } else {
+        return false
+    }
+}
 
 export default router
