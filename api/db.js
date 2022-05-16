@@ -22,6 +22,7 @@ async function dbConnect() {
     console.log("[Food for Friends API] Successfully connected to the database!")
 
     // Create any schemas here!
+    // Food Resources
     const foodResourceSchema = new mongoose.Schema({
         type: [{ 
             type: String
@@ -52,12 +53,33 @@ async function dbConnect() {
     })
     db.FoodResource = mongoose.model("foodresources", foodResourceSchema)
     
+    // Schools
     const elementarySchoolSchema = new mongoose.Schema({
         name: String,
         latitude: Number,
         longitude: Number,
     })
     db.School = mongoose.model("schools", elementarySchoolSchema)
+
+    // Form Submissions
+    const formSubmissionSchema = new mongoose.Schema({
+        name: String,
+        phone_number: String,
+        email: String,
+        food_resource_info: {
+            name: String,
+            phone_number: String,
+            website: String,
+            email: String,
+            type: [{ 
+                type: String
+            }],
+            address: String,
+            additional_info: String
+        }
+    })
+
+    db.FormSubmission = mongoose.model("formsubmissions", formSubmissionSchema)
 
 
     console.log("[Food for Friends API] Successfully created database schemas and models!")
