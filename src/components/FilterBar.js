@@ -6,8 +6,10 @@ const Filterbar = () => {
     const [filteredSchools, setFilteredSchools] = useState([]);
     const [hasError, setHasError] = useState(false);
 
-    const [school, setSchool] = useState([]);
+    const [school, setSchool] = useState("");
+    const [hasSchoolInputError, setHasSchoolInputError] = useState(false);
     const [maxDistance, setMaxDistance] = useState(null);
+    const [hasDistanceInputError, setHasDistanceInputError] = useState(false);
     const [foodBankChecked, setFoodBankChecked] = useState(true);
     const [mealChecked, setMealChecked] = useState(true);
     const [communityFridgeChecked, setCommunityFridgeChecked] = useState(true);
@@ -26,6 +28,7 @@ const Filterbar = () => {
             }
         };
         loadAllSchools();
+        console.log("FETCH COMPLETE")
     }, []);  
 
     let handleSubmit = (e) => {
@@ -48,22 +51,34 @@ const Filterbar = () => {
         }
     }
 
+
+    let schoolInputRef = React.createRef()
+
     const handleSchoolFilter = (e) => {
         let userInputtedSchool = e.target.value;
+        setSchool(userInputtedSchool); //might potentially cause error
+        // console.log(userInputtedSchool);
         let matchingSchools = allSchoolsRef.current.filter((schoolName) => {
             return schoolName.toLowerCase().includes(userInputtedSchool.toLowerCase());
         })
         setFilteredSchools(matchingSchools);
+        
         if (userInputtedSchool === "") { 
             setFilteredSchools([]);
+        } else if (school !== "" && matchingSchools.length === 0) {
+            // console.log("Triggered")
+            schoolInputRef.current.style.border = "2px solid rgb(241, 77, 77)";
+            schoolInputRef.current.style.backgroundColor = "rgb(255, 237, 237)";
+            setHasSchoolInputError(true);
         } else {
+            schoolInputRef.current.style.border = "none";
+            schoolInputRef.current.style.backgroundColor = "white";
+            setHasSchoolInputError(false);
             setFilteredSchools(matchingSchools);
         }
-        setSchool(userInputtedSchool);
-    }
-    
 
-    let schoolInputRef = React.createRef();
+    }
+
     let schoolsToShow = filteredSchools.slice(0, 14).map((val) => {
         return (
             <p key={val} onClick={() => {
@@ -76,17 +91,19 @@ const Filterbar = () => {
 
     let distanceInputRef = useRef(null);
     const handleDistanceInput = (e) => {
-        let userDistance = e.target.value;
-        setMaxDistance(userDistance);
-        if (userDistance.match("^[0-9.]*$") && (userDistance.match(/\./g) || []).length <= 1) {
+        let userInputtedDistance = e.target.value;
+        setMaxDistance(userInputtedDistance);
+        if (userInputtedDistance.match("^[0-9.]*$") && (userInputtedDistance.match(/\./g) || []).length <= 1) {
             // console.log("PASSED")
             distanceInputRef.current.style.border = "none";
             distanceInputRef.current.style.backgroundColor = "white";
+            setHasDistanceInputError(false);
             
         } else {
             // console.log("Triggered")
             distanceInputRef.current.style.border = "2px solid rgb(241, 77, 77)";
             distanceInputRef.current.style.backgroundColor = "rgb(255, 237, 237)";
+            setHasDistanceInputError(true);
         }
     }
     //console.log(maxDistance)
@@ -103,9 +120,23 @@ const Filterbar = () => {
                     { schoolsToShow }
                 </div> }
             </div>
+            {
+                hasSchoolInputError &&
+                <div className="alert">
+                    <i className="gg-info"></i>
+                    <p> School Not Found </p>
+                </div>
+            }
             <div id="distance">
                 <input id="distanceInputBox" onChange={handleDistanceInput} ref={distanceInputRef} type="text" placeholder="type in distance in miles.." maxLength="7"/>
             </div>
+            {
+                hasDistanceInputError && 
+                <div className="alert">
+                    <i className="gg-info"></i>
+                    <p> Invalid input: only positive real numbers are allowed </p>
+                </div>
+            }
             <div id="food-source-type">
                 <label htmlFor="food-bank-checkbox">  
                     <input type="checkbox" id="food-bank-checkbox" onChange={() => setFoodBankChecked(!foodBankChecked)} checked={foodBankChecked}/> Food Bank 

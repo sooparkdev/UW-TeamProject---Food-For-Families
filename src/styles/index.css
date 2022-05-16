@@ -204,6 +204,27 @@ form {
   outline: none;
 }
 
+.alert {
+  padding: 20px;
+  background-color: rgb(255, 237, 237);
+  color: rgb(241, 77, 77);
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.gg-info {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.alert p {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+}
 
 /* Food Near You Page - Filterbar - School */
 .searchInput {
@@ -226,14 +247,9 @@ form {
   background-color: rgb(255, 255, 255);
 }
 
-/* .invalid {
-  background-color: rgb(255, 237, 237);
-  border: 2px solid rgb(241, 77, 77);
-} */
-
 .material-symbols-outlined {
   background-color: white;
-  margin-right: 10px;
+  margin: 0px 10px;
 }
 
 .searchResult {
@@ -290,7 +306,8 @@ form {
 
 #distanceInputBox {
   width: 40%; /* NOTE: why does it give the actual 50% when it's 'width' instead of 'max-width */
-  margin: 30px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   padding: 15px;
   border: none;
   border-radius: 5px;
@@ -311,7 +328,7 @@ form {
 
 /* Food Near You Page - Filterbar - Food Source Type */
 #food-source-type {
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 
 #food-source-type label {
@@ -352,22 +369,6 @@ form {
 #map {
   height: 400px;
   width: 100%;
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
 }
 
 /* 404 Page */
