@@ -44,7 +44,7 @@ router.get('/', async (req, res) => {
         let selectedSchool = schoolJson.school[0];
         // console.log(selectedSchool);
 
-        console.log("ha")
+        // TO DO: if there is no input in the distance: return all
         filteredFoodTypes.forEach(function (foodResource) {
             foodResource["distance"] = calculateDistance(selectedSchool.latitude, selectedSchool.longitude, foodResource.latitude, foodResource.longitude) 
         });
@@ -52,9 +52,11 @@ router.get('/', async (req, res) => {
         // console.log(filteredFoodTypes);
 
         let matchingFoodResources = filteredFoodTypes.filter((foodResource) => {
-            return foodResource[distance] <= maxDistance;
+            // console.log(foodResource.distance <= maxDistance)
+            return foodResource.distance <= maxDistance;
         })
-     
+        //console.log(matchingFoodResources);
+
         res.type("json")
         res.body = filteredFoodTypes;
         res.status(200).send ({
@@ -69,36 +71,36 @@ router.get('/', async (req, res) => {
     }
 })
 
-// function calculateDistance(schoolLat, schoolLng, foodResourceLat, foodResourceLng) {
-//     var R = 3958.8; // Radius of the Earth in miles
-//     var rlat1 = schoolLat * (Math.PI / 180); // Convert degrees to radians
-//     var rlat2 = foodResourceLat * (Math.PI / 180); // Convert degrees to radians
-//     var diffLat = rlat2 - rlat1; // Radian difference (latitudes)
-//     var diffLng = ((-1 * foodResourceLng) - (-1 *schoolLng)) * (Math.PI/180); // Radian difference (longitudes)
-
-//     var d = 2 * R * Math.asin(Math.sqrt(Math.sin(diffLat/2)*Math.sin(diffLat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(diffLng/2)*Math.sin(diffLng/2)));
-//     return d;   
-// }
-
 function calculateDistance(schoolLat, schoolLng, foodResourceLat, foodResourceLng) {
-    // console.log("school LAT : " + schoolLat)
-    // console.log("school LNG : " + schoolLat)
-    // console.log("food resource LAT : " + foodResourceLat)
-    // console.log("food resource LNG : " + foodResourceLng)
-    var R = 3956; // Radius of the Earth in miles
+    var R = 3958.8; // Radius of the Earth in miles
     var rlat1 = schoolLat * (Math.PI / 180); // Convert degrees to radians
     var rlat2 = foodResourceLat * (Math.PI / 180); // Convert degrees to radians
-    var rlng1 = (-1 * schoolLng) * (Math.PI / 180);
-    console.log(rlng1);
-    var rlng2 = (-1 * foodResourceLng) * (Math.PI / 180);
     var diffLat = rlat2 - rlat1; // Radian difference (latitudes)
-    var diffLng = rlng2 - rlng1 // Radian difference (longitudes)
+    var diffLng = ((-1 * foodResourceLng) - (-1 *schoolLng)) * (Math.PI/180); // Radian difference (longitudes)
 
-    let ans1 = Math.pow(Math.sin(diffLat / 2), 2) + Math.cos(rlat1) * Math.cos(rlat2) * Math.pow(Math.sin(diffLng / 2), 2);
-    let d = 2 * Math.asin(Math.sqrt(ans1)) * R;
-    // console.log(d);
+    var d = 2 * R * Math.asin(Math.sqrt(Math.sin(diffLat/2)*Math.sin(diffLat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(diffLng/2)*Math.sin(diffLng/2)));
     return d;   
 }
+
+// function calculateDistance(schoolLat, schoolLng, foodResourceLat, foodResourceLng) {
+//     // console.log("school LAT : " + schoolLat)
+//     // console.log("school LNG : " + schoolLat)
+//     // console.log("food resource LAT : " + foodResourceLat)
+//     // console.log("food resource LNG : " + foodResourceLng)
+//     var R = 3956; // Radius of the Earth in miles
+//     var rlat1 = schoolLat * (Math.PI / 180); // Convert degrees to radians
+//     var rlat2 = foodResourceLat * (Math.PI / 180); // Convert degrees to radians
+//     var rlng1 = (-1 * schoolLng) * (Math.PI / 180);
+//     console.log(rlng1);
+//     var rlng2 = (-1 * foodResourceLng) * (Math.PI / 180);
+//     var diffLat = rlat2 - rlat1; // Radian difference (latitudes)
+//     var diffLng = rlng2 - rlng1 // Radian difference (longitudes)
+
+//     let ans1 = Math.pow(Math.sin(diffLat / 2), 2) + Math.cos(rlat1) * Math.cos(rlat2) * Math.pow(Math.sin(diffLng / 2), 2);
+//     let d = 2 * Math.asin(Math.sqrt(ans1)) * R;
+//     // console.log(d);
+//     return d;   
+// }
 
 // POST
 router.post('/import', async (req, res) => {

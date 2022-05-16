@@ -4,26 +4,13 @@ const Filterbar = () => {
     const allSchoolsRef = useRef(null);
     const [isPending, setIsPending] = useState(false);
     const [filteredSchools, setFilteredSchools] = useState([]);
+    const [hasError, setHasError] = useState(false);
 
     const [school, setSchool] = useState([]);
-    const [maxDistance, setMaxDistance] = useState([]);
+    const [maxDistance, setMaxDistance] = useState(null);
     const [foodBankChecked, setFoodBankChecked] = useState(true);
     const [mealChecked, setMealChecked] = useState(true);
     const [communityFridgeChecked, setCommunityFridgeChecked] = useState(true);
-    // let allSchools
-    // const loadAllSchools = async () => {
-    //     try {
-    //         let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools`); // get all school
-    //         // console.log(schoolResponse);
-    //         let schoolJson = await schoolResponse.json();
-    //         console.log(schoolJson.status)
-    //         allSchools = schoolJson.schools.map(schoolObj => schoolObj.name)
-    //         // console.log(allSchools);
-    //     } catch (error) {
-    //         console.error(error);
-    //     }
-    // };
-    // loadAllSchools();
 
     useEffect(() => {
         const loadAllSchools = async () => {
@@ -45,19 +32,19 @@ const Filterbar = () => {
         e.preventDefault(); 
         setIsPending(true);
         loadMarkers(); // call the function that does fetching
+
     }
 
     async function loadMarkers() {
         try{
             let foodResourceResponse = await fetch(`http://localhost:4420/api/v1/foodresources?foodbank=${foodBankChecked}&meal=${mealChecked}&communityfridge=${communityFridgeChecked}&maxdistance=${maxDistance}&school=${school}`);
-            console.log(foodResourceResponse);
             let foodResourceJson = await foodResourceResponse.json();
             let foodResource = foodResourceJson.foodResources;
-            console.log(foodResource);
+            console.log(foodResource); //
             
         } catch(error){
-            // display the error in the user's screen
             console.log("An error has occured: " + error);
+            setHasError(true); // **TO DO: DISPLAY ERROR IN THE MAP LATER
         }
     }
 
@@ -74,24 +61,41 @@ const Filterbar = () => {
         }
         setSchool(userInputtedSchool);
     }
+    
 
-    let inputRef = React.createRef();
-
+    let schoolInputRef = React.createRef();
     let schoolsToShow = filteredSchools.slice(0, 14).map((val) => {
         return (
             <p key={val} onClick={() => {
-                inputRef.current.value = val;
+                schoolInputRef.current.value = val;
                 setSchool(val); }}
                 > { val } </p> 
         );
     })
 
 
+    let distanceInputRef = useRef(null);
+    const handleDistanceInput = (e) => {
+        let userDistance = e.target.value;
+        setMaxDistance(userDistance);
+        if (userDistance.match("^[0-9.]*$") && (userDistance.match(/\./g) || []).length <= 1) {
+            // console.log("PASSED")
+            distanceInputRef.current.style.border = "none";
+            distanceInputRef.current.style.backgroundColor = "white";
+            
+        } else {
+            // console.log("Triggered")
+            distanceInputRef.current.style.border = "2px solid rgb(241, 77, 77)";
+            distanceInputRef.current.style.backgroundColor = "rgb(255, 237, 237)";
+        }
+    }
+    //console.log(maxDistance)
+
     return ( 
         <form className="filterForm" onSubmit={handleSubmit}>
             <div id="school">
                 <div className="searchInput">
-                    <input id="schoolSearchBox" onChange={handleSchoolFilter} ref={inputRef} type="text" placeholder="Search Elementary Schools.." maxLength="50"/>
+                    <input id="schoolSearchBox" onChange={handleSchoolFilter} ref={schoolInputRef} type="text" placeholder="Search Elementary Schools.." maxLength="50"/>
                     <span className="material-symbols-outlined">search</span>                
                 </div>
                 { filteredSchools.length !== 0 && 
@@ -100,7 +104,7 @@ const Filterbar = () => {
                 </div> }
             </div>
             <div id="distance">
-                <input id="distanceInputBox" onChange={(e) => setMaxDistance(e.target.value)} type="text" placeholder="type in distance in miles.." maxLength="7"/>
+                <input id="distanceInputBox" onChange={handleDistanceInput} ref={distanceInputRef} type="text" placeholder="type in distance in miles.." maxLength="7"/>
             </div>
             <div id="food-source-type">
                 <label htmlFor="food-bank-checkbox">  
