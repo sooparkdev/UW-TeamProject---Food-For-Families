@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
         }
 
         // console.log("*****Food Type*****: " + foodType);
-        let filteredFoodTypes = await req.db.FoodResource.find( { type: { $in: foodType} } ).lean()
+        let filteredFoodTypes = await req.db.FoodResource.find( { food_resource_type: { $in: foodType} } ).lean()
         // console.log(filteredFoodTypes);
         let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools/getOneSchool?school=${school}`); // do the school fetching here
         let schoolJson = await schoolResponse.json();

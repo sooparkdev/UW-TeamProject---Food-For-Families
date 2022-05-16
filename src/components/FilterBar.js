@@ -1,15 +1,17 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const Filterbar = () => {
+const Filterbar = ( {setfoodResourcesToDisplay}) => {
     const allSchoolsRef = useRef(null);
-    const [isPending, setIsPending] = useState(false);
     const [filteredSchools, setFilteredSchools] = useState([]);
+    const [isPending, setIsPending] = useState(false);
     const [hasError, setHasError] = useState(false);
 
     const [school, setSchool] = useState("");
     const [hasSchoolInputError, setHasSchoolInputError] = useState(false);
+
     const [maxDistance, setMaxDistance] = useState(null);
     const [hasDistanceInputError, setHasDistanceInputError] = useState(false);
+
     const [foodBankChecked, setFoodBankChecked] = useState(true);
     const [mealChecked, setMealChecked] = useState(true);
     const [communityFridgeChecked, setCommunityFridgeChecked] = useState(true);
@@ -20,7 +22,7 @@ const Filterbar = () => {
                 let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools`); // get all school
                 // console.log(schoolResponse);
                 let schoolJson = await schoolResponse.json();
-                console.log(schoolJson.status)
+                // console.log(schoolJson.status)
                 allSchoolsRef.current = schoolJson.schools.map(schoolObj => schoolObj.name)
                 // console.log(allSchools);
             } catch (error) {
@@ -43,7 +45,8 @@ const Filterbar = () => {
             let foodResourceResponse = await fetch(`http://localhost:4420/api/v1/foodresources?foodbank=${foodBankChecked}&meal=${mealChecked}&communityfridge=${communityFridgeChecked}&maxdistance=${maxDistance}&school=${school}`);
             let foodResourceJson = await foodResourceResponse.json();
             let foodResource = foodResourceJson.foodResources;
-            console.log(foodResource); //
+            // console.log(foodResource); //
+            setfoodResourcesToDisplay(foodResource);
             
         } catch(error){
             console.log("An error has occured: " + error);
