@@ -11,7 +11,7 @@ const NavBar = () => {
     return (
         <nav className="navbar">
             <span className="material-symbols-outlined store"> storefront</span>            
-            <Link to="/" id="websiteName"> <h1>Food For Friends </h1> </Link>
+            <Link to="/" id="websiteName"> <h1>Food For Families </h1> </Link>
             <div className="menu-icon" onClick={handleMenuClick}> 
                 <span className="material-symbols-outlined"> 
                     { clicked ? "menu" : "close" } 
