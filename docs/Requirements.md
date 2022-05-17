@@ -63,18 +63,19 @@ _Integrates the ability to view data as a list and also filter the data as outli
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘Food for Friends’
 6. The system should have an input box for the organization/group’s phone number. This is required.
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘xxx-xxx-xxxx’
-7. The system should have an input box for the organization/group’s email. This is required.
+7. The system should have an input box for the organization/group’s email. This is not required but recommended.
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘name@gmail.com’
-8. The system should have an input box for the type of food source. This is required.
-    1. The ‘Food Source’ box should be a dropdown menu in which the user may select food bank, food pantry, community fridge, pop-up event
-    2. If selecting ‘pop-up event,’ another box will appear asking for the dates and the time (PST) of the pop-up event 
-9. The system should have an input box for the location of the food resource. This is required.
+8. The system should have an input box for the organization/group’s website. This is not required but recommended.
+    1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘foodforfriends.com’
+9. The system should have an input box for the type of food source. This is required.
+    1. The ‘Food Source’ box should be a dropdown menu in which the user may select food bank, meal, community fridge
+10. The system should have an input box for the location of the food resource. This is required.
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘1st PL SE, Seattle, WA 98105’’
-10. The system should have an input box for a description. This is required.
+11. The system should have an input box for a description. This is required.
     1. The system should show the appropriate formats needed in each input box. This text should be gray and indicate what to type: ‘The description should explain a little about the food source and any other additional information you believe is important to know!’
-11. The system should have a ‘Submit’ button the user may click after completing the form
+12. The system should have a ‘Submit’ button the user may click after completing the form
     1. After clicking the ‘Submit’ button, the system should have user feedback–present a message that confirms the form was properly submitted
-12. Once the user clicks the ‘Submit’ button, the system parses through the information submitted to check that it has all been filled out with the appropriate formats and characters
+13. Once the user clicks the ‘Submit’ button, the system parses through the information submitted to check that it has all been filled out with the appropriate formats and characters
     1. If a box has been filled out with an incorrect format (i.e. special characters used when not appropriate), a red error message encircling the box will be displayed until the user fixes the error
     2. If all the inputs are valid, send an email to the admin with all the inputs for the admin to manually verify the information is true.
         1. The database will be repopulated with the updated JSON file.

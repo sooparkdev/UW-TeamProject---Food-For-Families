@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(67, 69, 65);
+  color: rgb(0, 0, 0);
 }
 
 *::-webkit-scrollbar {
@@ -39,7 +39,7 @@
 }
 
 .links a:hover {
-  border-bottom: 2px solid rgb(142, 161, 150);
+  border-bottom: 2px solid rgb(81, 92, 86);
   color: rgb(185, 170, 139);
   transition: all 0.2s ease-out;
 } 
