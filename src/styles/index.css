@@ -147,7 +147,9 @@
   height: 10rem;
   background-color: rgb(241, 236, 229);
   margin: 30px auto;
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .about-us h1 {
@@ -160,6 +162,10 @@
   color: rgb(67, 69, 65);
   font-style: italic;
   padding: 5px;
+}
+
+.about-us p:nth-child(3) {
+  font-size: small;
 }
 
 @media only screen and (max-width: 600px) {
@@ -395,7 +401,10 @@ form {
 
 .form h1, .form p {
   color: white;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
-
-
+.form p { 
+  font-style: italic;
+}
