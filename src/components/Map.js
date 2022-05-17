@@ -2,17 +2,18 @@
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
 import { Flex, Box } from '@chakra-ui/react'
 import { useState } from "react";
-import PopUp from './PopUp'
+import PopUp from './PopUp';
+import mapStyles from './mapStyles';
 
 
 const seattle = {lat: 47.6062, lng: -122.3321}
 
 
-const Map = ( { foodResourcesToDisplay } ) => {
+const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsClicked, markerIsClicked, schoolToDisplay } ) => {
   // console.log("got in")
-  // console.log(foodResourcesToDisplay)
+  console.log(foodResourcesToDisplay)
+  console.log(schoolToDisplay)
 
-  const [isClicked, setIsClicked] = useState(false);
   const [selectedFoodResource, setSelectedFoodResource] = useState(null);
 
   const { isLoaded, loadError } = useJsApiLoader({
@@ -29,34 +30,32 @@ const Map = ( { foodResourcesToDisplay } ) => {
 
   // return isLoaded ? renderMap() : <Spinner />
 
+  const handleClickOnMap = () => {
+    console.log("ASDFADSFADSFASD")
+  }
+
   const handleClickOnMarkers = (foodResource) => {
-    setIsClicked(true);
+    setMarkerIsClicked(true);
     setSelectedFoodResource(foodResource);
   }
 
-  // let popupToShow = 
-  // return (
-  //   <div class="marker-popup"> 
-  //     <p> Type: {foodResource.food_resource_type} </p> 
-  //     <p> Description: {foodResource.description} </p> 
-  //     <p> Address : {foodResource.address} </p>
-  //     <p> Phone Number : {foodResource.phone_number} </p>
-  //     <p> Operating Hours : {foodResource.operating_hours} </p>
-  //     <p> Distance : { foodResource.distance }</p>
-  //   </div>
-  // )
-
-  let allMarkers;
+  let allFoodResourceMarkers;
   if(foodResourcesToDisplay.length !== 0) {
-    allMarkers = foodResourcesToDisplay.map((foodResource) => {
+    allFoodResourceMarkers = foodResourcesToDisplay.map((foodResource) => {
       let coordinates = { lat: foodResource.latitude, lng: (-1 * foodResource.longitude) };
       // console.log(coordinates);
-      return <Marker key = { foodResource._id } position={ coordinates } onClick={() => handleClickOnMarkers(foodResource)}  />;
+      return <Marker key = { foodResource._id } position={ coordinates } onClick={() => handleClickOnMarkers(foodResource)} icon={{url: 'https://img.icons8.com/stickers/100/000000/ingredients.png', scaledSize: new window.google.maps.Size(30,30)}} />;
     })
   }
-  // console.log(allMarkers)
+
+  let schoolMarker;
+  if(foodResourcesToDisplay.length !== 0) {
+    let coordinate = { lat: schoolToDisplay.latitude, lng: (-1 * schoolToDisplay.longitude) } 
+    schoolMarker = <Marker key = { schoolToDisplay._id } position={ coordinate } title={schoolToDisplay.name} icon={{url: 'https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-school-elearning-and-education-justicon-lineal-color-justicon.png', scaledSize: new window.google.maps.Size(37,37)}} />;
+  }
 
 
+  // console.log(allFoodResourceMarkers)
 
   return ( 
     <Flex
@@ -69,48 +68,33 @@ const Map = ( { foodResourcesToDisplay } ) => {
       <Box position='absolute' left={0} top={0} h='100%' w='100%'>
         <GoogleMap 
         center={seattle}
-        zoom={11}
+        zoom={12}
         mapContainerStyle={{width: '95%', height: '100%', margin: 'auto'}}
         options={{
           streetViewControl: false,
           mapTypeControl: false,
           fullscreenControl: false,
-        }}>
+          styles: mapStyles,
+        }}
+        onClick={() => handleClickOnMap()}
+        onDrag={() => handleClickOnMap()} >
         {/* onLoad={(map) => setMap(map)} */}
 
-        { allMarkers }
+        { allFoodResourceMarkers }
+        { schoolMarker }
         </GoogleMap>
       </Box>
-      {/* <Box
-        position='absolute'
-        left={0} 
-        top={0}
-        h='100%'
-        w='50%'
-        p={0}
-        borderRadius='lg'
-        // bgColor='white'
-        shadow='base'
-        minW='container.md'
-        zIndex='1'
-      >
-        <Filterbar />
-        <div> <span class="material-symbols-outlined"> chevron_left </span> </div>
-      </Box> */}
-      { isClicked && <Box 
-        position='absolute' 
-        left={60} 
-        bottom={25}
-        >
-          <PopUp foodResource={selectedFoodResource}/>
-      </Box> }
-      { foodResourcesToDisplay === 0 && <Box
-        position='absolute'
-        >
-
+      { searchClickedAtLeastOnce === true && foodResourcesToDisplay.length === 0 && 
+        <Box position='absolute' width={'100%'} height={'100%'}> 
+          <div id="no-matching-alert"> No matching results </div> 
         </Box>}
-    </Flex>
 
+      { markerIsClicked && 
+        <Box position='absolute' left={'4.5%'} bottom={25}>
+          <PopUp foodResource={selectedFoodResource}/>
+        </Box> }
+
+    </Flex>
   );
 }
 

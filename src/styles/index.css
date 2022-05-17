@@ -293,7 +293,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .searchInput {
     max-width: 100%;
   }
@@ -322,7 +322,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #distanceInputBox {
     width: 100%; 
   }
@@ -405,12 +405,12 @@ form {
   color: white;
 }
 
-
 /* .material-symbols-outlined {
  background-color: rgb(142, 161, 150);
  font-size: 50px;
  font-weight: 700;
 } */
+
 
 /* Pop Up */
 .marker-popup {
@@ -419,8 +419,7 @@ form {
   background-color: rgb(67, 69, 65);
   
   padding: 20px;
-  max-width: 70%;
-  height: 40%;
+  width: 400px;
   text-align: left;
 }
 
@@ -440,4 +439,28 @@ form {
   color: white;
 }
 
+@media only screen and (max-width: 1000px) {
+  .marker-popup {
+    width: 300px;
+  }
 
+  .marker-popup h1, p, address, a {
+    font-size:small;
+  }
+}
+
+/* Map Alert */
+
+#no-matching-alert {
+  padding: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 30px;
+  opacity:0.8;
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

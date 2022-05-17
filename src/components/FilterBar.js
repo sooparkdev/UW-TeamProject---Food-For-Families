@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const Filterbar = ( {setfoodResourcesToDisplay }) => {
+const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, setMarkerIsClicked, setSchoolToDisplay }) => {
     const allSchoolsRef = useRef(null);
     const [filteredSchools, setFilteredSchools] = useState([]);
     const [isPending, setIsPending] = useState(false);
@@ -35,18 +35,20 @@ const Filterbar = ( {setfoodResourcesToDisplay }) => {
 
     let handleSubmit = (e) => {
         e.preventDefault(); 
+        setSearchClickedAtLeastOnce(true);
         setIsPending(true);
-        loadMarkers(); // call the function that does fetching
-
+        setMarkerIsClicked(false);
+        handleSearch(); // call the function that does fetching
     }
 
-    async function loadMarkers() {
+    async function handleSearch() {
         try{
             let foodResourceResponse = await fetch(`http://localhost:4420/api/v1/foodresources?foodbank=${foodBankChecked}&meal=${mealChecked}&communityfridge=${communityFridgeChecked}&maxdistance=${maxDistance}&school=${school}`);
             let foodResourceJson = await foodResourceResponse.json();
             let foodResource = foodResourceJson.foodResources;
             // console.log(foodResource); //
             setfoodResourcesToDisplay(foodResource);
+            setSchoolToDisplay(foodResourceJson.school);
             setIsPending(false);
         } catch(error){
             console.log("An error has occured: " + error);
@@ -116,7 +118,7 @@ const Filterbar = ( {setfoodResourcesToDisplay }) => {
         <form className="filterForm" onSubmit={handleSubmit}>
             <div id="school">
                 <div className="searchInput">
-                    <input id="schoolSearchBox" onChange={handleSchoolFilter} ref={schoolInputRef} type="text" placeholder="Search Elementary Schools.." maxLength="50"/>
+                    <input id="schoolSearchBox" onChange={handleSchoolFilter} ref={schoolInputRef} type="text" placeholder="Search Elementary Schools.." maxLength="70" required/>
                     <span className="material-symbols-outlined">search</span>                
                 </div>
                 { filteredSchools.length !== 0 && 

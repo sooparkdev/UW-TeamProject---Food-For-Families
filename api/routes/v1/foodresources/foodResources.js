@@ -70,10 +70,11 @@ router.get('/', async (req, res) => {
         //console.log(matchingFoodResources);
 
         res.type("json")
-        res.body = matchingFoodResources;
+        // res.body = matchingFoodResources;
         res.status(200).send ({
             "status": "success",
-            "foodResources": matchingFoodResources
+            "foodResources": matchingFoodResources,
+            "school": selectedSchool
         })
     } catch (err) {
         res.status(500).send({
