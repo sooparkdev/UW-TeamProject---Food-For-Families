@@ -1,5 +1,5 @@
 ## Team Name
-Food for Friends
+Food for Families
 
 ## Members
 **Project Manager**: Pranav Shekar
