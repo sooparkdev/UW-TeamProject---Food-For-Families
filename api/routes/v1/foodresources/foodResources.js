@@ -21,9 +21,9 @@ router.get('/', async (req, res) => {
         let school = req.query.school;
 
         let foodType = [];
-        // console.log("food bank " + foodBank);
-        // console.log("meal " + meal);
-        // console.log("community fridge " + communityFridge);
+        console.log("food bank " + foodBank);
+        console.log("meal " + meal);
+        console.log("community fridge " + communityFridge);
 
         // if TRUE add it to the array 
         if(foodBank === 'true') {
@@ -36,29 +36,41 @@ router.get('/', async (req, res) => {
             foodType.push("community fridge");
         }
 
-        // console.log("*****Food Type*****: " + foodType);
         let filteredFoodTypes = await req.db.FoodResource.find( { food_resource_type: { $in: foodType} } ).lean()
-        // console.log(filteredFoodTypes);
+
+        let newFilteredFoodTypes = filteredFoodTypes.filter((foodResource) => { //additional filter with filter through MongoDB not working properly
+            var found = false;
+            for(var i = 0; i < foodType.length; i++) {
+                if(foodResource.food_resource_type.includes(foodType[i])) {
+                    found = true;
+                    break;
+                }
+            }
+            return found;
+        })
+
+        // console.log(newFilteredFoodTypes);
+
         let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools/getOneSchool?school=${school}`); // do the school fetching here
         let schoolJson = await schoolResponse.json();
         let selectedSchool = schoolJson.school[0];
         // console.log(selectedSchool);
 
         // TO DO: if there is no input in the distance: return all
-        filteredFoodTypes.forEach(function (foodResource) {
-            foodResource["distance"] = calculateDistance(selectedSchool.latitude, selectedSchool.longitude, foodResource.latitude, foodResource.longitude) 
+        newFilteredFoodTypes.forEach(function (foodResource) {
+            foodResource["distance"] = calculateDistance(selectedSchool.latitude, selectedSchool.longitude, foodResource.latitude, foodResource.longitude).toFixed(2);
         });
         // console.log("**************FOOD RESOURCE");
-        // console.log(filteredFoodTypes);
+        // console.log(newFilteredFoodTypes);
 
-        let matchingFoodResources = filteredFoodTypes.filter((foodResource) => {
+        let matchingFoodResources = newFilteredFoodTypes.filter((foodResource) => {
             // console.log(foodResource.distance <= maxDistance)
             return foodResource.distance <= maxDistance;
         })
         //console.log(matchingFoodResources);
 
         res.type("json")
-        res.body = filteredFoodTypes;
+        res.body = matchingFoodResources;
         res.status(200).send ({
             "status": "success",
             "foodResources": matchingFoodResources

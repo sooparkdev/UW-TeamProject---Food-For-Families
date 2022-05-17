@@ -181,15 +181,17 @@
 /* Food Near You Page General */
 .food-near-you {
   background-color: rgb(142, 161, 150);
-  height: 50rem;
+  /* height: 50rem; */
   overflow: auto;
 }
 
 form {
   text-align: left;
-  margin: 0px 20px;
+  margin: 0px 20px; 
   background-color: rgb(142, 161, 150);
   padding: 20px;
+  /* width: 50%; */
+  height: 100%;
 }
 
 .filterbar {
@@ -402,4 +404,40 @@ form {
 .form h1, .form p {
   color: white;
 }
+
+
+/* .material-symbols-outlined {
+ background-color: rgb(142, 161, 150);
+ font-size: 50px;
+ font-weight: 700;
+} */
+
+/* Pop Up */
+.marker-popup {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: rgb(67, 69, 65);
+  
+  padding: 20px;
+  max-width: 70%;
+  height: 40%;
+  text-align: left;
+}
+
+.marker-popup h1 {
+  font-size: medium;
+  color: white;
+}
+
+.marker-popup p, .marker-popup address {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.marker-popup a {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
+}
+
 

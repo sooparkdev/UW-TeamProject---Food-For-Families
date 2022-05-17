@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const Filterbar = ( {setfoodResourcesToDisplay}) => {
+const Filterbar = ( {setfoodResourcesToDisplay }) => {
     const allSchoolsRef = useRef(null);
     const [filteredSchools, setFilteredSchools] = useState([]);
     const [isPending, setIsPending] = useState(false);
@@ -47,7 +47,7 @@ const Filterbar = ( {setfoodResourcesToDisplay}) => {
             let foodResource = foodResourceJson.foodResources;
             // console.log(foodResource); //
             setfoodResourcesToDisplay(foodResource);
-            
+            setIsPending(false);
         } catch(error){
             console.log("An error has occured: " + error);
             setHasError(true); // **TO DO: DISPLAY ERROR IN THE MAP LATER
@@ -95,7 +95,8 @@ const Filterbar = ( {setfoodResourcesToDisplay}) => {
     let distanceInputRef = useRef(null);
     const handleDistanceInput = (e) => {
         let userInputtedDistance = e.target.value;
-        setMaxDistance(userInputtedDistance);
+        let distanceToTwoDecimals = parseFloat(userInputtedDistance).toFixed(2); // round the distance input to two decimal places
+        setMaxDistance(distanceToTwoDecimals);
         if (userInputtedDistance.match("^[0-9.]*$") && (userInputtedDistance.match(/\./g) || []).length <= 1) {
             // console.log("PASSED")
             distanceInputRef.current.style.border = "none";
