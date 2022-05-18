@@ -14,7 +14,7 @@ var router = express.Router();
 // GET
 router.get('/', async (req, res) => {
     try {
-        let allSchools = await req.db.School.find( {}, { name : 1})
+        let allSchools = await req.db.School.find( {}, { name : 1 })
         res.type("json");
         res.body = allSchools;
         res.status(200).send ({

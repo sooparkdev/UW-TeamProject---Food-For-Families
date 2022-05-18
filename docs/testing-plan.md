@@ -8,7 +8,7 @@ All team members will work on their own branch and ensure code compiles first, t
 During development, the member responsible for implementing the code, as assigned in the Issues, will run the relevant acceptance testing script on all supported OS/browser combinations. Testing is expected to be completed within the deadlines assigned for each Milestone. Each Friday, during development, the team will collaboratively test all code pushed within the week to ensure functionality remains and additional bugs do not appear.
 
 ## Testing Environments
-The entire team will do testing on our local devices and machines. We will particularly be testing our Submission Form page and Food Near You page the most extensively.
+As needed, the entire team will do manuel testing on our local devices and machines. Other testing will be done on code that's been deployed to Netlify. We will particularly be testing our Submission Form page and Food Near You page the most extensively.
  
 While we will largely be conducting testing on our laptops, stretch goal G3 specifies that our application can be accessed on a laptop, mobile device, and tablet. Stretch goal G3i further specifies, “the application should properly scale for the above devices with responsive design and look appropriate with proper layouts.” For this reason, we have outlined supported OS/browser combinations for laptops, tablets, and phones in the case that we are able to develop this stretch goal.
  
@@ -55,27 +55,25 @@ Refresh the page. Expect to see all the settings back to the beginning - with no
 ### Submission Form Page
 Go on the _‘Submission Form Page’_ page of the application by clicking on the corresponding tab in the navigation bar. 
  
-Visit the Submission Form Page and. Expect to see a title, text about what the page is for, 9 input boxes that are marked required, the expected formats for the input boxes, and a Submit button `[Requirements S1-S11]`
+Visit the Submission Form Page and. Expect to see a title, text about what the page is for, 10 input boxes that are marked required, the expected formats for the input boxes, and a Submit button `[Requirements S1-S11]`
 
 Don’t fill out one of the required boxes and click the Submit button. An error message should pop-up highlighting the box that has not been filled out `[Requirement S12i]`
 
-Fill out the submitter’s name with an improper format and click Submit. An error message encircling the box should appear `[Requirements S2, S12i]`
+Fill out the submitter’s name with numbers and click Submit. An error message encircling the box should appear `[Requirements S2, S12i]`
 
-Fill out the submitter’s phone number box with an improper format and click Submit. An error message encircling the box should appear `[Requirements S3, S12i]`
+Fill out the submitter’s phone number box with 6 numbers instead of 9 and click Submit. An error message encircling the box should appear `[Requirements S3, S12i]`
 
-Fill out the submitter’s email box with an improper format and click Submit. An error message encircling the box should appear `[Requirements S4, S12i]`
+Fill out the submitter’s email box with no 'at' symbol and click Submit. An error message encircling the box should appear `[Requirements S4, S12i]`
 
-Fill out the organization/group’s name with an improper format and click Submit. An error message encircling the box should appear `[Requirements S5, S12i]`
+Don't fill out the organization/group’s name and click Submit. An error message encircling the box should appear `[Requirements S5, S12i]`
 
-Fill out the organization/group’s phone number with an improper format and click Submit. An error message encircling the box should appear `[Requirements S6, S12i]`
+Fill out the organization/group’s phone number with 6 numbers instead of 9 and click Submit. An error message encircling the box should appear `[Requirements S6, S12i]`
 
-Fill out the organization/group’s email with an improper format and click Submit. An error message encircling the box should appear `[Requirements S7, S12i]`
+Fill out the organization/group’s email with no 'at' symbol and click Submit. An error message encircling the box should appear `[Requirements S7, S12i]`
 
 Don’t select an input for the type of food source and click Submit. An error message encircling the box should appear `[Requirements S8, S12i]`
 
-Select pop-up for the type of food source and select dates that have already occured and click Submit. An error message encircling the box should appear `[Requirements S8i, S8ii S12i]`
-
-Fill out the location of the food source with an improper format and click Submit. An error message encircling the box should appear `[Requirements S9, S12i]`
+Fill out the location of the food source with no Street name and click Submit. An error message encircling the box should appear `[Requirements S9, S12i]`
 
 Don’t fill out the Description box and click Submit. An error message encircling the box should appear `[Requirements S10, S12i]`
 

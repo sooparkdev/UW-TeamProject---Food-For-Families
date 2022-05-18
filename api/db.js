@@ -1,6 +1,9 @@
 // Import Libraries
 import mongoose from 'mongoose';
 
+// Import Services
+import logColored from './routes/v1/services/logColored.js'
+
 // -----------------
 
 // Connect to the database -- log any potential errors
@@ -19,11 +22,12 @@ async function dbConnect() {
 
     // Connect to MongoDB database using the above constants.
     await mongoose.connect(connectString)
-    console.log("[Food for Friends API] Successfully connected to the database!")
+    logColored("[Food for Friends API] Successfully connected to the database!", "magenta")
 
     // Create any schemas here!
+    // Food Resources
     const foodResourceSchema = new mongoose.Schema({
-        type: [{ 
+        food_resource_type: [{ 
             type: String
         }],
         description: String,
@@ -52,6 +56,7 @@ async function dbConnect() {
     })
     db.FoodResource = mongoose.model("foodresources", foodResourceSchema)
     
+    // Schools
     const elementarySchoolSchema = new mongoose.Schema({
         name: String,
         latitude: Number,
@@ -59,8 +64,26 @@ async function dbConnect() {
     })
     db.School = mongoose.model("schools", elementarySchoolSchema)
 
+    // Form Submissions
+    const formSubmissionSchema = new mongoose.Schema({
+        name: String,
+        phone_number: String,
+        email: String,
+        form_submission_info: {
+            name: String,
+            phone_number: String,
+            website: String,
+            email: String,
+            food_resource_type: [{ 
+                type: String
+            }],
+            address: String,
+            additional_info: String
+        }
+    })
+    db.FormSubmission = mongoose.model("formsubmissions", formSubmissionSchema)
 
-    console.log("[Food for Friends API] Successfully created database schemas and models!")
+    logColored("[Food for Friends API] Successfully created database schemas and models!", "magenta")
 }
 
 export default db;
