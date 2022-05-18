@@ -46,7 +46,7 @@ _Integrates the ability to view data as a list and also filter the data as outli
         2. Distance is calculated based on the difference between the longitude and latitude coordinates of the search result and the selected elementary school 
         3. If a piece of particular information is not available (such as operating hours), note to the users that it’s “Unavailable At The Moment”
         4. If there were no matching results at all, note to the users that there were “No Matching Results” 
-    3. Markers are color-coded according to the type of food source
+    3. (Skipped with Cheri's permission) Markers are color-coded according to the type of food source
     4. Buttons for zooming in and zooming out
 
 
