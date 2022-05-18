@@ -17,8 +17,10 @@ const Form = () => {
   // Handle submission of the form
   const handleSubmit = (e) => {
     e.preventDefault()
-    if(hasFullNameError || hasNumberError || hasEmailError || hasResourceNameError || hasResourceNumberError || hasResourceEmailError || hasResourceAddressError ) {
+    if (hasFullNameError || hasNumberError || hasEmailError || hasResourceNameError || hasResourceNumberError || hasResourceEmailError || hasResourceAddressError ) {
       console.log("There was errors")
+    } else if(checkboxesAreUnchecked) {
+      console.log("Checkboxes bad")
     } else {
       console.log("Good")
     }
@@ -50,6 +52,18 @@ const Form = () => {
   let numberRef = useRef(null)
   const handleNumberInput = (e) => {
     let numberInput = e.target.value
+
+    if(!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(numberInput))) {
+      // Invalid
+      numberRef.current.style.border = "2px solid rgb(241, 77, 77)";
+      numberRef.current.style.backgroundColor = "rgb(255, 237, 237)";
+      setHasNumberError(true)
+    } else {
+      // No errors
+      numberRef.current.style.border = "none";
+      numberRef.current.style.backgroundColor = "white";
+      setHasNumberError(false);
+    }
   }
 
   // - Email Input
@@ -68,6 +82,18 @@ const Form = () => {
   let resourceNumberRef = useRef(null)
   const handleResourceNumberInput = (e) => {
     let resourceNumberInput = e.target.value
+
+    if(!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(resourceNumberInput))) {
+      // Invalid
+      resourceNumberRef.current.style.border = "2px solid rgb(241, 77, 77)";
+      resourceNumberRef.current.style.backgroundColor = "rgb(255, 237, 237)";
+      setHasResourceNumberError(true)
+    } else {
+      // No errors
+      resourceNumberRef.current.style.border = "none";
+      resourceNumberRef.current.style.backgroundColor = "white";
+      setHasResourceNumberError(false);
+    }
   }
 
   // - Resource Website Input
@@ -121,7 +147,7 @@ const Form = () => {
         <div className="form-row">
           <div className="form-group col-md-6">
             <label for="exampleName">Your Full Name <span className='required'>*</span></label>
-            <input type="text" onChange={handleFullNameInput} ref={fullNameRef} className="form-control" id="exampleName" placeholder="John Doe" maxLength={50} required/>
+            <input type="text" onChange={handleFullNameInput} ref={fullNameRef} className="form-control" id="exampleName" placeholder="John Doe" maxLength={50} required />
             {
               hasFullNameError &&
               <div className="alert">
@@ -132,7 +158,7 @@ const Form = () => {
           </div>
           <div className="form-group col-md-6">
             <label for="exampleNumber">Your Number <span className='required'>*</span></label>
-            <input type="number" onChange={handleNumberInput} ref={numberRef} className="form-control" id="exampleNumber" placeholder="XXX-XXX-XXXX" required/>
+            <input type="tel" onChange={handleNumberInput} ref={numberRef} className="form-control" id="exampleNumber" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
             {
               hasNumberError &&
               <div className="alert">
@@ -145,7 +171,7 @@ const Form = () => {
 
         <div className="form-group">
           <label for="exampleEmail">Your Email <span className='required'>*</span></label>
-          <input type="email" onChange={handleEmailInput} ref={emailRef} className="form-control" id="exampleEmail" placeholder="example@gmail.com" required/>
+          <input type="email" onChange={handleEmailInput} ref={emailRef} className="form-control" id="exampleEmail" placeholder="example@gmail.com" required />
           {
             hasEmailError &&
             <div className="alert">
@@ -169,7 +195,7 @@ const Form = () => {
           </div>
           <div className="form-group col-md-6">
             <label for="exampleOrgNumber">Food Resource Number <span className='required'>*</span></label>
-            <input type="number" onChange={handleResourceNumberInput} ref={resourceNumberRef} className="form-control" id="exampleOrgNumber" placeholder="XXX-XXX-XXXX" required/>
+            <input type="tel" onChange={handleResourceNumberInput} ref={resourceNumberRef} className="form-control" id="exampleOrgNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX" required />
             {
               hasResourceNumberError &&
               <div className="alert">
@@ -207,7 +233,7 @@ const Form = () => {
 
         <div className="form-group">
           <label for="exampleOrgAddress">Food Resource Address <span className='required'>*</span></label>
-          <input type="address" onChange={handleResourceAddressInput} ref={resourceAddressRef} className="form-control" id="exampleOrgAddress" placeholder="example@gmail.com" required />
+          <input type="address" onChange={handleResourceAddressInput} ref={resourceAddressRef} className="form-control" id="exampleOrgAddress" placeholder="11111 St, Seattle, WA 98105" required />
           {
             hasResourceAddressError &&
             <div className="alert">
@@ -259,6 +285,18 @@ function checkFullNameInput(name) {
   // Name is valid
   return {
     "status": "success",
+  }
+}
+
+function checkboxesAreUnchecked() {
+  var allCheckboxes = document.querySelectorAll('input[type="checkbox"]')
+  console.log(allCheckboxes)
+  var oneIsChecked = Array.prototype.slice.call(allCheckboxes).some(x => x.checked)
+
+  if(oneIsChecked) {
+    return false
+  } else {
+    return true
   }
 }
 
