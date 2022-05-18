@@ -1,5 +1,6 @@
 // Import Libraries
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 // HTML to return
 const Form = () => {
@@ -14,15 +15,24 @@ const Form = () => {
   const [hasResourceEmailError, setHasResourceEmailError] = useState(false)
   const [hasResourceAddressError, setHasResourceAddressError] = useState(false)
 
+  let form = useRef(null)
+
   // Handle submission of the form
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (hasFullNameError || hasNumberError || hasEmailError || hasResourceNameError || hasResourceNumberError || hasResourceEmailError || hasResourceAddressError ) {
+
+    if (hasFullNameError || hasNumberError || hasEmailError || hasResourceNameError || hasResourceNumberError || hasResourceEmailError || hasResourceAddressError) {
       console.log("There was errors")
-    } else if(checkboxesAreUnchecked) {
+    } else if (false == true) {
       console.log("Checkboxes bad")
     } else {
-      console.log("Good")
+      // No errors, send email to database!
+      emailjs.sendForm('service_i1wxbrl', 'template_7wxqaxj', form.current, '5J8e5mCQYgoVxJ5yr')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
     }
   }
 
@@ -53,7 +63,7 @@ const Form = () => {
   const handleNumberInput = (e) => {
     let numberInput = e.target.value
 
-    if(!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(numberInput))) {
+    if (!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(numberInput))) {
       // Invalid
       numberRef.current.style.border = "2px solid rgb(241, 77, 77)";
       numberRef.current.style.backgroundColor = "rgb(255, 237, 237)";
@@ -69,13 +79,17 @@ const Form = () => {
   // - Email Input
   let emailRef = useRef(null)
   const handleEmailInput = (e) => {
-    let emailInput = e.target.value
+    //let emailInput = e.target.value
+
+    setHasEmailError(false)
   }
 
   // - Resource Name Input
   let resourceNameRef = useRef(null)
   const handleResourceNameInput = (e) => {
-    let resourceNameInput = e.target.value
+    //let resourceNameInput = e.target.value
+
+    setHasResourceNameError(false)
   }
 
   // - Resource Number Input
@@ -83,7 +97,7 @@ const Form = () => {
   const handleResourceNumberInput = (e) => {
     let resourceNumberInput = e.target.value
 
-    if(!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(resourceNumberInput))) {
+    if (!(/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test(resourceNumberInput))) {
       // Invalid
       resourceNumberRef.current.style.border = "2px solid rgb(241, 77, 77)";
       resourceNumberRef.current.style.backgroundColor = "rgb(255, 237, 237)";
@@ -99,19 +113,25 @@ const Form = () => {
   // - Resource Website Input
   let resourceWebsiteRef = useRef(null)
   const handleResourceWebsiteInput = (e) => {
-    let resourceWebsiteInput = e.target.value
+    //let resourceWebsiteInput = e.target.value
+
+    setHasResourceWebsiteError(false)
   }
 
   // - Resource Email Input
   let resourceEmailRef = useRef(null)
   const handleResourceEmailInput = (e) => {
-    let resourceEmailInput = e.target.value
+    //let resourceEmailInput = e.target.value
+
+    setHasResourceEmailError(false)
   }
 
   // - Address Input
   let resourceAddressRef = useRef(null)
   const handleResourceAddressInput = (e) => {
-    let resourceAddressInput = e.target.value
+    //let resourceAddressInput = e.target.value
+
+    setHasResourceAddressError(false)
   }
 
   return (
@@ -120,7 +140,7 @@ const Form = () => {
       <h1>Food Resource Submission Form</h1>
       <p>Fields marked <span className='required'>*</span> are required!</p>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} ref={form}>
         <div className="form-group">
           <div className="form-check form-check-inline">
             <div className="form-check" required>
@@ -288,17 +308,19 @@ function checkFullNameInput(name) {
   }
 }
 
+/*
 function checkboxesAreUnchecked() {
   var allCheckboxes = document.querySelectorAll('input[type="checkbox"]')
   console.log(allCheckboxes)
   var oneIsChecked = Array.prototype.slice.call(allCheckboxes).some(x => x.checked)
 
-  if(oneIsChecked) {
+  if (oneIsChecked) {
     return false
   } else {
     return true
   }
 }
+*/
 
 
 export default Form;
