@@ -169,4 +169,4 @@ let mapStyles = [
     }
 ]
 
-export default mapStyles
+export default mapStyles;

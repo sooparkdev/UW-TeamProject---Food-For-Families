@@ -1,4 +1,3 @@
-// import React, { useEffect, useRef } from 'react';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
 import { Flex, Box } from '@chakra-ui/react'
 import { useState } from "react";
@@ -10,12 +9,11 @@ const seattle = {lat: 47.6062, lng: -122.3321}
 
 
 const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsClicked, markerIsClicked, schoolToDisplay, hasError } ) => {
-  // console.log("got in to MAP")
+  // console.log("got inside MAP")
   // console.log(foodResourcesToDisplay)
   // console.log(schoolToDisplay)
 
   const [selectedFoodResource, setSelectedFoodResource] = useState(null);
-  // const [isLoading, setIsLoading] = useState(false);
 
   const { isLoaded, loadError } = useJsApiLoader({
     googleMapsApiKey: "AIzaSyCP8jDHaqKXjO91zew5-X_mKvc-1v-BW78",
@@ -27,12 +25,6 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
 
   if(loadError) {
     return <div> Sorry, we were unable to load the map. Please try again later. </div>
-  }
-
-  // return isLoaded ? renderMap() : <Spinner />
-
-  const handleClickOnMap = () => {
-    console.log("ASDFADSFADSFASD")
   }
 
   const handleClickOnMarkers = (foodResource) => {
@@ -55,7 +47,6 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
     schoolMarker = <Marker key = { schoolToDisplay._id } position={ coordinate } title={schoolToDisplay.name} icon={{url: 'https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-school-elearning-and-education-justicon-lineal-color-justicon.png', scaledSize: new window.google.maps.Size(37,37)}} />;
   }
 
-
   // console.log(allFoodResourceMarkers)
 
   return ( 
@@ -76,11 +67,7 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
           mapTypeControl: false,
           fullscreenControl: false,
           styles: mapStyles,
-        }}
-        onClick={() => handleClickOnMap()}
-        onDrag={() => handleClickOnMap()} >
-        {/* onLoad={(map) => setMap(map)} */}
-
+        }}>
         { allFoodResourceMarkers }
         { schoolMarker }
         </GoogleMap>

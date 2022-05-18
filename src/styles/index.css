@@ -464,3 +464,42 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Popup - toggle */
+.expand-toggle-icon {
+  display: none;
+}
+
+.fa-angle-down, .fa-angle-up {
+  font-size: 22px;
+  margin: 0;
+  background-color: rgb(67, 69, 65);
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .expand-toggle-icon {
+    display: flex;
+  }
+
+  .fa-angle-down, .fa-angle-up {
+    margin-left: auto;
+  }
+
+  .fa-angle-down:hover, .fa-angle-up:hover {
+    color: rgb(142, 161, 150);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .marker-popup {
+    padding: 12px;
+  }
+}

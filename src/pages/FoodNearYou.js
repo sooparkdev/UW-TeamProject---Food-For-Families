@@ -10,7 +10,7 @@ const FoodNearYou = () => {
     const [searchClickedAtLeastOnce, setSearchClickedAtLeastOnce] = useState(false);
     const [markerIsClicked, setMarkerIsClicked] = useState(false);
     const [hasError, setHasError] = useState(false);
-    // console.log(foodResourcesToDisplay); //
+    // console.log(foodResourcesToDisplay); 
     return ( 
         <div className="food-near-you">
             <FilterBar setfoodResourcesToDisplay={setfoodResourcesToDisplay} setSearchClickedAtLeastOnce={setSearchClickedAtLeastOnce} setMarkerIsClicked={setMarkerIsClicked} setSchoolToDisplay={setSchoolToDisplay} setHasError={setHasError} />
