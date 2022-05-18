@@ -10,7 +10,7 @@ const Home = () => {
             </div>
             <div className="about-us"> 
                 <h1> About Us </h1>
-                <p>  Food for Friends is an easy-to-use platform where we help you locate the nearest food banks/food pantries/community fridges in the city of Seattle! </p>
+                <p>  Food for Friends is an easy-to-use platform where we help you locate the nearest food banks / meals / community fridges in the city of Seattle! </p>
             </div>
         </div>
     );
