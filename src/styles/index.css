@@ -206,6 +206,10 @@ form {
   outline: none;
 }
 
+.required {
+  color: rgb(241, 77, 77);
+}
+
 .alert {
   padding: 20px;
   background-color: rgb(255, 237, 237);
