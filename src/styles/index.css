@@ -144,7 +144,7 @@
 
 .about-us {
   max-width: 93%;
-  height: 10rem;
+  height: auto;
   background-color: rgb(241, 236, 229);
   margin: 30px auto;
   padding-top: 0.5rem;
@@ -162,6 +162,8 @@
   color: rgb(67, 69, 65);
   font-style: italic;
   padding: 5px;
+  width: 50%;
+  margin: 20px auto;
 }
 
 .about-us p:nth-child(3) {
@@ -184,16 +186,18 @@
 
 /* Food Near You Page General */
 .food-near-you {
-  background-color: rgb(112, 128, 144);
-  height: 50rem;
+  background-color: rgb(142, 161, 150);
+  /* height: 50rem; */
+  overflow: auto;
 }
 
 form {
   text-align: left;
-  margin: 0px 20px;
-  /* background-color: rgb(142, 161, 150); */
-  background-color: rgb(112, 128, 144);
+  margin: 0px 20px; 
+  background-color: rgb(142, 161, 150);
   padding: 20px;
+  /* width: 50%; */
+  height: 100%;
 }
 
 .filterbar {
@@ -208,6 +212,27 @@ form {
   outline: none;
 }
 
+.alert {
+  padding: 20px;
+  background-color: rgb(255, 237, 237);
+  color: rgb(241, 77, 77);
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.gg-info {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.alert p {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+}
 
 /* Food Near You Page - Filterbar - School */
 .searchInput {
@@ -232,7 +257,7 @@ form {
 
 .material-symbols-outlined {
   background-color: white;
-  margin-right: 10px;
+  margin: 0px 10px;
 }
 
 .searchResult {
@@ -274,7 +299,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   .searchInput {
     max-width: 100%;
   }
@@ -289,7 +314,8 @@ form {
 
 #distanceInputBox {
   width: 40%; /* NOTE: why does it give the actual 50% when it's 'width' instead of 'max-width */
-  margin: 30px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   padding: 15px;
   border: none;
   border-radius: 5px;
@@ -302,7 +328,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #distanceInputBox {
     width: 100%; 
   }
@@ -310,7 +336,7 @@ form {
 
 /* Food Near You Page - Filterbar - Food Source Type */
 #food-source-type {
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 
 #food-source-type label {
@@ -353,22 +379,6 @@ form {
   width: 100%;
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
 /* 404 Page */
 .not-found {
   margin: 20px;
@@ -393,7 +403,7 @@ form {
 
 /* Form Page */
 .form {
-  background-color: rgb(112, 128, 144);
+  background-color: rgb(142, 161, 150);
   height: 50rem;
   text-align: center;
   padding: 20px;
@@ -407,4 +417,95 @@ form {
 
 .form p { 
   font-style: italic;
+
+  /* Pop Up */
+.marker-popup {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: rgb(67, 69, 65);
+  
+  padding: 20px;
+  width: 400px;
+  text-align: left;
+}
+
+.marker-popup h1 {
+  font-size: medium;
+  color: white;
+}
+
+.marker-popup p, .marker-popup address {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.marker-popup a {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .marker-popup {
+    width: 300px;
+  }
+
+  .marker-popup h1, p, address, a {
+    font-size:small;
+  }
+}
+
+/* Map Alert */
+
+.map-alert {
+  padding: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 30px;
+  opacity:0.8;
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Popup - toggle */
+.expand-toggle-icon {
+  display: none;
+}
+
+.fa-angle-down, .fa-angle-up {
+  font-size: 22px;
+  margin: 0;
+  background-color: rgb(67, 69, 65);
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .expand-toggle-icon {
+    display: flex;
+  }
+
+  .fa-angle-down, .fa-angle-up {
+    margin-left: auto;
+  }
+
+  .fa-angle-down:hover, .fa-angle-up:hover {
+    color: rgb(142, 161, 150);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .marker-popup {
+    padding: 12px;
+  }
 }

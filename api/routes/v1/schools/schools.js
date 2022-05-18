@@ -14,14 +14,34 @@ var router = express.Router();
 // GET
 router.get('/', async (req, res) => {
     try {
-        let allSchools = await req.db.Schools.find()
-
-        res.type("json")
-        res.body = allSchools
-        res.status(200).send({
+        let allSchools = await req.db.School.find( {}, { name : 1 })
+        res.type("json");
+        res.body = allSchools;
+        res.status(200).send ({
             "status": "success",
             "schools": allSchools
         })
+    } catch (err) {
+        res.status(500).send({
+            "status": "error",
+            "error": err
+        })
+    }
+})
+
+router.get('/getOneSchool', async (req, res) => {
+    try {
+        // console.log(req.query.school);
+        let selectedSchool = await req.db.School.find( { name : req.query.school } )
+        // console.log("*******FOUND SCHOOL INSIDE THE DB*******:" + selectedSchool);
+        // res.send(selectedSchool);
+        res.type("json")
+        res.body = selectedSchool;
+        res.status(200).send ({
+            "status": "success",
+            "school": selectedSchool
+        })
+
     } catch (err) {
         res.status(500).send({
             "status": "error",
