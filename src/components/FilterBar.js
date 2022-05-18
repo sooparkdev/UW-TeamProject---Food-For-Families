@@ -1,10 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, setMarkerIsClicked, setSchoolToDisplay }) => {
+const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, setMarkerIsClicked, setSchoolToDisplay, setHasError }) => {
     const allSchoolsRef = useRef(null);
     const [filteredSchools, setFilteredSchools] = useState([]);
     const [isPending, setIsPending] = useState(false);
-    const [hasError, setHasError] = useState(false);
 
     const [school, setSchool] = useState("");
     const [hasSchoolInputError, setHasSchoolInputError] = useState(false);
@@ -50,6 +49,7 @@ const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, set
             setfoodResourcesToDisplay(foodResource);
             setSchoolToDisplay(foodResourceJson.school);
             setIsPending(false);
+            setHasError(false);
         } catch(error){
             console.log("An error has occured: " + error);
             setHasError(true); // **TO DO: DISPLAY ERROR IN THE MAP LATER

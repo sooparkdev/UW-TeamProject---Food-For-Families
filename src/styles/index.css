@@ -144,10 +144,10 @@
 
 .about-us {
   max-width: 93%;
-  height: 10rem;
+  height: auto;
   background-color: rgb(241, 236, 229);
   margin: 30px auto;
-  padding-top: 1.5rem;
+  padding: 1.5rem;
 }
 
 .about-us h1 {
@@ -451,7 +451,7 @@ form {
 
 /* Map Alert */
 
-#no-matching-alert {
+.map-alert {
   padding: 10px;
   background-color: rgb(20, 20, 20);
   color: white;

@@ -9,12 +9,13 @@ import mapStyles from './mapStyles';
 const seattle = {lat: 47.6062, lng: -122.3321}
 
 
-const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsClicked, markerIsClicked, schoolToDisplay } ) => {
-  // console.log("got in")
-  console.log(foodResourcesToDisplay)
-  console.log(schoolToDisplay)
+const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsClicked, markerIsClicked, schoolToDisplay, hasError } ) => {
+  // console.log("got in to MAP")
+  // console.log(foodResourcesToDisplay)
+  // console.log(schoolToDisplay)
 
   const [selectedFoodResource, setSelectedFoodResource] = useState(null);
+  // const [isLoading, setIsLoading] = useState(false);
 
   const { isLoaded, loadError } = useJsApiLoader({
     googleMapsApiKey: "AIzaSyCP8jDHaqKXjO91zew5-X_mKvc-1v-BW78",
@@ -22,10 +23,10 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
 
   if (!isLoaded) {
     return <div> Loading.. </div>
-  }
+  } 
 
   if(loadError) {
-    return <div> Map cannot be loaded right now, sorry.</div>
+    return <div> Sorry, we were unable to load the map. Please try again later. </div>
   }
 
   // return isLoaded ? renderMap() : <Spinner />
@@ -44,7 +45,7 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
     allFoodResourceMarkers = foodResourcesToDisplay.map((foodResource) => {
       let coordinates = { lat: foodResource.latitude, lng: (-1 * foodResource.longitude) };
       // console.log(coordinates);
-      return <Marker key = { foodResource._id } position={ coordinates } onClick={() => handleClickOnMarkers(foodResource)} icon={{url: 'https://img.icons8.com/stickers/100/000000/ingredients.png', scaledSize: new window.google.maps.Size(30,30)}} />;
+      return <Marker key = { foodResource._id } position={ coordinates } onClick={() => handleClickOnMarkers(foodResource)} icon={{url: 'https://img.icons8.com/stickers/100/000000/ingredients.png', scaledSize: new window.google.maps.Size(34,34)}} />;
     })
   }
 
@@ -84,15 +85,21 @@ const Map = ( { foodResourcesToDisplay, searchClickedAtLeastOnce, setMarkerIsCli
         { schoolMarker }
         </GoogleMap>
       </Box>
-      { searchClickedAtLeastOnce === true && foodResourcesToDisplay.length === 0 && 
-        <Box position='absolute' width={'100%'} height={'100%'}> 
-          <div id="no-matching-alert"> No matching results </div> 
-        </Box>}
 
       { markerIsClicked && 
         <Box position='absolute' left={'4.5%'} bottom={25}>
           <PopUp foodResource={selectedFoodResource}/>
         </Box> }
+
+      { searchClickedAtLeastOnce && foodResourcesToDisplay.length === 0 && 
+      <Box position='absolute' width={'100%'} height={'100%'}> 
+        <div className="map-alert"> No matching results </div> 
+      </Box>}
+
+      { hasError &&  
+      <Box position='absolute' width={'100%'} height={'100%'}> 
+        <div className="map-alert"> Sorry, we were unable to load the map. Please try again later. </div> 
+      </Box>}
 
     </Flex>
   );
