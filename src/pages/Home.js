@@ -10,8 +10,8 @@ const Home = () => {
             </div>
             <div className="about-us"> 
                 <h1> About Us </h1>
-                <p> Food for Friends is an easy-to-use platform where we help you locate the nearest food banks/food pantries/community fridges close to schools and education centers within the city of Seattle. Our mission is to centralize localized food data to make it easy for families to access the food resources within their reach in order to combat food insecurity. </p>
-                <p> Food for Friends is founded by Christian Calloway, SooBin Park, Pranav Shekar, and Jaehoon Choi. </p>
+                <p> Food for Familes is an easy-to-use platform where we help you locate the nearest food banks/food pantries/community fridges close to schools and education centers within the city of Seattle. Our mission is to centralize localized food data to make it easy for families to access the food resources within their reach in order to combat food insecurity. </p>
+                <p> Food for Families is founded by Christian Calloway, SooBin Park, Pranav Shekar, and Jaehoon Choi. </p>
             </div>
         </div>
     );
