@@ -29,11 +29,7 @@ function App() {
             <Route path="/form" element={<Form />}> </Route>
             <Route path="*" element={<NotFound />}> </Route>
           </Routes>
-
         </div>
-        <Routes>
-          
-        </Routes>
       </div>
     </BrowserRouter>
   );

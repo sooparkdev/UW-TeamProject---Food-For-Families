@@ -38,7 +38,8 @@ app.use(function (req, res, next) {
 
 app.use('/', indexRouter);
 app.use('/api', apiRouter);
-app.use("/testAPI", testAPIRouter);
+app.use('/testAPI', testAPIRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
