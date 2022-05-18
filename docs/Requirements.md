@@ -1,4 +1,4 @@
-# Food For Friends Requirements
+# Food For Families Requirements
 Christian Calloway, Jaehoon Choi, Soo Park, Pranav Shekar
 
 # [G] General / Non-Functional Requirements - (Core)
