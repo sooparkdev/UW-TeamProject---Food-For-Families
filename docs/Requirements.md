@@ -25,7 +25,7 @@ Christian Calloway, Jaehoon Choi, Soo Park, Pranav Shekar
 # [F] Food Near You Page Requirements
 ## [M] Map - (Core)
 _Integrates the ability to view data as a list and also filter the data as outlined above to be viewed as an interactive map_
-1. `complete, no PR` User is able to filter the food sources on the map by submitting a form:
+1. `complete #38 & #52` User is able to filter the food sources on the map by submitting a form:
     1. Contain a dropdown search box that takes in a name of an elementary school in Seattle as a user input
         1. Dropdown appears with a full list of elementary schools when the search box is clicked
         2. Dropdown list dynamically changes based on what the user inputs in the text field (in other words, only show elementary schools with matching letters)
@@ -39,7 +39,7 @@ _Integrates the ability to view data as a list and also filter the data as outli
         2. Round to two decimal places in the system if a number goes beyond hundredths
         3. Shouldn’t enforce the users to provide an input for this field (If it’s left empty, retrieve all matching results regardless of the distance) 
     4.  Once the user has filled in all required fields, they can click the ‘Search’ button and relevant food resources are returned
-2. `complete, #52` User is able to see an interactive map of the retrieved location-specific search results once the “Submit” button of the form is clicked
+2. `complete #52` User is able to see an interactive map of the retrieved location-specific search results once the “Submit” button of the form is clicked
     1. Markers on the map indicating food sources
     2. Floating pop-up box with information about the food source appears when a marker is clicked (disappears when un-clicked)  
         1. Each pop-up box specifies the ‘name’, ‘type’, ‘contact information’ (email and/or phone), ‘operating hours’, ‘address’, and now also ‘distance’ of each food source
