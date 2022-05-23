@@ -18,7 +18,7 @@ async function dbConnect() {
     const databaseName = "foodForFriends"
     
     // The connection string using the databaseName constant
-    const connectString = `mongodb+srv://admin:KH5HK6kUjs9ApiOT@cmarq07db.siuga.mongodb.net/${databaseName}?retryWrites=true&w=majority`
+    const connectString = {MONGO_DB_CONNECTION_STRING}
 
     // Connect to MongoDB database using the above constants.
     await mongoose.connect(connectString)
