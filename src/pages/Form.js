@@ -283,7 +283,7 @@ const Form = () => {
                     <p style={{ color: 'red' }}> Invalid input: Bad number </p>
                   </div>
                 }
-                <p className='form-item-description'>U.S Seattle-area addresses only</p>
+                <p className='form-item-description'>U.S Seattle-area addresses only -- {"(206)"} numbers</p>
               </div>
               <div className="form-item">
                 <label for="exampleOrgWebsite">Food Resource Website</label>
