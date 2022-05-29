@@ -214,6 +214,31 @@ form {
   outline: none;
 }
 
+.required {
+  color: rgb(241, 77, 77);
+}
+
+.alert {
+  padding: 20px;
+  background-color: rgb(255, 237, 237);
+  color: rgb(241, 77, 77);
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.gg-info {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.alert p {
+  color: rgb(241, 77, 77);
+  display: inline-block;
+}
 
 /* Food Near You Page - Filterbar - School */
 .searchInput {
@@ -412,4 +437,96 @@ form {
 
 .form p { 
   font-style: italic;
+}
+
+  /* Pop Up */
+.marker-popup {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: rgb(67, 69, 65);
+  
+  padding: 20px;
+  width: 400px;
+  text-align: left;
+}
+
+.marker-popup h1 {
+  font-size: medium;
+  color: white;
+}
+
+.marker-popup p, .marker-popup address {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.marker-popup a {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .marker-popup {
+    width: 300px;
+  }
+
+  .marker-popup h1, p, address, a {
+    font-size:small;
+  }
+}
+
+/* Map Alert */
+
+.map-alert {
+  padding: 10px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 30px;
+  opacity:0.8;
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Popup - toggle */
+.expand-toggle-icon {
+  display: none;
+}
+
+.fa-angle-down, .fa-angle-up {
+  font-size: 22px;
+  margin: 0;
+  background-color: rgb(67, 69, 65);
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .expand-toggle-icon {
+    display: flex;
+  }
+
+  .fa-angle-down, .fa-angle-up {
+    margin-left: auto;
+  }
+
+  .fa-angle-down:hover, .fa-angle-up:hover {
+    color: rgb(142, 161, 150);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .marker-popup {
+    padding: 12px;
+  }
 }
