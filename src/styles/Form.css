@@ -1,0 +1,160 @@
+h2,
+h3,
+p,
+label,
+span,
+ul,
+li,
+strong {
+    color: black;
+}
+
+.page {
+    background-color: rgb(142, 161, 150);
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.form-checkboxes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 5px;
+}
+
+.form-check-label {
+    font-size: 1rem;
+}
+
+.form-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.form-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.form-control {
+    height: 2rem;
+    font-size: 1em;
+}
+
+.form-textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10rem;
+}
+
+.form-textarea-label {
+    display: flex;
+    flex: 1;
+}
+
+.form-textarea-text {
+    display: flex;
+    flex: 4;
+    font-size: 1rem;
+}
+
+.form-item-description {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.submitButtonDiv {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.submitButton {
+    height: 3rem;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.submitButton:hover {
+    background-color: rgb(241, 236, 229);
+}
+
+/* Form Complete */
+.form-complete-page {
+    background-color: rgb(142, 161, 150);
+    padding: 50px;
+    padding-bottom: 600px;
+}
+
+.form-complete-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15rem;
+    text-align: center;
+}
+
+.form-complete-section h1 {
+    color:white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.form-complete-section p {
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.link {
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 12px;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-self: center;
+    text-decoration: none;
+}
+
+.linkText {
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: rgb(241, 236, 229);
+}
