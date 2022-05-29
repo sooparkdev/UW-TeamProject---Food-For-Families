@@ -356,7 +356,7 @@ function checkFullNameInput(name) {
 
   // Check if it contains any non-alphabetical or non-space characters
   // Not possible
-  if (!/^[a-zA-Z ]+$/.test(name)) {
+  if (!/^[a-zA-Z -]+$/.test(name)) {
     return {
       "status": "error",
       "error": "Name can only contain characters a-z or A-Z"
