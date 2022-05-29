@@ -6,7 +6,7 @@ const Form = () => {
         <div className="form">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
           <h1>Food Resource Submission Form</h1>
-          <p>Fill out this form to inform others on anything you feel is important at a particular food site. This may be anything from your experience there, change of operation hours, or any other information. </p>
+          <p>Fill out this form to inform others on anything you feel is important at a particular food resource. This may be anything from your experience there, change of operation hours, or any other information. </p>
           <p>Fields marked * are required!</p>
 
         <form>

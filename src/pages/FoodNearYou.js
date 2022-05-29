@@ -13,6 +13,7 @@ const FoodNearYou = () => {
     // console.log(foodResourcesToDisplay); 
     return ( 
         <div className="food-near-you">
+            <p>Input your children's elementary school to locate the nearest food resources from their school with preferred distance in miles.</p>
             <FilterBar setfoodResourcesToDisplay={setfoodResourcesToDisplay} setSearchClickedAtLeastOnce={setSearchClickedAtLeastOnce} setMarkerIsClicked={setMarkerIsClicked} setSchoolToDisplay={setSchoolToDisplay} setHasError={setHasError} />
             <Map foodResourcesToDisplay={foodResourcesToDisplay} searchClickedAtLeastOnce={searchClickedAtLeastOnce} setMarkerIsClicked={setMarkerIsClicked} markerIsClicked={markerIsClicked} schoolToDisplay={schoolToDisplay} hasError={hasError} />
         </div>
