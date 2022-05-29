@@ -377,8 +377,9 @@ function checkPhoneNumber(text) {
     }
   }
 
-  var regex = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/
-  if (regex.test(text)) {
+  var regex = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/ // US numbers
+  var regex2 = /^\+\(?(\d{0,3})\)?[- ]?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/ // International numbers
+  if (regex.test(text) || regex2.test(text)) {
     return {
       "status": "success"
     }
