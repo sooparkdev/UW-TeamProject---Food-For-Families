@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url)
 import express from 'express'
 
 // Import the Food Resources JSON data
-const schools = require('../../../../data/schools.json')
+// const schools = require('../../../../data/schools.json')
 
 // Set the router
 var router = express.Router();

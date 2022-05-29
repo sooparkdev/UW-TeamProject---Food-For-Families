@@ -9,6 +9,8 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 import app from '../app.js'
+import logColored from "../routes/v1/services/logColored.js";
+
 var debug = require('debug')('api:server');
 var http = require('http');
 
