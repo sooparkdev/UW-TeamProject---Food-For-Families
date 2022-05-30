@@ -177,6 +177,9 @@ const Form = () => {
   return (
     <div className='page'>
       <h1>Food Resource Submission Form</h1>
+      <br />
+      <p>Fill out this form to request that a new food resource be added to the database. Please make sure to input valid and current data, as this information will be reviewed before potentially being added. Any resources with information not fitting these guidelines will be ignored.</p>
+      <br />
       <p>Fields marked <span className='required'>*</span> are required!</p>
 
       {/* Form */}
