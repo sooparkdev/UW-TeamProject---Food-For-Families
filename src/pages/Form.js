@@ -186,7 +186,7 @@ const Form = () => {
           <h2 style={{ marginBottom: '10px' }}>Personal Information</h2>
           <div className='form-items'>
             <div className="form-item">
-              <label for="exampleName">Your Full Name <span className='required'>*</span></label>
+              <label htmlFor="exampleName">Your Full Name <span className='required'>*</span></label>
               <input type="text" onChange={handleFullNameInput} ref={fullNameRef} className="form-control" id="exampleName" placeholder="John Doe" maxLength={50} required />
               {
                 hasFullNameError &&
@@ -198,7 +198,7 @@ const Form = () => {
               <p className='form-item-description'>Names must be between 5 and 50 characters</p>
             </div>
             <div className="form-item">
-              <label for="exampleNumber">Your Number <span className='required'>*</span></label>
+              <label htmlFor="exampleNumber">Your Number <span className='required'>*</span></label>
               <input type="tel" onChange={handleNumberInput} ref={numberRef} className="form-control" id="exampleNumber" placeholder="XXX-XXX-XXXX" required />
               {
                 hasNumberError &&
@@ -213,7 +213,7 @@ const Form = () => {
         </div>
 
         <div className="form-item">
-          <label for="exampleEmail">Your Email <span className='required'>*</span></label>
+          <label htmlFor="exampleEmail">Your Email <span className='required'>*</span></label>
           <input type="email" onChange={handleEmailInput} ref={emailRef} className="form-control" id="exampleEmail" placeholder="example@gmail.com" required />
           {
             hasEmailError &&
@@ -234,19 +234,19 @@ const Form = () => {
             <div className='form-checkboxes' id='checkboxes'>
               <div className='form-checkbox' required>
                 <input className="form-check-input" type="checkbox" value="" id="foodBank" />
-                <label className="form-check-label" for="foodBank">
+                <label className="form-check-label" htmlFor="foodBank">
                   Food Bank
                 </label>
               </div>
               <div className='form-checkbox' required>
                 <input className="form-check-input" type="checkbox" value="" id="meal" />
-                <label className="form-check-label" for="meal">
+                <label className="form-check-label" htmlFor="meal">
                   Meal
                 </label>
               </div>
               <div className='form-checkbox' required>
                 <input className="form-check-input" type="checkbox" value="" id="communityFridge" />
-                <label className="form-check-label" for="communityFridge">
+                <label className="form-check-label" htmlFor="communityFridge">
                   Community Fridge
                 </label>
               </div>
@@ -262,7 +262,7 @@ const Form = () => {
 
             <div className='form-items'>
               <div className="form-item">
-                <label for="exampleOrgName">Food Resource Name <span className='required'>*</span></label>
+                <label htmlFor="exampleOrgName">Food Resource Name <span className='required'>*</span></label>
                 <input type="text" onChange={handleResourceNameInput} ref={resourceNameRef} className="form-control" id="exampleOrgName" placeholder="Food for Friends Food Bank" required />
                 {
                   hasResourceNameError &&
@@ -274,7 +274,7 @@ const Form = () => {
                 <p className='form-item-description'>Input the name of the food resource</p>
               </div>
               <div className="form-item">
-                <label for="exampleOrgNumber">Food Resource Number <span className='required'>*</span></label>
+                <label htmlFor="exampleOrgNumber">Food Resource Number <span className='required'>*</span></label>
                 <input type="tel" onChange={handleResourceNumberInput} ref={resourceNumberRef} className="form-control" id="exampleOrgNumber" placeholder="XXX-XXX-XXXX" required />
                 {
                   hasResourceNumberError &&
@@ -286,7 +286,7 @@ const Form = () => {
                 <p className='form-item-description'>U.S Seattle-area addresses only -- {"(206)"} numbers</p>
               </div>
               <div className="form-item">
-                <label for="exampleOrgWebsite">Food Resource Website</label>
+                <label htmlFor="exampleOrgWebsite">Food Resource Website</label>
                 <input type="website" onChange={handleResourceWebsiteInput} ref={resourceWebsiteRef} className="form-control" id="exampleOrgWebsite" placeholder="foodforfriends.com" />
                 {
                   hasResourceWebsiteError &&
@@ -299,7 +299,7 @@ const Form = () => {
               </div>
             </div>
             <div className="form-item">
-              <label for="exampleOrgEmail">Food Resource Email</label>
+              <label htmlFor="exampleOrgEmail">Food Resource Email</label>
               <input type="email" onChange={handleResourceEmailInput} ref={resourceEmailRef} className="form-control" id="exampleOrgEmail" placeholder="exampleOrg@gmail.com" />
               {
                 hasResourceEmailError &&
@@ -310,7 +310,7 @@ const Form = () => {
               }
             </div>
             <div className='form-item'>
-              <label for="exampleOrgAddress">Food Resource Address <span className='required'>*</span></label>
+              <label htmlFor="exampleOrgAddress">Food Resource Address <span className='required'>*</span></label>
               <input type="address" onChange={handleResourceAddressInput} ref={resourceAddressRef} className="form-control" id="exampleOrgAddress" placeholder="11111 St, Seattle, WA 98105" required />
               {
                 hasResourceAddressError &&
@@ -322,7 +322,7 @@ const Form = () => {
               <p className='form-item-description'>Input a valid Seattle-area address</p>
             </div>
             <div className='form-textarea'>
-              <label className='form-textarea-label' for="exampleDescription">Additional Information</label>
+              <label className='form-textarea-label' htmlFor="exampleDescription">Additional Information</label>
               <textarea className='form-textarea-text' id="exampleDescription" rows="3" placeholder="The description should explain a little about the food source, hours of operation, and any other additional information you believe is important to know!"></textarea>
             </div>
           </div>
