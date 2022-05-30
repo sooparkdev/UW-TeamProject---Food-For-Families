@@ -11,6 +11,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import FoodNearYou from './pages/FoodNearYou'; 
 import Form from './pages/Form';
+import FormCompletion from './pages/FormCompletion'
 import NotFound from './pages/NotFound';
 
 // -----------------
@@ -27,6 +28,7 @@ function App() {
             <Route exact path="/" element={<Home />}> </Route>
             <Route path="/food-near-you" element={<FoodNearYou />}> </Route>
             <Route path="/form" element={<Form />}> </Route>
+            <Route path="/formComplete" element={<FormCompletion />}> </Route>
             <Route path="*" element={<NotFound />}> </Route>
           </Routes>
         </div>

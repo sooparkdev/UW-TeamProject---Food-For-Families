@@ -215,7 +215,8 @@ form {
 }
 
 .required {
-  color: rgb(241, 77, 77);
+  color: red;
+  font-weight: bolder;
 }
 
 .alert {

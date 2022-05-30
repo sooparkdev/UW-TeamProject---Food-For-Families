@@ -9,7 +9,7 @@ import express from 'express'
 import parseData from '../services/parseData.js'
 
 // Import the Food Resources JSON data
-const foodResources = require('../../../../data/foodResources.json')
+// const foodResources = require('../../../../data/foodResources.json')
 
 // Set the router
 var router = express.Router();

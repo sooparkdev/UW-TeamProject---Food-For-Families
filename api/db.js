@@ -4,6 +4,10 @@ import mongoose from 'mongoose';
 // Import Services
 import logColored from './routes/v1/services/logColored.js'
 
+// Load Node Environment
+import dotenv from 'dotenv'
+dotenv.config()
+
 // -----------------
 
 // Connect to the database -- log any potential errors
@@ -14,11 +18,12 @@ let db = {}
 
 // The function to connect to the MongoDB database. Any keys or connection strings should be encrypted!
 async function dbConnect() {
+    try {
     // DO NOT CHANGE. The database to be transacting data to/from
-    const databaseName = "foodForFriends"
+    // const databaseName = "foodForFriends"
     
     // The connection string using the databaseName constant
-    const connectString = {MONGODB_DB_CONNECTION_STRING}
+    const connectString = `${process.env.MONGODB_DB_CONNECTION_STRING}`
 
     // Connect to MongoDB database using the above constants.
     await mongoose.connect(connectString)
@@ -84,6 +89,9 @@ async function dbConnect() {
     db.FormSubmission = mongoose.model("formsubmissions", formSubmissionSchema)
 
     logColored("[Food for Friends API] Successfully created database schemas and models!", "magenta")
+    } catch(err) {
+        logColored("[Food for Friends API] Was not able to connect to MongoDB database successfully", 'red')
+    }
 }
 
 export default db;

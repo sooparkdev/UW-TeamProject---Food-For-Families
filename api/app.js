@@ -19,6 +19,10 @@ var app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Load Node Environment
+import dotenv from 'dotenv'
+dotenv.config()
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
