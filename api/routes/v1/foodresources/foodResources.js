@@ -4,6 +4,7 @@ const require = createRequire(import.meta.url)
 
 // Import Libraries
 import express from 'express'
+import fetch from 'node-fetch'
 
 // Import Services
 import parseData from '../services/parseData.js'
