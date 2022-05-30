@@ -18,7 +18,7 @@ const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, set
     useEffect(() => {
         const loadAllSchools = async () => {
             try {
-                let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools`); // get all school
+                let schoolResponse = await fetch(`https://salty-meadow-66381.herokuapp.com/api/v1/schools`); // get all school
                 // console.log(schoolResponse);
                 let schoolJson = await schoolResponse.json();
                 // console.log(schoolJson.status)
@@ -42,7 +42,7 @@ const Filterbar = ( {setfoodResourcesToDisplay, setSearchClickedAtLeastOnce, set
 
     async function handleSearch() {
         try{
-            let foodResourceResponse = await fetch(`http://localhost:4420/api/v1/foodresources?foodbank=${foodBankChecked}&meal=${mealChecked}&communityfridge=${communityFridgeChecked}&maxdistance=${maxDistance}&school=${school}`);
+            let foodResourceResponse = await fetch(`https://salty-meadow-66381.herokuapp.com/api/v1/foodresources?foodbank=${foodBankChecked}&meal=${mealChecked}&communityfridge=${communityFridgeChecked}&maxdistance=${maxDistance}&school=${school}`);
             let foodResourceJson = await foodResourceResponse.json();
             let foodResource = foodResourceJson.foodResources;
             // console.log(foodResource); //
