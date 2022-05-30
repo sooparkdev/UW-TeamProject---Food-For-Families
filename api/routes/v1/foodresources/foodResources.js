@@ -55,7 +55,7 @@ router.get('/', async (req, res) => {
 
         // console.log(newFilteredFoodTypes);
 
-        let schoolResponse = await fetch(`http://localhost:4420/api/v1/schools/getOneSchool?school=${school}`); // do the school fetching here
+        let schoolResponse = await fetch(`https://salty-meadow-66381.herokuapp.com/api/v1/schools/getOneSchool?school=${school}`); // do the school fetching here
         let schoolJson = await schoolResponse.json();
         let selectedSchool = schoolJson.school[0];
         // console.log(selectedSchool);
